@@ -1,0 +1,2505 @@
+[
+  {
+    "meta": {
+      "sectionId": "situation",
+      "block": "S1",
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    "questions": [
+      {
+        "id": "SIT_001",
+        "type": "situation",
+        "domain": "police",
+        "stem": "Vous êtes victime d’un vol avec violence dans la rue. Que devez-vous faire en priorité ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Aller travailler",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Appeler la police",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Rentrer chez vous",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Prévenir votre famille",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "En cas de vol avec violence, il faut contacter la police.",
+        "difficulty": 2,
+        "skills": [
+          "reaction_legale"
+        ]
+      },
+      {
+        "id": "SIT_002",
+        "type": "situation",
+        "domain": "urgence",
+        "stem": "Vous êtes témoin d’un accident de la route avec des blessés. Que faites-vous ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Vous prenez des photos",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Vous appelez les secours",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Vous partez",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Vous attendez",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Il faut appeler les secours en cas d’accident avec des blessés.",
+        "difficulty": 2,
+        "skills": [
+          "urgence"
+        ]
+      },
+      {
+        "id": "SIT_003",
+        "type": "situation",
+        "domain": "droits",
+        "stem": "Vous êtes victime de propos racistes dans un lieu public. Que pouvez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Répondre par des insultes",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Ne rien faire",
+            "isCorrect": false
+          },
+          {
+            "id": "c3",
+            "text": "Porter plainte",
+            "isCorrect": true
+          },
+          {
+            "id": "c4",
+            "text": "Quitter le pays",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les propos racistes sont punis par la loi.",
+        "difficulty": 3,
+        "skills": [
+          "droits",
+          "reaction_legale"
+        ]
+      },
+      {
+        "id": "SIT_004",
+        "type": "situation",
+        "domain": "urgence",
+        "stem": "Votre voisin fait un malaise grave chez lui. Que faites-vous ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Vous attendez",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Vous appelez le SAMU",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Vous allez travailler",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Vous fermez la porte",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "En cas d’urgence médicale, il faut appeler le SAMU.",
+        "difficulty": 2,
+        "skills": [
+          "urgence",
+          "solidarite"
+        ]
+      },
+      {
+        "id": "SIT_005",
+        "type": "situation",
+        "domain": "police",
+        "stem": "Vous assistez à une bagarre violente dans la rue. Quelle est la bonne réaction ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Intervenir physiquement",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Appeler la police",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Filmer la scène",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Encourager",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Il faut prévenir les forces de l’ordre.",
+        "difficulty": 2,
+        "skills": [
+          "securite"
+        ]
+      },
+      {
+        "id": "SIT_006",
+        "type": "situation",
+        "domain": "droits",
+        "stem": "Un commerçant refuse de vous servir à cause de votre origine. Que pouvez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Changer de magasin",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Rester silencieux",
+            "isCorrect": false
+          },
+          {
+            "id": "c3",
+            "text": "Signaler une discrimination",
+            "isCorrect": true
+          },
+          {
+            "id": "c4",
+            "text": "Menacer le commerçant",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "La discrimination est interdite par la loi.",
+        "difficulty": 3,
+        "skills": [
+          "droits",
+          "egalite"
+        ]
+      },
+      {
+        "id": "SIT_007",
+        "type": "situation",
+        "domain": "urgence",
+        "stem": "Vous êtes seul chez vous et vous avez de fortes douleurs à la poitrine. Que faites-vous ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Vous dormez",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Vous attendez le lendemain",
+            "isCorrect": false
+          },
+          {
+            "id": "c3",
+            "text": "Vous appelez les urgences",
+            "isCorrect": true
+          },
+          {
+            "id": "c4",
+            "text": "Vous prenez un taxi",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Des douleurs à la poitrine peuvent être graves.",
+        "difficulty": 2,
+        "skills": [
+          "urgence_sante"
+        ]
+      },
+      {
+        "id": "SIT_008",
+        "type": "situation",
+        "domain": "police",
+        "stem": "Vous perdez vos papiers d’identité. Que devez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Ne rien faire",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Déclarer la perte",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Attendre qu’on vous contacte",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Changer de nom",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "La perte de papiers doit être déclarée.",
+        "difficulty": 2,
+        "skills": [
+          "administration"
+        ]
+      },
+      {
+        "id": "SIT_009",
+        "type": "situation",
+        "domain": "droits",
+        "stem": "Vous êtes témoin de violences conjugales. Que pouvez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Ne rien faire",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Appeler la police",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Conseiller la victime de se taire",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Quitter les lieux",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les violences conjugales doivent être signalées.",
+        "difficulty": 3,
+        "skills": [
+          "protection"
+        ]
+      },
+      {
+        "id": "SIT_010",
+        "type": "situation",
+        "domain": "urgence",
+        "stem": "Un enfant est gravement blessé dans un parc. Quelle est la bonne réaction ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Chercher ses parents",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Appeler les secours",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Filmer",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Ne rien faire",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Il faut appeler les secours immédiatement.",
+        "difficulty": 2,
+        "skills": [
+          "urgence"
+        ]
+      },
+      {
+        "id": "SIT_011",
+        "type": "situation",
+        "domain": "droits",
+        "stem": "Vous êtes contrôlé par la police. Que devez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Refuser de répondre",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Coopérer calmement",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Fuir",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Filmer et insulter",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Il faut coopérer calmement lors d’un contrôle.",
+        "difficulty": 2,
+        "skills": [
+          "civisme"
+        ]
+      },
+      {
+        "id": "SIT_012",
+        "type": "situation",
+        "domain": "urgence",
+        "stem": "Vous sentez une forte odeur de gaz dans votre immeuble. Que faites-vous ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Vous allumez la lumière",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Vous appelez les secours",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Vous dormez",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Vous cuisinez",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Une odeur de gaz nécessite une intervention urgente.",
+        "difficulty": 3,
+        "skills": [
+          "securite"
+        ]
+      },
+      {
+        "id": "SIT_013",
+        "type": "situation",
+        "domain": "droits",
+        "stem": "Vous êtes témoin d’un refus de service à une personne handicapée. Que pouvez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Ignorer la situation",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Signaler une discrimination",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Rire",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Quitter les lieux",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Le refus de service est discriminatoire.",
+        "difficulty": 3,
+        "skills": [
+          "egalite"
+        ]
+      },
+      {
+        "id": "SIT_014",
+        "type": "situation",
+        "domain": "police",
+        "stem": "Votre téléphone est volé. Quelle est la bonne démarche ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Acheter un autre téléphone",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Porter plainte",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Attendre",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Changer de ville",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Un vol doit être déclaré à la police.",
+        "difficulty": 2,
+        "skills": [
+          "droit"
+        ]
+      },
+      {
+        "id": "SIT_015",
+        "type": "situation",
+        "domain": "urgence",
+        "stem": "Vous êtes témoin d’un incendie dans un immeuble. Que faites-vous ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Vous filmez",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Vous appelez les pompiers",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Vous attendez",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Vous fermez les yeux",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Il faut appeler les pompiers en cas d’incendie.",
+        "difficulty": 1,
+        "skills": [
+          "urgence"
+        ]
+      },
+      {
+        "id": "SIT_016",
+        "type": "situation",
+        "domain": "droits",
+        "stem": "Vous êtes victime de harcèlement dans la rue. Que pouvez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Rester silencieux",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Porter plainte",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Changer de quartier",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Répondre violemment",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Le harcèlement est puni par la loi.",
+        "difficulty": 3,
+        "skills": [
+          "droits"
+        ]
+      },
+      {
+        "id": "SIT_017",
+        "type": "situation",
+        "domain": "police",
+        "stem": "Vous trouvez un portefeuille avec des papiers dans la rue. Que faites-vous ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Vous le gardez",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Vous le remettez à la police",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Vous le jetez",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Vous prenez l’argent",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Un objet trouvé doit être remis aux autorités.",
+        "difficulty": 2,
+        "skills": [
+          "civisme"
+        ]
+      },
+      {
+        "id": "SIT_018",
+        "type": "situation",
+        "domain": "urgence",
+        "stem": "Votre enfant a une forte fièvre la nuit. Que faites-vous ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Vous attendez plusieurs jours",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Vous appelez un service médical",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Vous allez travailler",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Vous ignorez",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Une forte fièvre nécessite un avis médical.",
+        "difficulty": 2,
+        "skills": [
+          "sante"
+        ]
+      },
+      {
+        "id": "SIT_019",
+        "type": "situation",
+        "domain": "droits",
+        "stem": "Vous êtes témoin de violences sur une personne vulnérable. Que faites-vous ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Ne rien faire",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Appeler la police",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Partir",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Filmer",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Il faut signaler les violences.",
+        "difficulty": 3,
+        "skills": [
+          "protection"
+        ]
+      },
+      {
+        "id": "SIT_020",
+        "type": "situation",
+        "domain": "police",
+        "stem": "Vous êtes victime d’une tentative d’escroquerie. Quelle est la bonne réaction ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Payer",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Signaler l’escroquerie",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Ignorer sans prévenir",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Menacer",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les escroqueries doivent être signalées.",
+        "difficulty": 2,
+        "skills": [
+          "droit"
+        ]
+      }
+    ]
+  },
+  {
+    "meta": {
+      "sectionId": "situation",
+      "block": "S2",
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    "questions": [
+      {
+        "id": "SIT_021",
+        "type": "situation",
+        "domain": "travail",
+        "stem": "Votre employeur ne vous paie pas votre salaire. Que devez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Arrêter de venir travailler sans prévenir",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Discuter ou saisir le conseil de prud’hommes",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Menacer l’employeur",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Accepter la situation",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les litiges de travail peuvent être portés devant le conseil de prud’hommes.",
+        "difficulty": 2,
+        "skills": [
+          "droit_travail",
+          "recours"
+        ]
+      },
+      {
+        "id": "SIT_022",
+        "type": "situation",
+        "domain": "travail",
+        "stem": "Votre employeur vous demande de travailler sans contrat. Que faites-vous ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Vous acceptez",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Vous refusez le travail non déclaré",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Vous travaillez sans poser de questions",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Vous payez des frais",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Le travail non déclaré est interdit en France.",
+        "difficulty": 2,
+        "skills": [
+          "travail_legal"
+        ]
+      },
+      {
+        "id": "SIT_023",
+        "type": "situation",
+        "domain": "travail",
+        "stem": "Vous êtes victime de harcèlement au travail. Que pouvez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Démissionner immédiatement",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "En parler et saisir les instances compétentes",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Rester silencieux",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Répondre violemment",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Le harcèlement au travail est interdit et peut être signalé.",
+        "difficulty": 3,
+        "skills": [
+          "harcelement",
+          "droits"
+        ]
+      },
+      {
+        "id": "SIT_024",
+        "type": "situation",
+        "domain": "travail",
+        "stem": "Vous êtes licencié. Quelle est la bonne démarche ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Ne rien faire",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Vous inscrire à France Travail",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Quitter la France",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Attendre plusieurs mois",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "L’inscription à France Travail est nécessaire après un licenciement.",
+        "difficulty": 1,
+        "skills": [
+          "emploi"
+        ]
+      },
+      {
+        "id": "SIT_025",
+        "type": "situation",
+        "domain": "logement",
+        "stem": "Votre logement a une fuite d’eau importante. Que devez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Ne rien dire",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Prévenir le propriétaire ou le gestionnaire",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Quitter le logement immédiatement",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Réparer sans informer",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Le propriétaire doit être informé des problèmes importants.",
+        "difficulty": 1,
+        "skills": [
+          "logement"
+        ]
+      },
+      {
+        "id": "SIT_026",
+        "type": "situation",
+        "domain": "logement",
+        "stem": "Votre voisin fait beaucoup de bruit la nuit. Que pouvez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Répondre violemment",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Appeler la police si le trouble continue",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Casser sa porte",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Quitter votre logement",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les nuisances sonores peuvent être signalées à la police.",
+        "difficulty": 2,
+        "skills": [
+          "vie_collective"
+        ]
+      },
+      {
+        "id": "SIT_027",
+        "type": "situation",
+        "domain": "logement",
+        "stem": "Votre propriétaire refuse de faire des réparations obligatoires. Que faites-vous ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Arrêter de payer le loyer",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Chercher un recours légal",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Détruire le logement",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Ignorer le problème",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Il existe des recours légaux contre un propriétaire défaillant.",
+        "difficulty": 3,
+        "skills": [
+          "logement",
+          "recours"
+        ]
+      },
+      {
+        "id": "SIT_028",
+        "type": "situation",
+        "domain": "discrimination",
+        "stem": "Un employeur refuse de vous embaucher à cause de votre sexe. Que pouvez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Accepter",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Signaler une discrimination",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Changer de métier",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Ne plus chercher de travail",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "La discrimination à l’embauche est interdite.",
+        "difficulty": 3,
+        "skills": [
+          "egalite",
+          "droits"
+        ]
+      },
+      {
+        "id": "SIT_029",
+        "type": "situation",
+        "domain": "discrimination",
+        "stem": "Un service public refuse de vous accueillir à cause de votre origine. Que faites-vous ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Ne rien faire",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Signaler la situation",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Partir",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Répondre agressivement",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les discriminations sont interdites dans les services publics.",
+        "difficulty": 3,
+        "skills": [
+          "droits",
+          "service_public"
+        ]
+      },
+      {
+        "id": "SIT_030",
+        "type": "situation",
+        "domain": "travail",
+        "stem": "Vous souhaitez défendre vos droits au travail collectivement. Que pouvez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Créer un conflit violent",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Vous syndiquer",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Quitter l’entreprise",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Ignorer vos droits",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Le droit syndical est garanti en France.",
+        "difficulty": 1,
+        "skills": [
+          "syndicat"
+        ]
+      },
+      {
+        "id": "SIT_031",
+        "type": "situation",
+        "domain": "travail",
+        "stem": "Votre employeur vous demande de travailler plus de 35 heures sans compensation. Que faites-vous ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Accepter sans poser de questions",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Demander une compensation légale",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Quitter le travail",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Ne rien dire",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les heures supplémentaires doivent être compensées.",
+        "difficulty": 2,
+        "skills": [
+          "temps_travail"
+        ]
+      },
+      {
+        "id": "SIT_032",
+        "type": "situation",
+        "domain": "travail",
+        "stem": "Vous êtes enceinte et votre employeur veut vous licencier à cause de cela. Que pouvez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Accepter le licenciement",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Refuser et faire valoir vos droits",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Quitter le travail",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Ne rien dire",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "La grossesse est protégée par la loi.",
+        "difficulty": 3,
+        "skills": [
+          "egalite",
+          "protection"
+        ]
+      },
+      {
+        "id": "SIT_033",
+        "type": "situation",
+        "domain": "logement",
+        "stem": "Vous voulez quitter votre logement en respectant la loi. Que devez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Partir sans prévenir",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Respecter le délai de préavis",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Changer les serrures",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Arrêter de payer immédiatement",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Le locataire doit respecter un préavis.",
+        "difficulty": 1,
+        "skills": [
+          "logement"
+        ]
+      },
+      {
+        "id": "SIT_034",
+        "type": "situation",
+        "domain": "discrimination",
+        "stem": "Une personne est insultée à cause de sa religion dans la rue. Que pouvez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Ignorer",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Signaler une infraction",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Participer",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Rire",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les insultes religieuses sont interdites.",
+        "difficulty": 3,
+        "skills": [
+          "droits",
+          "egalite"
+        ]
+      },
+      {
+        "id": "SIT_035",
+        "type": "situation",
+        "domain": "travail",
+        "stem": "Vous travaillez légalement en France et souhaitez créer votre entreprise. Que pouvez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Ce n’est pas autorisé",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Créer votre entreprise",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Demander l’accord de l’employeur",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Quitter votre emploi",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "La création d’entreprise est autorisée.",
+        "difficulty": 2,
+        "skills": [
+          "entrepreneuriat"
+        ]
+      },
+      {
+        "id": "SIT_036",
+        "type": "situation",
+        "domain": "logement",
+        "stem": "Vous êtes en conflit avec votre propriétaire. Quelle solution est correcte ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Utiliser la violence",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Chercher une médiation ou un recours légal",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Ne plus payer le loyer",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Quitter sans prévenir",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les conflits doivent être réglés légalement.",
+        "difficulty": 2,
+        "skills": [
+          "recours"
+        ]
+      },
+      {
+        "id": "SIT_037",
+        "type": "situation",
+        "domain": "travail",
+        "stem": "Vous ne comprenez pas votre fiche de paie. Que pouvez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "L’ignorer",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Demander des explications",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "La jeter",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Quitter l’emploi",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Le salarié peut demander des explications sur sa paie.",
+        "difficulty": 1,
+        "skills": [
+          "travail"
+        ]
+      },
+      {
+        "id": "SIT_038",
+        "type": "situation",
+        "domain": "discrimination",
+        "stem": "Un propriétaire refuse de vous louer un logement à cause de votre nationalité. Que faites-vous ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Accepter",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Signaler une discrimination",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Ne plus chercher de logement",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Menacer le propriétaire",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "La discrimination au logement est interdite.",
+        "difficulty": 3,
+        "skills": [
+          "egalite",
+          "logement"
+        ]
+      },
+      {
+        "id": "SIT_039",
+        "type": "situation",
+        "domain": "travail",
+        "stem": "Vous souhaitez quitter votre emploi. Quelle est la bonne démarche ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Ne plus venir",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Respecter la procédure de démission",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Insulter l’employeur",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Partir sans prévenir",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "La démission doit respecter une procédure.",
+        "difficulty": 1,
+        "skills": [
+          "demission"
+        ]
+      },
+      {
+        "id": "SIT_040",
+        "type": "situation",
+        "domain": "discrimination",
+        "stem": "Vous êtes témoin d’un comportement sexiste dans un lieu public. Que pouvez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Rire",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Signaler un comportement interdit",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Participer",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Ignorer",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Le sexisme est interdit par la loi.",
+        "difficulty": 2,
+        "skills": [
+          "egalite",
+          "droits"
+        ]
+      }
+    ]
+  },
+  {
+    "meta": {
+      "sectionId": "situation",
+      "block": "S3",
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    "questions": [
+      {
+        "id": "SIT_041",
+        "type": "situation",
+        "domain": "ecole",
+        "stem": "Votre enfant est malade et ne peut pas aller à l’école. Que devez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Ne rien dire",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Informer l’école",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Envoyer l’enfant quand même",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Attendre la fin de l’année",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Une absence doit être signalée à l’établissement scolaire.",
+        "difficulty": 1,
+        "skills": [
+          "responsabilite_parentale"
+        ]
+      },
+      {
+        "id": "SIT_042",
+        "type": "situation",
+        "domain": "famille",
+        "stem": "Vous êtes en désaccord avec l’autre parent sur une décision importante pour votre enfant. Que faites-vous ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Décider seul",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Chercher un accord ou saisir le juge",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Ignorer l’autre parent",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Changer d’école sans prévenir",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les décisions importantes doivent être prises conjointement ou avec l’aide du juge.",
+        "difficulty": 3,
+        "skills": [
+          "autorite_parentale"
+        ]
+      },
+      {
+        "id": "SIT_043",
+        "type": "situation",
+        "domain": "sante",
+        "stem": "Vous avez besoin de soins médicaux mais peu de ressources financières. Que pouvez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Renoncer aux soins",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Demander une aide de l’Assurance maladie",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Aller à l’étranger",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Attendre plusieurs années",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Des dispositifs existent pour l’accès aux soins.",
+        "difficulty": 2,
+        "skills": [
+          "protection_sociale"
+        ]
+      },
+      {
+        "id": "SIT_044",
+        "type": "situation",
+        "domain": "ecole",
+        "stem": "Votre enfant ne parle pas français en arrivant à l’école. Que va-t-il se passer ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Il ne sera pas scolarisé",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Il bénéficiera d’un enseignement adapté",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Il devra attendre un an",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Il ira uniquement en école privée",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Des dispositifs existent pour les élèves allophones.",
+        "difficulty": 2,
+        "skills": [
+          "integration"
+        ]
+      },
+      {
+        "id": "SIT_045",
+        "type": "situation",
+        "domain": "famille",
+        "stem": "Votre enfant fait une bêtise grave. Quelle attitude est conforme à la loi ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Le punir physiquement",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Dialoguer et utiliser une sanction éducative",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "L’humilier",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Ne rien faire du tout",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les violences éducatives sont interdites.",
+        "difficulty": 2,
+        "skills": [
+          "education_bienveillante"
+        ]
+      },
+      {
+        "id": "SIT_046",
+        "type": "situation",
+        "domain": "sante",
+        "stem": "Vous consultez un médecin. Vos informations médicales sont-elles protégées ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Non",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Oui, par le secret médical",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Seulement pour les enfants",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Seulement à l’hôpital",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Le secret médical protège les informations de santé.",
+        "difficulty": 1,
+        "skills": [
+          "confidentialite"
+        ]
+      },
+      {
+        "id": "SIT_047",
+        "type": "situation",
+        "domain": "ecole",
+        "stem": "L’école de votre enfant vous convoque pour discuter de sa scolarité. Que faites-vous ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Refuser d’y aller",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Participer à la rencontre",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Changer d’école immédiatement",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Ignorer la convocation",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les parents participent au suivi de la scolarité.",
+        "difficulty": 1,
+        "skills": [
+          "relation_ecole_famille"
+        ]
+      },
+      {
+        "id": "SIT_048",
+        "type": "situation",
+        "domain": "sante",
+        "stem": "Vous êtes hospitalisé. Qui peut accéder à vos informations médicales ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Tout le monde",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Uniquement les professionnels concernés",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Votre employeur",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Vos voisins",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les données médicales sont confidentielles.",
+        "difficulty": 2,
+        "skills": [
+          "confidentialite"
+        ]
+      },
+      {
+        "id": "SIT_049",
+        "type": "situation",
+        "domain": "famille",
+        "stem": "Vous souhaitez divorcer. Quelle est la bonne démarche ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Décider seul",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Saisir un avocat ou un juge",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Quitter le domicile sans prévenir",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Demander à la mairie",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Le divorce est une procédure légale.",
+        "difficulty": 2,
+        "skills": [
+          "procedure_legale"
+        ]
+      },
+      {
+        "id": "SIT_050",
+        "type": "situation",
+        "domain": "ecole",
+        "stem": "Votre enfant est en situation de handicap. Que prévoit l’école française ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Une exclusion automatique",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Une scolarisation avec des aménagements",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Une obligation d’école spécialisée",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Aucune solution",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "L’école inclusive est la règle.",
+        "difficulty": 2,
+        "skills": [
+          "inclusion"
+        ]
+      },
+      {
+        "id": "SIT_051",
+        "type": "situation",
+        "domain": "sante",
+        "stem": "Vous souhaitez interrompre une grossesse. Que pouvez-vous faire en France ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Ce n’est pas autorisé",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Recourir à l’IVG dans le cadre légal",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Partir à l’étranger",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Demander l’autorisation de l’employeur",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "L’IVG est autorisée par la loi.",
+        "difficulty": 2,
+        "skills": [
+          "droits_femmes"
+        ]
+      },
+      {
+        "id": "SIT_052",
+        "type": "situation",
+        "domain": "famille",
+        "stem": "Vous avez des difficultés financières pour élever vos enfants. Que pouvez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Ne rien faire",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Demander des aides sociales",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Retirer les enfants de l’école",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Quitter la France",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Des aides existent pour les familles.",
+        "difficulty": 1,
+        "skills": [
+          "solidarite"
+        ]
+      },
+      {
+        "id": "SIT_053",
+        "type": "situation",
+        "domain": "ecole",
+        "stem": "Votre enfant ne respecte pas le règlement intérieur de l’école. Que se passe-t-il ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Aucune conséquence",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Une sanction éducative peut être décidée",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Une sanction physique",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Une expulsion immédiate",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les sanctions scolaires sont éducatives.",
+        "difficulty": 2,
+        "skills": [
+          "regles_collectives"
+        ]
+      },
+      {
+        "id": "SIT_054",
+        "type": "situation",
+        "domain": "sante",
+        "stem": "Vous consultez un professionnel de santé. Êtes-vous obligé d’accepter un traitement ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Oui, toujours",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Non, vous pouvez refuser après information",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Seulement à l’hôpital",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Uniquement pour les enfants",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Le consentement du patient est nécessaire.",
+        "difficulty": 3,
+        "skills": [
+          "consentement"
+        ]
+      },
+      {
+        "id": "SIT_055",
+        "type": "situation",
+        "domain": "famille",
+        "stem": "Un conflit familial devient violent. Quelle est la bonne réaction ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Régler le conflit soi-même",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Appeler les secours ou la police",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Se taire",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Quitter sans prévenir",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les violences doivent être signalées.",
+        "difficulty": 2,
+        "skills": [
+          "protection"
+        ]
+      },
+      {
+        "id": "SIT_056",
+        "type": "situation",
+        "domain": "ecole",
+        "stem": "Votre enfant a des difficultés scolaires importantes. Que pouvez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Ignorer la situation",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Demander un accompagnement scolaire",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Punir l’enfant",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Retirer l’enfant de l’école",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Des aides existent pour accompagner les élèves.",
+        "difficulty": 1,
+        "skills": [
+          "accompagnement"
+        ]
+      },
+      {
+        "id": "SIT_057",
+        "type": "situation",
+        "domain": "sante",
+        "stem": "Vous devez avancer des frais médicaux. Que permet le tiers payant ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "De ne rien payer du tout",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "De ne pas avancer les frais",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "D’être remboursé plus vite",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "De choisir son médecin",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Le tiers payant évite l’avance de frais.",
+        "difficulty": 2,
+        "skills": [
+          "systeme_sante"
+        ]
+      },
+      {
+        "id": "SIT_058",
+        "type": "situation",
+        "domain": "famille",
+        "stem": "Vous souhaitez faire reconnaître officiellement la naissance de votre enfant. Que faites-vous ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Rien",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Déclarer la naissance à l’état civil",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Attendre l’inscription scolaire",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Contacter la CAF",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "La déclaration de naissance est obligatoire.",
+        "difficulty": 1,
+        "skills": [
+          "etat_civil"
+        ]
+      },
+      {
+        "id": "SIT_059",
+        "type": "situation",
+        "domain": "ecole",
+        "stem": "Vous souhaitez vous impliquer dans la vie scolaire de votre enfant. Que pouvez-vous faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Décider des programmes",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Participer aux instances de parents d’élèves",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Intervenir pendant les cours",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Évaluer les enseignants",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les parents peuvent participer à la vie scolaire.",
+        "difficulty": 2,
+        "skills": [
+          "participation"
+        ]
+      },
+      {
+        "id": "SIT_060",
+        "type": "situation",
+        "domain": "sante",
+        "stem": "Vous êtes mineur et souhaitez consulter un médecin. Est-ce possible ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Non",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Oui, sous certaines conditions",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Seulement avec un parent",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Uniquement à l’hôpital",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les mineurs peuvent accéder aux soins selon des règles spécifiques.",
+        "difficulty": 3,
+        "skills": [
+          "acces_soins"
+        ]
+      }
+    ]
+  },
+  {
+    "meta": {
+      "sectionId": "situation",
+      "focus": "discrimination_laicite",
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    "questions": [
+      {
+        "id": "SIT_D01",
+        "type": "situation",
+        "domain": "egalite",
+        "stem": "Dans une entreprise, une femme est moins payée qu’un homme pour le même travail. Quelle est la situation ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "C’est légal si l’employeur décide",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "C’est une discrimination interdite",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "C’est une tradition",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Ce n’est pas un problème",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "À travail égal, le salaire doit être égal.",
+        "difficulty": 2,
+        "skills": [
+          "egalite_femme_homme"
+        ]
+      },
+      {
+        "id": "SIT_D02",
+        "type": "situation",
+        "domain": "travail",
+        "stem": "Un employeur refuse d’embaucher une femme parce qu’elle est enceinte. Est-ce autorisé ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Oui, c’est un choix personnel",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Non, c’est une discrimination",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Oui, si le travail est difficile",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Cela dépend du contrat",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "La grossesse ne peut pas justifier un refus d’embauche.",
+        "difficulty": 3,
+        "skills": [
+          "discrimination"
+        ]
+      },
+      {
+        "id": "SIT_D03",
+        "type": "situation",
+        "domain": "logement",
+        "stem": "Un propriétaire refuse de louer un logement parce que le locataire est étranger. Est-ce légal ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Oui, le propriétaire choisit",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Non, c’est une discrimination interdite",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Oui, si le locataire n’est pas français",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Cela dépend du quartier",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "La nationalité ne peut pas justifier un refus de location.",
+        "difficulty": 3,
+        "skills": [
+          "discrimination_logement"
+        ]
+      },
+      {
+        "id": "SIT_D04",
+        "type": "situation",
+        "domain": "laicite",
+        "stem": "Une personne qui travaille dans un service public porte un signe religieux visible. Est-ce autorisé ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Oui, toujours",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Non, le service public doit être neutre",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Oui, seulement le vendredi",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Cela dépend de la religion",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les agents du service public doivent respecter la neutralité religieuse.",
+        "difficulty": 3,
+        "skills": [
+          "laicite"
+        ]
+      },
+      {
+        "id": "SIT_D05",
+        "type": "situation",
+        "domain": "laicite",
+        "stem": "Un usager d’un service public porte un signe religieux visible. Est-ce autorisé ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Non, jamais",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Oui, c’est autorisé",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Seulement dans certains lieux",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Uniquement à l’extérieur",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les usagers peuvent porter des signes religieux.",
+        "difficulty": 2,
+        "skills": [
+          "liberte_religieuse"
+        ]
+      },
+      {
+        "id": "SIT_D06",
+        "type": "situation",
+        "domain": "ecole",
+        "stem": "À l’école publique, qui peut porter un signe religieux visible ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Les élèves",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Le personnel enseignant",
+            "isCorrect": false
+          },
+          {
+            "id": "c3",
+            "text": "Personne",
+            "isCorrect": true
+          },
+          {
+            "id": "c4",
+            "text": "Seulement les parents",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "À l’école publique, les signes religieux visibles sont interdits.",
+        "difficulty": 3,
+        "skills": [
+          "laicite_ecole"
+        ]
+      },
+      {
+        "id": "SIT_D07",
+        "type": "situation",
+        "domain": "discrimination",
+        "stem": "Un restaurant affiche qu’il refuse les clients portant des signes religieux visibles. Est-ce légal ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Oui, c’est un choix commercial",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Non, c’est une discrimination",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Oui, si c’est affiché",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Cela dépend du menu",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Refuser un client pour un motif religieux est interdit.",
+        "difficulty": 3,
+        "skills": [
+          "discrimination_service"
+        ]
+      },
+      {
+        "id": "SIT_D08",
+        "type": "situation",
+        "domain": "famille",
+        "stem": "Un mari impose sa religion à sa femme contre sa volonté. Est-ce autorisé ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Oui, dans le mariage",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Non, la liberté de conscience est garantie",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Oui, selon la tradition",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Cela dépend du pays d’origine",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Chacun est libre de ses croyances.",
+        "difficulty": 3,
+        "skills": [
+          "liberte_conscience"
+        ]
+      },
+      {
+        "id": "SIT_D09",
+        "type": "situation",
+        "domain": "travail",
+        "stem": "Un employeur refuse un salarié parce qu’il pratique une religion. Est-ce légal ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Oui, si le client le demande",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Non, c’est discriminatoire",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Oui, dans une entreprise privée",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Cela dépend de la religion",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "La religion ne peut pas être un motif de refus.",
+        "difficulty": 3,
+        "skills": [
+          "discrimination_travail"
+        ]
+      },
+      {
+        "id": "SIT_D10",
+        "type": "situation",
+        "domain": "droits",
+        "stem": "Une personne subit un traitement différent à cause de son sexe. Que peut-elle faire ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Accepter",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Signaler une discrimination",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Changer de travail",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Ne rien dire",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les discriminations peuvent être signalées.",
+        "difficulty": 2,
+        "skills": [
+          "recours"
+        ]
+      },
+      {
+        "id": "SIT_D11",
+        "type": "situation",
+        "domain": "laicite",
+        "stem": "Dans une école publique, un parent porte un signe religieux visible pour accompagner une sortie scolaire. Est-ce autorisé ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Non, jamais",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Oui, s’il n’y a pas de prosélytisme",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Seulement pour certaines religions",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Uniquement hors de l’école",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "Les parents ne sont pas soumis à l’obligation de neutralité.",
+        "difficulty": 3,
+        "skills": [
+          "laicite_ecole"
+        ]
+      },
+      {
+        "id": "SIT_D12",
+        "type": "situation",
+        "domain": "egalite",
+        "stem": "Une entreprise impose des règles différentes aux hommes et aux femmes. Est-ce légal ?",
+        "choices": [
+          {
+            "id": "c1",
+            "text": "Oui, si c’est interne",
+            "isCorrect": false
+          },
+          {
+            "id": "c2",
+            "text": "Non, le principe d’égalité s’applique",
+            "isCorrect": true
+          },
+          {
+            "id": "c3",
+            "text": "Oui, selon le métier",
+            "isCorrect": false
+          },
+          {
+            "id": "c4",
+            "text": "Cela dépend de l’ancienneté",
+            "isCorrect": false
+          }
+        ],
+        "analysis": "L’égalité devant la loi s’applique à tous.",
+        "difficulty": 2,
+        "skills": [
+          "egalite"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SIT_P01",
+    "type": "situation",
+    "domain": "espace_public",
+    "stem": "Vous vous promenez sur un chemin en forêt. Un panneau indique « Propriété privée – Accès interdit ». Que devez-vous faire ?",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "Continuer, car la forêt est un espace public",
+        "isCorrect": false
+      },
+      {
+        "id": "c2",
+        "text": "Respecter le panneau et ne pas entrer",
+        "isCorrect": true
+      },
+      {
+        "id": "c3",
+        "text": "Entrer seulement à pied",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "Entrer si personne ne vous voit",
+        "isCorrect": false
+      }
+    ],
+    "analysis": "Un panneau d’interdiction sur une propriété privée doit être respecté, même dans une forêt.",
+    "difficulty": 3,
+    "skills": [
+      "respect_regles",
+      "propriete_privee"
+    ]
+  },
+  {
+    "id": "SIT_P02",
+    "type": "situation",
+    "domain": "espace_public",
+    "stem": "Un terrain non clôturé porte un panneau « Défense d’entrer ». Est-ce que vous pouvez y accéder ?",
+    "choices": [
+      {
+        "id": "c1",
+        "text": "Oui, car il n’y a pas de barrière",
+        "isCorrect": false
+      },
+      {
+        "id": "c2",
+        "text": "Non, le panneau suffit",
+        "isCorrect": true
+      },
+      {
+        "id": "c3",
+        "text": "Oui, si c’est pour se promener",
+        "isCorrect": false
+      },
+      {
+        "id": "c4",
+        "text": "Oui, si c’est la journée",
+        "isCorrect": false
+      }
+    ],
+    "analysis": "Un panneau d’interdiction a une valeur légale, même sans clôture.",
+    "difficulty": 3,
+    "skills": [
+      "regles_collectives"
+    ]
+  }
+]

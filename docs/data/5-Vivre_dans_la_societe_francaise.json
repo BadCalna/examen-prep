@@ -1,0 +1,1499 @@
+{
+  "questions": [
+    {
+      "id": "VSF_001",
+      "type": "single",
+      "stem": "Où faut-il déclarer la naissance d'un enfant ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "À la préfecture",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "À la mairie du lieu de naissance",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "À l’hôpital",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "Au tribunal",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "La naissance doit être déclarée à la mairie du lieu de naissance.",
+      "difficulty": 1,
+      "tags": [
+        "etat_civil",
+        "famille"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_002",
+      "type": "single",
+      "stem": "Quelle action peut réaliser le locataire d'un logement sans l'autorisation du propriétaire ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Abattre un mur",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Changer les installations électriques",
+          "isCorrect": false
+        },
+        {
+          "id": "c3",
+          "text": "Effectuer des réparations courantes",
+          "isCorrect": true
+        },
+        {
+          "id": "c4",
+          "text": "Transformer le logement",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Les réparations courantes sont à la charge du locataire.",
+      "difficulty": 2,
+      "tags": [
+        "logement",
+        "droit"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_003",
+      "type": "single",
+      "stem": "Quel mariage est reconnu légalement en France ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Le mariage religieux",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Le mariage civil",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "Le mariage coutumier",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "Le mariage traditionnel",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Seul le mariage civil est reconnu par la loi.",
+      "difficulty": 1,
+      "tags": [
+        "famille",
+        "droit"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_004",
+      "type": "single",
+      "stem": "Le stationnement sur une place réservée aux personnes handicapées est :",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Autorisé à tous",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Autorisé uniquement avec un badge spécifique",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "Autorisé la nuit",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "Autorisé le week-end",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Ces places sont réservées aux titulaires d’une carte spécifique.",
+      "difficulty": 1,
+      "tags": [
+        "handicap",
+        "transport"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_005",
+      "type": "single",
+      "stem": "Si une machine à laver est cassée, il est possible de :",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Arrêter de payer le loyer",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Prévenir le propriétaire",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "Quitter le logement sans préavis",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "Modifier le contrat de location",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Le locataire doit informer le propriétaire.",
+      "difficulty": 1,
+      "tags": [
+        "logement"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_006",
+      "type": "single",
+      "stem": "Dans quel cas faut-il déclarer son enfant au service d'état civil ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Lors de la naissance",
+          "isCorrect": true
+        },
+        {
+          "id": "c2",
+          "text": "À l’entrée à l’école",
+          "isCorrect": false
+        },
+        {
+          "id": "c3",
+          "text": "À la majorité",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "Lors du mariage",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Toute naissance doit être déclarée à l’état civil.",
+      "difficulty": 1,
+      "tags": [
+        "etat_civil"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_007",
+      "type": "single",
+      "stem": "Quand faut-il déclarer son enfant au service d'état civil ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Dans les 24 heures",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Dans les 3 jours",
+          "isCorrect": false
+        },
+        {
+          "id": "c3",
+          "text": "Dans les 5 jours",
+          "isCorrect": true
+        },
+        {
+          "id": "c4",
+          "text": "Dans le mois",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "La déclaration doit être faite dans les 5 jours suivant la naissance.",
+      "difficulty": 2,
+      "tags": [
+        "etat_civil"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_008",
+      "type": "single",
+      "stem": "Quel numéro d'urgence permet d'appeler la police ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "15",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "17",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "18",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "112",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Le 17 est le numéro d’urgence de la police.",
+      "difficulty": 1,
+      "tags": [
+        "urgence"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_009",
+      "type": "single",
+      "stem": "Quel numéro d'urgence permet d'appeler le SAMU ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "15",
+          "isCorrect": true
+        },
+        {
+          "id": "c2",
+          "text": "17",
+          "isCorrect": false
+        },
+        {
+          "id": "c3",
+          "text": "18",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "112",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Le SAMU est joignable au 15.",
+      "difficulty": 1,
+      "tags": [
+        "sante",
+        "urgence"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_010",
+      "type": "single",
+      "stem": "Auprès de quelle institution les parents peuvent-ils inscrire leurs enfants à l'école publique ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "La préfecture",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "La mairie",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "Le rectorat",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "La CAF",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "L’inscription scolaire se fait auprès de la mairie.",
+      "difficulty": 1,
+      "tags": [
+        "ecole"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_011",
+      "type": "single",
+      "stem": "En cas de divorce, qui exerce l'autorité parentale ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Un seul parent",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Le juge",
+          "isCorrect": false
+        },
+        {
+          "id": "c3",
+          "text": "Les deux parents en principe",
+          "isCorrect": true
+        },
+        {
+          "id": "c4",
+          "text": "La mairie",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "L’autorité parentale est exercée conjointement sauf décision contraire.",
+      "difficulty": 2,
+      "tags": [
+        "famille"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_012",
+      "type": "single",
+      "stem": "Quelle aide permet aux personnes ayant des difficultés financières d'avoir un avocat ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "La mutuelle",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "L’aide juridictionnelle",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "La CAF",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "La Sécurité sociale",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "L’aide juridictionnelle permet l’accès à un avocat.",
+      "difficulty": 2,
+      "tags": [
+        "justice"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_013",
+      "type": "single",
+      "stem": "Qui peut demander le divorce de personnes mariées ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Uniquement le mari",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Uniquement l’épouse",
+          "isCorrect": false
+        },
+        {
+          "id": "c3",
+          "text": "Les deux époux",
+          "isCorrect": true
+        },
+        {
+          "id": "c4",
+          "text": "La mairie",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Chaque époux peut demander le divorce.",
+      "difficulty": 1,
+      "tags": [
+        "famille"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_014",
+      "type": "single",
+      "stem": "Auprès de quel organisme faut-il demander le remboursement des frais de santé ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "La mutuelle",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "L’Assurance maladie",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "La CAF",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "La mairie",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Le remboursement est effectué par l’Assurance maladie.",
+      "difficulty": 1,
+      "tags": [
+        "sante"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_015",
+      "type": "single",
+      "stem": "La contraception :",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Est interdite en France",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Permet d’éviter une grossesse",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "Est réservée aux adultes",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "N’existe que pour les femmes",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "La contraception permet d’éviter une grossesse.",
+      "difficulty": 1,
+      "tags": [
+        "sante"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_016",
+      "type": "single",
+      "stem": "À quoi sert la carte Vitale ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "À payer les soins",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "À faciliter le remboursement des soins",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "À remplacer la carte d’identité",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "À prendre rendez-vous médical",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "La carte Vitale facilite le remboursement des soins.",
+      "difficulty": 1,
+      "tags": [
+        "sante"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_017",
+      "type": "single",
+      "stem": "À quoi sert une mutuelle santé ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "À remplacer l’Assurance maladie",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "À compléter les remboursements",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "À consulter un médecin gratuitement",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "À obtenir une carte Vitale",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "La mutuelle complète les remboursements de l’Assurance maladie.",
+      "difficulty": 1,
+      "tags": [
+        "sante"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_018",
+      "type": "single",
+      "stem": "Qu'est-ce que le tiers payant ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Un paiement différé",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Un paiement en plusieurs fois",
+          "isCorrect": false
+        },
+        {
+          "id": "c3",
+          "text": "L'absence d'avance de frais",
+          "isCorrect": true
+        },
+        {
+          "id": "c4",
+          "text": "Une aide financière",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Le tiers payant permet de ne pas avancer les frais médicaux.",
+      "difficulty": 2,
+      "tags": [
+        "sante"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_019",
+      "type": "single",
+      "stem": "L'inscription à l'Assurance maladie est :",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Facultative",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Réservée aux salariés",
+          "isCorrect": false
+        },
+        {
+          "id": "c3",
+          "text": "Obligatoire",
+          "isCorrect": true
+        },
+        {
+          "id": "c4",
+          "text": "Payante",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Toute personne résidant en France doit être affiliée.",
+      "difficulty": 1,
+      "tags": [
+        "sante"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_020",
+      "type": "single",
+      "stem": "L'avortement est-il possible en France ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Non",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Oui, sous conditions légales",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "Seulement pour raisons médicales",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "Uniquement à l’étranger",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "L’IVG est autorisée par la loi en France.",
+      "difficulty": 2,
+      "tags": [
+        "sante",
+        "droits"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_021",
+      "type": "single",
+      "stem": "Qu'est-ce que le principe de confidentialité dans le domaine de la santé ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Les soins sont gratuits",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Les informations médicales sont protégées",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "Les médecins décident seuls",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "Les soins sont obligatoires",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Le secret médical protège les informations de santé.",
+      "difficulty": 2,
+      "tags": [
+        "sante",
+        "droits"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_022",
+      "type": "single",
+      "stem": "Travailler sans être déclaré est :",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Autorisé sous conditions",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Toléré pour les petits emplois",
+          "isCorrect": false
+        },
+        {
+          "id": "c3",
+          "text": "Illégal",
+          "isCorrect": true
+        },
+        {
+          "id": "c4",
+          "text": "Réservé aux étrangers",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Le travail dissimulé est interdit par la loi.",
+      "difficulty": 1,
+      "tags": [
+        "travail",
+        "droit"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_023",
+      "type": "single",
+      "stem": "Qu'est-ce que le SMIC ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Un impôt",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Un contrat de travail",
+          "isCorrect": false
+        },
+        {
+          "id": "c3",
+          "text": "Le salaire minimum légal",
+          "isCorrect": true
+        },
+        {
+          "id": "c4",
+          "text": "Une aide sociale",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Le SMIC est le salaire minimum interprofessionnel de croissance.",
+      "difficulty": 1,
+      "tags": [
+        "travail",
+        "economie"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_024",
+      "type": "single",
+      "stem": "Quelle est la première démarche à réaliser pour chercher un emploi ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Créer une entreprise",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "S’inscrire auprès de France Travail",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "Aller à la mairie",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "S’inscrire à la CAF",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "L’inscription auprès de France Travail est une première étape.",
+      "difficulty": 1,
+      "tags": [
+        "emploi"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_025",
+      "type": "single",
+      "stem": "Quelle est la durée légale du temps de travail par semaine ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "32 heures",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "35 heures",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "39 heures",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "40 heures",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "La durée légale du travail est fixée à 35 heures.",
+      "difficulty": 1,
+      "tags": [
+        "travail"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_026",
+      "type": "single",
+      "stem": "Qui peut demander un congé parental d'éducation ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Uniquement la mère",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Uniquement le père",
+          "isCorrect": false
+        },
+        {
+          "id": "c3",
+          "text": "Les deux parents",
+          "isCorrect": true
+        },
+        {
+          "id": "c4",
+          "text": "Les grands-parents",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Le congé parental peut être demandé par le père ou la mère.",
+      "difficulty": 1,
+      "tags": [
+        "famille",
+        "travail"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_027",
+      "type": "single",
+      "stem": "Une personne étrangère, en situation régulière, peut créer son entreprise :",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Non",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Oui",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "Uniquement avec la nationalité française",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "Seulement après 10 ans",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Une personne étrangère en situation régulière peut créer une entreprise.",
+      "difficulty": 2,
+      "tags": [
+        "travail",
+        "entreprise"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_028",
+      "type": "single",
+      "stem": "Une femme peut-elle créer son entreprise ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Non",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Oui",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "Seulement avec l’accord du conjoint",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "Uniquement après 30 ans",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Les femmes ont les mêmes droits que les hommes.",
+      "difficulty": 1,
+      "tags": [
+        "egalite",
+        "entreprise"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_029",
+      "type": "single",
+      "stem": "Quels sont les textes qui définissent les règles au travail ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Le Code civil",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Le Code du travail",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "La Constitution uniquement",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "Les règlements municipaux",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Le Code du travail fixe les règles du travail.",
+      "difficulty": 1,
+      "tags": [
+        "travail",
+        "droit"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_030",
+      "type": "single",
+      "stem": "Quelles sont les affaires traitées par le conseil de prud'hommes ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Les conflits entre voisins",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Les litiges entre employeurs et salariés",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "Les affaires pénales",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "Les litiges commerciaux",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Les prud’hommes règlent les conflits du travail.",
+      "difficulty": 2,
+      "tags": [
+        "justice",
+        "travail"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_031",
+      "type": "single",
+      "stem": "Qui a le droit de se syndiquer ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Uniquement les fonctionnaires",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Tous les salariés",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "Uniquement les citoyens français",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "Uniquement les employés du privé",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Le droit syndical est garanti à tous les salariés.",
+      "difficulty": 1,
+      "tags": [
+        "travail",
+        "droits"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_032",
+      "type": "single",
+      "stem": "Est-il possible de licencier une femme enceinte ou en congé maternité en raison de sa grossesse ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Oui",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Oui sous conditions",
+          "isCorrect": false
+        },
+        {
+          "id": "c3",
+          "text": "Non",
+          "isCorrect": true
+        },
+        {
+          "id": "c4",
+          "text": "Seulement dans le privé",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "La loi protège les femmes enceintes contre le licenciement.",
+      "difficulty": 2,
+      "tags": [
+        "travail",
+        "egalite"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_033",
+      "type": "single",
+      "stem": "Des parents ne respectent pas l'obligation d'instruction pour leurs enfants. Quelle sanction maximale risquent-ils ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Un avertissement",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Une amende",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "Une peine de prison",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "Aucune sanction",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Le non-respect de l’obligation scolaire peut entraîner une amende.",
+      "difficulty": 3,
+      "tags": [
+        "education",
+        "responsabilite"
+      ],
+      "examTargets": [
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_034",
+      "type": "single",
+      "stem": "Quelle est la définition de l'autorité parentale ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Le droit de décider seul",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "L’ensemble des droits et devoirs envers l’enfant",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "Un droit réservé à un parent",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "Une autorisation administrative",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "L’autorité parentale protège l’intérêt de l’enfant.",
+      "difficulty": 2,
+      "tags": [
+        "famille"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_035",
+      "type": "single",
+      "stem": "Quel motif d'absence est accepté par l'école ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Un voyage personnel",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Une maladie de l’enfant",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "Un loisir",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "Une absence non justifiée",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "La maladie est un motif légitime d’absence.",
+      "difficulty": 1,
+      "tags": [
+        "education"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_036",
+      "type": "single",
+      "stem": "Jusqu'à quel âge l'école est-elle obligatoire ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "14 ans",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "16 ans",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "18 ans",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "21 ans",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "L’instruction est obligatoire jusqu’à 16 ans.",
+      "difficulty": 1,
+      "tags": [
+        "education"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_037",
+      "type": "single",
+      "stem": "À quel âge commence l'instruction obligatoire des enfants ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "2 ans",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "3 ans",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "5 ans",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "6 ans",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Depuis 2019, l’instruction est obligatoire dès 3 ans.",
+      "difficulty": 2,
+      "tags": [
+        "education"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_038",
+      "type": "single",
+      "stem": "Comment s'appellent les établissements scolaires que les élèves intègrent après l'école élémentaire ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Les lycées",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Les universités",
+          "isCorrect": false
+        },
+        {
+          "id": "c3",
+          "text": "Les collèges",
+          "isCorrect": true
+        },
+        {
+          "id": "c4",
+          "text": "Les crèches",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Après l’école élémentaire, les élèves vont au collège.",
+      "difficulty": 1,
+      "tags": [
+        "education"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_039",
+      "type": "single",
+      "stem": "En tant que parent d'élève, il est possible de :",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Intervenir dans les cours",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Participer à la vie scolaire",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "Décider seul des programmes",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "Évaluer les enseignants",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Les parents peuvent participer à la vie scolaire.",
+      "difficulty": 2,
+      "tags": [
+        "education",
+        "citoyennete"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_040",
+      "type": "single",
+      "stem": "Quelle instruction est prévue pour les enfants qui ne parlent pas français ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Aucune",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Un enseignement adapté",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "Un enseignement privé obligatoire",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "Une exclusion temporaire",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "Des dispositifs spécifiques existent pour les élèves allophones.",
+      "difficulty": 2,
+      "tags": [
+        "education",
+        "integration"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    },
+    {
+      "id": "VSF_041",
+      "type": "single",
+      "stem": "S'agissant de l'accueil des enfants en situation de handicap à l'école, laquelle des propositions est vraie ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Ils ne sont pas scolarisés",
+          "isCorrect": false
+        },
+        {
+          "id": "c2",
+          "text": "Ils sont scolarisés avec des aménagements",
+          "isCorrect": true
+        },
+        {
+          "id": "c3",
+          "text": "Ils doivent aller dans des écoles spécialisées uniquement",
+          "isCorrect": false
+        },
+        {
+          "id": "c4",
+          "text": "Ils ne sont pas concernés par l’école",
+          "isCorrect": false
+        }
+      ],
+      "analysis": "L’école inclusive permet l’accueil avec des adaptations.",
+      "difficulty": 2,
+      "tags": [
+        "education",
+        "handicap"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ]
+    }
+  ]
+}

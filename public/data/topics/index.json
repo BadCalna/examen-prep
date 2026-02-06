@@ -1,0 +1,37 @@
+[
+  {
+    "id": "values",
+    "slug": "values",
+    "title": "Principes et valeurs de la République",
+    "titleCn": "共和国的原则与价值观",
+    "icon": "Scale"
+  },
+  {
+    "id": "institutions",
+    "slug": "institutions",
+    "title": "Système institutionnel et politique",
+    "titleCn": "制度与政治体系",
+    "icon": "Landmark"
+  },
+  {
+    "id": "rights",
+    "slug": "rights",
+    "title": "Droits et devoirs",
+    "titleCn": "权利与义务",
+    "icon": "ScrollText"
+  },
+  {
+    "id": "history",
+    "slug": "history",
+    "title": "Histoire, géographie et culture",
+    "titleCn": "历史、地理与文化",
+    "icon": "BookOpen"
+  },
+  {
+    "id": "society",
+    "slug": "society",
+    "title": "Vivre dans la société française",
+    "titleCn": "在法国社会生活",
+    "icon": "Users"
+  }
+]

@@ -1,0 +1,1735 @@
+{
+  "meta": {
+    "sectionId": "history_geo_culture",
+    "sectionTitle": "Histoire, géographie et culture",
+    "language": "fr",
+    "examTargets": ["CSP", "CR"]
+  },
+  "questions": [
+    {
+      "id": "HGC_001",
+      "type": "single",
+      "stem": "Parmi ces textes, lequel a été adopté sous Napoléon Ier ?",
+      "stem_zh": "在以下法律文本中，哪一个是拿破仑一世时期通过的？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "La Constitution de 1958",
+          "isCorrect": false,
+          "text_zh": "1958年宪法（现行宪法）"
+        },
+        {
+          "id": "c2",
+          "text": "Le Code civil",
+          "isCorrect": true,
+          "text_zh": "民法典（又称拿破仑法典）"
+        },
+        {
+          "id": "c3",
+          "text": "La Déclaration des droits de l'homme et du citoyen de 1789",
+          "isCorrect": false,
+          "text_zh": "1789年人权宣言"
+        },
+        {
+          "id": "c4",
+          "text": "La loi de 1905 sur la laïcité",
+          "isCorrect": false,
+          "text_zh": "1905年政教分离法"
+        }
+      ],
+      "analysis": "Le Code civil de 1804 est l'un des héritages les plus importants de Napoléon.",
+      "analysis_zh": "1804年的《民法典》是拿破仑最重要遗产之一，奠定了现代法国法律的基础。",
+      "difficulty": 2,
+      "tags": ["history"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_002",
+      "type": "single",
+      "stem": "Qui a été le premier président de la Ve République ?",
+      "stem_zh": "谁是法兰西第五共和国的第一任总统？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Charles de Gaulle",
+          "isCorrect": true,
+          "text_zh": "夏尔·戴高乐"
+        },
+        {
+          "id": "c2",
+          "text": "Napoléon Bonaparte",
+          "isCorrect": false,
+          "text_zh": "拿破仑·波拿巴（他是皇帝）"
+        },
+        {
+          "id": "c3",
+          "text": "Louis XIV",
+          "isCorrect": false,
+          "text_zh": "路易十四（太阳王，封建君主）"
+        },
+        {
+          "id": "c4",
+          "text": "Georges Clemenceau",
+          "isCorrect": false,
+          "text_zh": "乔治·克里蒙梭（一战时期的总理）"
+        }
+      ],
+      "analysis": "Charles de Gaulle a fondé la Ve République en 1958.",
+      "analysis_zh": "戴高乐将军在1958年建立了第五共和国并出任首任总统。",
+      "difficulty": 1,
+      "tags": ["history", "institutions"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_003",
+      "type": "single",
+      "stem": "Quel est l’objectif des lois scolaires de la IIIe République ?",
+      "stem_zh": "第三共和国时期“学校法”的目标是什么？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Réserver l'école aux familles les plus riches",
+          "isCorrect": false,
+          "text_zh": "让学校只为富裕家庭服务"
+        },
+        {
+          "id": "c2",
+          "text": "Rendre l’école gratuite, laïque et obligatoire",
+          "isCorrect": true,
+          "text_zh": "使学校教育免费、世俗化且义务制"
+        },
+        {
+          "id": "c3",
+          "text": "Remplacer les professeurs par des militaires",
+          "isCorrect": false,
+          "text_zh": "用军人代替老师进行教学"
+        },
+        {
+          "id": "c4",
+          "text": "Supprimer l’enseignement des sciences",
+          "isCorrect": false,
+          "text_zh": "取消科学课程"
+        }
+      ],
+      "analysis": "Ces lois sont souvent appelées les 'Lois Jules Ferry'.",
+      "analysis_zh": "这些法律通常被称为《茹费理法》，是法国现代教育的基石。",
+      "difficulty": 2,
+      "tags": ["history", "education"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_004",
+      "type": "single",
+      "stem": "Que commémorent les Français le 14 juillet ?",
+      "stem_zh": "法国人在7月14日纪念什么？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "La fin de l'Occupation allemande",
+          "isCorrect": false,
+          "text_zh": "德国占领的结束"
+        },
+        {
+          "id": "c2",
+          "text": "La prise de la Bastille en 1789 et la Fête de la Fédération",
+          "isCorrect": true,
+          "text_zh": "1789年的攻占巴士底狱及全国联盟节"
+        },
+        {
+          "id": "c3",
+          "text": "Le sacre de Napoléon",
+          "isCorrect": false,
+          "text_zh": "拿破仑的加冕礼"
+        },
+        {
+          "id": "c4",
+          "text": "La victoire de la Coupe du Monde",
+          "isCorrect": false,
+          "text_zh": "世界杯夺冠"
+        }
+      ],
+      "analysis": "C'est la fête nationale française depuis 1880.",
+      "analysis_zh": "自1880年起，7月14日被定为法国国庆节。",
+      "difficulty": 1,
+      "tags": ["history"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_005",
+      "type": "single",
+      "stem": "Quelle est l'importance de l'année 1958 ?",
+      "stem_zh": "1958年对法国有什么重要意义？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Le droit de vote des femmes",
+          "isCorrect": false,
+          "text_zh": "女性获得投票权（那是1944年）"
+        },
+        {
+          "id": "c2",
+          "text": "L'adoption de la Constitution de la Ve République",
+          "isCorrect": true,
+          "text_zh": "通过第五共和国宪法"
+        },
+        {
+          "id": "c3",
+          "text": "La fin de la Révolution française",
+          "isCorrect": false,
+          "text_zh": "法国大革命的结束"
+        },
+        {
+          "id": "c4",
+          "text": "L'invention du cinéma par les frères Lumière",
+          "isCorrect": false,
+          "text_zh": "卢米埃尔兄弟发明电影"
+        }
+      ],
+      "analysis": "1958 est l'année du retour au pouvoir de De Gaulle.",
+      "analysis_zh": "1958年标志着法兰西现行政治体制（第五共和国）的开始。",
+      "difficulty": 2,
+      "tags": ["history", "institutions"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_006",
+      "type": "single",
+      "stem": "Lequel de ces pays est un pays fondateur de l'Union européenne ?",
+      "stem_zh": "下列哪一个是欧盟（EU）的创始国之一？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "La France",
+          "isCorrect": true,
+          "text_zh": "法国"
+        },
+        {
+          "id": "c2",
+          "text": "L’Espagne",
+          "isCorrect": false,
+          "text_zh": "西班牙（1986年加入）"
+        },
+        {
+          "id": "c3",
+          "text": "La Croatie",
+          "isCorrect": false,
+          "text_zh": "克罗地亚（2013年加入）"
+        },
+        {
+          "id": "c4",
+          "text": "La Pologne",
+          "isCorrect": false,
+          "text_zh": "波兰（2004年加入）"
+        }
+      ],
+      "analysis": "Les 6 pays fondateurs sont l'Allemagne, la Belgique, la France, l'Italie, le Luxembourg et les Pays-Bas.",
+      "analysis_zh": "欧盟最初由6个国家共同创立，分别是：法国、德国、意大利、比利时、卢森堡和荷兰。",
+      "difficulty": 1,
+      "tags": ["history", "europe"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_007",
+      "type": "single",
+      "stem": "Simone Veil est une figure importante de l'histoire française car :",
+      "stem_zh": "西蒙娜·韦伊（Simone Veil）是法国历史上的重要人物，因为：",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Elle a aboli la peine de mort",
+          "isCorrect": false,
+          "text_zh": "她废除了死刑（那是罗贝尔·巴丹泰的任务）"
+        },
+        {
+          "id": "c2",
+          "text": "Elle a fait adopter la loi sur l'IVG (avortement)",
+          "isCorrect": true,
+          "text_zh": "她推动通过了堕胎合法化法案（IVG）"
+        },
+        {
+          "id": "c3",
+          "text": "Elle a été la première femme présidente de la République",
+          "isCorrect": false,
+          "text_zh": "她是首位女总统（法国目前还没出过女总统）"
+        },
+        {
+          "id": "c4",
+          "text": "Elle a découvert le vaccin contre la rage",
+          "isCorrect": false,
+          "text_zh": "她发明了狂犬病疫苗（那是巴斯德）"
+        }
+      ],
+      "analysis": "Simone Veil a porté la loi de 1975 dépénalisant l'avortement.",
+      "analysis_zh": "1975年通过的《韦伊法》（Loi Veil）让法国女性获得了合法的堕胎权，她是女性权利的重要推手。",
+      "difficulty": 2,
+      "tags": ["history", "society"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_008",
+      "type": "single",
+      "stem": "Dans quelle région sont situées les plages du débarquement de 1944 ?",
+      "stem_zh": "1944年盟军诺曼底登陆的海滩位于哪个大区？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "La Bretagne",
+          "isCorrect": false,
+          "text_zh": "布列塔尼大区"
+        },
+        {
+          "id": "c2",
+          "text": "La Normandie",
+          "isCorrect": true,
+          "text_zh": "诺曼底大区"
+        },
+        {
+          "id": "c3",
+          "text": "La Corse",
+          "isCorrect": false,
+          "text_zh": "科西嘉岛"
+        },
+        {
+          "id": "c4",
+          "text": "Le Grand Est",
+          "isCorrect": false,
+          "text_zh": "大东部大区"
+        }
+      ],
+      "analysis": "Le Débarquement allié a eu lieu le 6 juin 1944 en Normandie.",
+      "analysis_zh": "诺曼底登陆是二战的重要转折点，发生在1944年6月6日。",
+      "difficulty": 1,
+      "tags": ["history", "geography"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_009",
+      "type": "single",
+      "stem": "Dans quelle ville les rois de France étaient-ils traditionnellement couronnés ?",
+      "stem_zh": "法国国王传统上是在哪座城市加冕的？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Paris",
+          "isCorrect": false,
+          "text_zh": "巴黎"
+        },
+        {
+          "id": "c2",
+          "text": "Lyon",
+          "isCorrect": false,
+          "text_zh": "里昂"
+        },
+        {
+          "id": "c3",
+          "text": "Reims",
+          "isCorrect": true,
+          "text_zh": "兰斯"
+        },
+        {
+          "id": "c4",
+          "text": "Marseille",
+          "isCorrect": false,
+          "text_zh": "马赛"
+        }
+      ],
+      "analysis": "La cathédrale de Reims était le lieu du sacre des rois.",
+      "analysis_zh": "兰斯大教堂是几乎所有法国国王举行加冕礼的地方，因此被称为“加冕之城”。",
+      "difficulty": 2,
+      "tags": ["history"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_010",
+      "type": "single",
+      "stem": "Lequel de ces rois de France a été exécuté pendant la Révolution ?",
+      "stem_zh": "哪位法国国王在法国大革命期间被处决（送上断头台）？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Louis XIV",
+          "isCorrect": false,
+          "text_zh": "路易十四（太阳王）"
+        },
+        {
+          "id": "c2",
+          "text": "Louis XVI",
+          "isCorrect": true,
+          "text_zh": "路易十六"
+        },
+        {
+          "id": "c3",
+          "text": "Napoléon III",
+          "isCorrect": false,
+          "text_zh": "拿破仑三世"
+        },
+        {
+          "id": "c4",
+          "text": "François Ier",
+          "isCorrect": false,
+          "text_zh": "弗朗索瓦一世"
+        }
+      ],
+      "analysis": "Louis XVI a été guillotiné en 1793.",
+      "analysis_zh": "路易十六在1793年1月被处死，标志着波旁王朝统治的彻底终结。",
+      "difficulty": 1,
+      "tags": ["history"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_013",
+      "type": "single",
+      "stem": "Que représente le 18 juin 1940 ?",
+      "stem_zh": "1940年6月18日代表了什么？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "La fin de la guerre",
+          "isCorrect": false,
+          "text_zh": "战争结束"
+        },
+        {
+          "id": "c2",
+          "text": "L'appel du général de Gaulle à résister",
+          "isCorrect": true,
+          "text_zh": "戴高乐将军发出的抵抗号召（618宣言）"
+        },
+        {
+          "id": "c3",
+          "text": "L'armistice avec l'Allemagne",
+          "isCorrect": false,
+          "text_zh": "与德国签署停战协定"
+        },
+        {
+          "id": "c4",
+          "text": "La création de la Sécurité sociale",
+          "isCorrect": false,
+          "text_zh": "社保的建立"
+        }
+      ],
+      "analysis": "De Gaulle lance cet appel depuis Londres pour encourager les Français à continuer le combat.",
+      "analysis_zh": "戴高乐将军在伦敦通过BBC广播发表了著名演讲，标志着“自由法国”反抗力量的诞生。",
+      "difficulty": 2,
+      "tags": ["history"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_016",
+      "type": "single",
+      "stem": "Quel est le fleuve qui traverse la capitale française ?",
+      "stem_zh": "穿过法国首都（巴黎）的河流是哪条？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "La Loire",
+          "isCorrect": false,
+          "text_zh": "卢瓦尔河（最长的河）"
+        },
+        {
+          "id": "c2",
+          "text": "La Seine",
+          "isCorrect": true,
+          "text_zh": "塞纳河"
+        },
+        {
+          "id": "c3",
+          "text": "Le Rhône",
+          "isCorrect": false,
+          "text_zh": "罗讷河"
+        },
+        {
+          "id": "c4",
+          "text": "La Garonne",
+          "isCorrect": false,
+          "text_zh": "加龙河（流向波尔多）"
+        }
+      ],
+      "analysis": "La Seine divise Paris entre la Rive Droite et la Rive Gauche.",
+      "analysis_zh": "塞纳河将巴黎分为左岸和右岸。",
+      "difficulty": 1,
+      "tags": ["geography"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_018",
+      "type": "single",
+      "stem": "Jules Ferry est connu pour avoir rendu l'école :",
+      "stem_zh": "茹费理（Jules Ferry）因使学校教育变成怎样而闻名？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Payante pour les étrangers",
+          "isCorrect": false,
+          "text_zh": "对外国人收费"
+        },
+        {
+          "id": "c2",
+          "text": "Gratuite, laïque et obligatoire",
+          "isCorrect": true,
+          "text_zh": "免费、世俗化且义务制"
+        },
+        {
+          "id": "c3",
+          "text": "Religieuse et facultative",
+          "isCorrect": false,
+          "text_zh": "宗教化且非强制的"
+        },
+        {
+          "id": "c4",
+          "text": "Réservée uniquement aux garçons",
+          "isCorrect": false,
+          "text_zh": "仅限男生"
+        }
+      ],
+      "analysis": "Ses lois ont fondé l'école publique républicaine en 1881-1882.",
+      "analysis_zh": "他在1881-1882年间通过的法律确立了现代公立学校的准则。",
+      "difficulty": 1,
+      "tags": ["history", "education"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_019",
+      "type": "single",
+      "stem": "Depuis quelle année le président est-il élu au suffrage universel direct ?",
+      "stem_zh": "从哪一年开始，总统由全体选民直接投票选举产生？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "1789",
+          "isCorrect": false,
+          "text_zh": "1789年（大革命开始）"
+        },
+        {
+          "id": "c2",
+          "text": "1944",
+          "isCorrect": false,
+          "text_zh": "1944年（女性获选举权）"
+        },
+        {
+          "id": "c3",
+          "text": "1962",
+          "isCorrect": true,
+          "text_zh": "1962年"
+        },
+        {
+          "id": "c4",
+          "text": "2002",
+          "isCorrect": false,
+          "text_zh": "2002年（任期改5年）"
+        }
+      ],
+      "analysis": "C'est de Gaulle qui a imposé le suffrage universel direct par référendum.",
+      "analysis_zh": "1962年的公投决定了总统不再由选举团产生，而是由全民直选。",
+      "difficulty": 2,
+      "tags": ["history", "institutions"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_011",
+      "type": "single",
+      "stem": "En quelle année a débuté la Révolution française ?",
+      "stem_zh": "法国大革命是在哪一年开始的？",
+      "choices": [
+        { "id": "c1", "text": "1789", "isCorrect": true, "text_zh": "1789年" },
+        { "id": "c2", "text": "1492", "isCorrect": false, "text_zh": "1492年（哥伦布发现新大陆）" },
+        { "id": "c3", "text": "1914", "isCorrect": false, "text_zh": "1914年（一战开始）" },
+        { "id": "c4", "text": "1804", "isCorrect": false, "text_zh": "1804年（拿破仑称帝）" }
+      ],
+      "analysis": "La Révolution commence en 1789 avec l'ouverture des États généraux et la prise de la Bastille.",
+      "analysis_zh": "1789年以攻占巴士底狱为标志，开启了法国迈向共和的道路。",
+      "difficulty": 1,
+      "tags": ["history"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_012",
+      "type": "single",
+      "stem": "En quelle année Napoléon Ier est-il devenu empereur ?",
+      "stem_zh": "拿破仑一世是在哪一年加冕称帝的？",
+      "choices": [
+        { "id": "c1", "text": "1789", "isCorrect": false, "text_zh": "1789年" },
+        { "id": "c2", "text": "1804", "isCorrect": true, "text_zh": "1804年" },
+        { "id": "c3", "text": "1815", "isCorrect": false, "text_zh": "1815年（滑铁卢战败）" },
+        { "id": "c4", "text": "1945", "isCorrect": false, "text_zh": "1945年" }
+      ],
+      "analysis": "Napoléon a été sacré empereur des Français le 2 décembre 1804.",
+      "analysis_zh": "1804年拿破仑在巴黎圣母院加冕，建立法兰西第一帝国。",
+      "difficulty": 2,
+      "tags": ["history"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_014",
+      "type": "single",
+      "stem": "Qu'est-ce que la Shoah ?",
+      "stem_zh": "什么是“大屠杀（Shoah）”？",
+      "choices": [
+        { "id": "c1", "text": "Une fête religieuse", "isCorrect": false, "text_zh": "一个宗教节日" },
+        { "id": "c2", "text": "L'extermination des Juifs par les nazis durant la Seconde Guerre mondiale", "isCorrect": true, "text_zh": "二战期间纳粹对犹太人的种族灭绝" },
+        { "id": "c3", "text": "La chute de l'Empire romain", "isCorrect": false, "text_zh": "罗马帝国的灭亡" },
+        { "id": "c4", "text": "Une réforme économique", "isCorrect": false, "text_zh": "一项经济改革" }
+      ],
+      "analysis": "C'est un événement majeur de la mémoire nationale et mondiale.",
+      "analysis_zh": "这是人类历史的悲剧，也是法国入籍考试中关于国家记忆的必考点。",
+      "difficulty": 2,
+      "tags": ["history", "memory"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_015",
+      "type": "single",
+      "stem": "Sous quel président la peine de mort a-t-elle été abolie ?",
+      "stem_zh": "在位哪位总统期间，法国废除了死刑？",
+      "choices": [
+        { "id": "c1", "text": "Charles de Gaulle", "isCorrect": false, "text_zh": "戴高乐" },
+        { "id": "c2", "text": "François Mitterrand", "isCorrect": true, "text_zh": "弗朗索瓦·密特朗" },
+        { "id": "c3", "text": "Nicolas Sarkozy", "isCorrect": false, "text_zh": "尼古拉·萨科齐" },
+        { "id": "c4", "text": "Emmanuel Macron", "isCorrect": false, "text_zh": "埃马纽埃尔·马克龙" }
+      ],
+      "analysis": "La peine de mort a été abolie en 1981, portée par le garde des Sceaux Robert Badinter.",
+      "analysis_zh": "1981年，在密特朗总统支持下，司法部长巴丹泰推动废除了死刑。",
+      "difficulty": 2,
+      "tags": ["history", "justice"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_017",
+      "type": "single",
+      "stem": "Lequel de ces pays a fait partie de l'empire colonial français ?",
+      "stem_zh": "下列哪个国家曾是法国殖民帝国的一部分？",
+      "choices": [
+        { "id": "c1", "text": "L'Algérie", "isCorrect": true, "text_zh": "阿尔及利亚" },
+        { "id": "c2", "text": "L'Allemagne", "isCorrect": false, "text_zh": "德国" },
+        { "id": "c3", "text": "L'Espagne", "isCorrect": false, "text_zh": "西班牙" },
+        { "id": "c4", "text": "La Chine", "isCorrect": false, "text_zh": "中国" }
+      ],
+      "analysis": "L'Algérie, le Maroc, la Tunisie et d'autres pays d'Afrique étaient des colonies ou protectorats.",
+      "analysis_zh": "法国曾拥有广阔的殖民地，尤其是在北非和西非地区。",
+      "difficulty": 2,
+      "tags": ["history", "colonial"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_020",
+      "type": "single",
+      "stem": "En quelle année le traité de Maastricht (fondation de l'UE) a-t-il été signé ?",
+      "stem_zh": "马斯特里赫特条约（标志欧盟成立）是在哪一年签署的？",
+      "choices": [
+        { "id": "c1", "text": "1945", "isCorrect": false, "text_zh": "1945年" },
+        { "id": "c2", "text": "1957", "isCorrect": false, "text_zh": "1957年（罗马条约，欧洲经济共同体）" },
+        { "id": "c3", "text": "1992", "isCorrect": true, "text_zh": "1992年" },
+        { "id": "c4", "text": "2012", "isCorrect": false, "text_zh": "2012年" }
+      ],
+      "analysis": "Le traité de Maastricht en 1992 crée l'Union européenne et prépare l'Euro.",
+      "analysis_zh": "1992年的马约将欧洲合作推向了政治和货币统一的新阶段。",
+      "difficulty": 2,
+      "tags": ["history", "europe"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_021",
+      "type": "single",
+      "stem": "Quand a eu lieu la Seconde Guerre mondiale ?",
+      "stem_zh": "第二次世界大战发生在什么时候？",
+      "choices": [
+        { "id": "c1", "text": "1914–1918", "isCorrect": false, "text_zh": "1914年–1918年（一战）" },
+        { "id": "c2", "text": "1939–1945", "isCorrect": true, "text_zh": "1939年–1945年" },
+        { "id": "c3", "text": "1945–1950", "isCorrect": false, "text_zh": "1945年–1950年" },
+        { "id": "c4", "text": "1933–1939", "isCorrect": false, "text_zh": "1933年–1939年" }
+      ],
+      "analysis": "La Seconde Guerre mondiale s’est déroulée de 1939 à 1945.",
+      "analysis_zh": "第二次世界大战始于1939年德国入侵波兰，终于1945年。",
+      "difficulty": 1,
+      "tags": ["history"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_022",
+      "type": "single",
+      "stem": "Quand a eu lieu la Première Guerre mondiale ?",
+      "stem_zh": "第一次世界大战发生在什么时候？",
+      "choices": [
+        { "id": "c1", "text": "1905–1910", "isCorrect": false, "text_zh": "1905年–1910年" },
+        { "id": "c2", "text": "1914–1918", "isCorrect": true, "text_zh": "1914年–1918年" },
+        { "id": "c3", "text": "1939–1945", "isCorrect": false, "text_zh": "1939年–1945年（二战）" },
+        { "id": "c4", "text": "1920–1925", "isCorrect": false, "text_zh": "1920年–1925年" }
+      ],
+      "analysis": "La Première Guerre mondiale a eu lieu de 1914 à 1918.",
+      "analysis_zh": "一战以1918年11月11日签署停战协定结束，这一天现在是法国的公共假期。",
+      "difficulty": 1,
+      "tags": ["history"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_023",
+      "type": "single",
+      "stem": "Que célèbre-t-on le 8 mai ?",
+      "stem_zh": "5月8日庆祝什么？",
+      "choices": [
+        { "id": "c1", "text": "La fin de la Première Guerre mondiale", "isCorrect": false, "text_zh": "一战结束（那是11月11日）" },
+        { "id": "c2", "text": "La fin de la Seconde Guerre mondiale en Europe", "isCorrect": true, "text_zh": "二战在欧洲的胜利/结束" },
+        { "id": "c3", "text": "La prise de la Bastille", "isCorrect": false, "text_zh": "攻占巴士底狱（7月14日）" },
+        { "id": "c4", "text": "L’abolition de l’esclavage", "isCorrect": false, "text_zh": "废除奴隶制" }
+      ],
+      "analysis": "Le 8 mai commémore la victoire des Alliés sur l'Allemagne nazie en 1945.",
+      "analysis_zh": "5月8日是1945年德国投降、欧洲战事结束的纪念日。",
+      "difficulty": 1,
+      "tags": ["history", "memory"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_024",
+      "type": "single",
+      "stem": "Quelle est la première étape de la construction européenne en 1951 ?",
+      "stem_zh": "1951年欧洲建设的第一步是什么？",
+      "choices": [
+        { "id": "c1", "text": "Le traité de Maastricht", "isCorrect": false, "text_zh": "马斯特里赫特条约（1992年）" },
+        { "id": "c2", "text": "La CECA (Communauté européenne du charbon et de l'acier)", "isCorrect": true, "text_zh": "欧洲煤钢共同体 (CECA)" },
+        { "id": "c3", "text": "Le traité de Rome", "isCorrect": false, "text_zh": "罗马条约（1957年）" },
+        { "id": "c4", "text": "L’introduction de l'Euro", "isCorrect": false, "text_zh": "引入欧元" }
+      ],
+      "analysis": "La CECA est le premier pas vers l'Union européenne.",
+      "analysis_zh": "1951年建立的煤钢共同体是欧盟的前身，旨在通过资源共享防止战争。",
+      "difficulty": 2,
+      "tags": ["history", "europe"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_025",
+      "type": "single",
+      "stem": "Qui était une figure majeure de la Résistance française ?",
+      "stem_zh": "谁是法国抵抗运动的主要人物？",
+      "choices": [
+        { "id": "c1", "text": "Jean Moulin", "isCorrect": true, "text_zh": "让·穆兰" },
+        { "id": "c2", "text": "Louis XIV", "isCorrect": false, "text_zh": "路易十四" },
+        { "id": "c3", "text": "Napoléon III", "isCorrect": false, "text_zh": "拿破仑三世" },
+        { "id": "c4", "text": "Jules Ferry", "isCorrect": false, "text_zh": "茹费理" }
+      ],
+      "analysis": "Jean Moulin a unifié la Résistance sous l'autorité de De Gaulle.",
+      "analysis_zh": "让·穆兰受戴高乐委派统一了法国境内的各派抵抗力量，后被纳粹杀害，现葬于先贤祠。",
+      "difficulty": 2,
+      "tags": ["history", "resistance"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_026",
+      "type": "single",
+      "stem": "Le 11 novembre est un jour férié. À quoi correspond cette date ?",
+      "stem_zh": "11月11日是法定假日。这个日期对应什么事件？",
+      "choices": [
+        { "id": "c1", "text": "La victoire de 1945", "isCorrect": false, "text_zh": "1945年的胜利（那是5月8日）" },
+        { "id": "c2", "text": "L’armistice de la Première Guerre mondiale (1918)", "isCorrect": true, "text_zh": "第一次世界大战的停战协议（1918年）" },
+        { "id": "c3", "text": "La fête de la musique", "isCorrect": false, "text_zh": "音乐节" },
+        { "id": "c4", "text": "L'élection du président", "isCorrect": false, "text_zh": "总统选举" }
+      ],
+      "analysis": "Le 11 novembre 1918 marque la fin des combats de la Grande Guerre.",
+      "analysis_zh": "1918年11月11日一战停战，现在这一天也用来缅怀所有为法国牺牲的战士。",
+      "difficulty": 1,
+      "tags": ["history", "memory"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_027",
+      "type": "single",
+      "stem": "En quelle année l’esclavage a-t-il été définitivement aboli en France ?",
+      "stem_zh": "法国在哪一年彻底废除了奴隶制？",
+      "choices": [
+        { "id": "c1", "text": "1789", "isCorrect": false, "text_zh": "1789年" },
+        { "id": "c2", "text": "1848", "isCorrect": true, "text_zh": "1848年" },
+        { "id": "c3", "text": "1905", "isCorrect": false, "text_zh": "1905年" },
+        { "id": "c4", "text": "1945", "isCorrect": false, "text_zh": "1945年" }
+      ],
+      "analysis": "L’esclavage est aboli par décret en 1848 sous la IIe République.",
+      "analysis_zh": "1848年第二共和国时期正式废除了法国殖民地的奴隶制。",
+      "difficulty": 2,
+      "tags": ["history", "human_rights"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_028",
+      "type": "single",
+      "stem": "Qui est le principal artisan de l’abolition de l’esclavage en 1848 ?",
+      "stem_zh": "谁是1848年废除奴隶制的主要推动者？",
+      "choices": [
+        { "id": "c1", "text": "Victor Hugo", "isCorrect": false, "text_zh": "维克多·雨果" },
+        { "id": "c2", "text": "Victor Schoelcher", "isCorrect": true, "text_zh": "维克多·舍尔谢" },
+        { "id": "c3", "text": "Robespierre", "isCorrect": false, "text_zh": "罗伯斯庇尔" },
+        { "id": "c4", "text": "Charles de Gaulle", "isCorrect": false, "text_zh": "夏尔·戴高乐" }
+      ],
+      "analysis": "Victor Schoelcher a préparé le décret d'abolition.",
+      "analysis_zh": "维克多·舍尔谢一生致力于反对奴隶制，他的骨灰也安放在先贤祠。",
+      "difficulty": 2,
+      "tags": ["history"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_029",
+      "type": "single",
+      "stem": "Depuis quand l’école publique est-elle gratuite en France ?",
+      "stem_zh": "从什么时候起，法国公立学校开始实行免费教育？",
+      "choices": [
+        { "id": "c1", "text": "1789", "isCorrect": false, "text_zh": "1789年" },
+        { "id": "c2", "text": "1881-1882", "isCorrect": true, "text_zh": "1881年-1882年" },
+        { "id": "c3", "text": "1945", "isCorrect": false, "text_zh": "1945年" },
+        { "id": "c4", "text": "1968", "isCorrect": false, "text_zh": "1968年" }
+      ],
+      "analysis": "Les lois Jules Ferry ont instauré la gratuité de l'école primaire.",
+      "analysis_zh": "通过茹费理法（Lois Jules Ferry），小学教育变得免费、义务且世俗化。",
+      "difficulty": 2,
+      "tags": ["history", "education"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_030",
+      "type": "single",
+      "stem": "En 1944, quel droit fondamental est accordé aux femmes ?",
+      "stem_zh": "1944年，法国女性获得了哪项基本权利？",
+      "choices": [
+        { "id": "c1", "text": "Le droit de travailler sans l'accord du mari", "isCorrect": false, "text_zh": "无需丈夫同意即可工作的权利（那是1965年）" },
+        { "id": "c2", "text": "Le droit de vote et d'éligibilité", "isCorrect": true, "text_zh": "投票权和被选举权" },
+        { "id": "c3", "text": "Le droit d'ouvrir un compte bancaire", "isCorrect": false, "text_zh": "开设银行账户的权利" },
+        { "id": "c4", "text": "Le droit au PACS", "isCorrect": false, "text_zh": "签署民事同居契约的权利" }
+      ],
+      "analysis": "Les femmes votent pour la première fois en 1945 après l'ordonnance de 1944.",
+      "analysis_zh": "1944年颁布法令，法国女性正式获得投票权，并在1945年进行了首次投票。",
+      "difficulty": 1,
+      "tags": ["history", "rights"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_031",
+      "type": "single",
+      "stem": "Quelle organisation internationale a été créée en 1945 pour maintenir la paix ?",
+      "stem_zh": "1945年创建了哪个国际组织以维护世界和平？",
+      "choices": [
+        { "id": "c1", "text": "L’Union européenne", "isCorrect": false, "text_zh": "欧盟" },
+        { "id": "c2", "text": "L’ONU (Organisation des Nations unies)", "isCorrect": true, "text_zh": "联合国 (ONU)" },
+        { "id": "c3", "text": "L’OTAN", "isCorrect": false, "text_zh": "北约" },
+        { "id": "c4", "text": "Le Conseil de l'Europe", "isCorrect": false, "text_zh": "欧洲理事会" }
+      ],
+      "analysis": "L’ONU remplace la Société des Nations après 1945.",
+      "analysis_zh": "联合国的建立旨在吸取二战教训，通过国际合作避免新的世界大战。",
+      "difficulty": 1,
+      "tags": ["history", "international"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_032",
+      "type": "single",
+      "stem": "En quelle année l’euro est-il devenu la monnaie physique (pièces et billets) en France ?",
+      "stem_zh": "欧元在哪一年正式成为法国的实物流通货币（硬币和纸币）？",
+      "choices": [
+        { "id": "c1", "text": "1999", "isCorrect": false, "text_zh": "1999年（金融结算开始使用）" },
+        { "id": "c2", "text": "2000", "isCorrect": false, "text_zh": "2000年" },
+        { "id": "c3", "text": "2002", "isCorrect": true, "text_zh": "2002年" },
+        { "id": "c4", "text": "2005", "isCorrect": false, "text_zh": "2002年" }
+      ],
+      "analysis": "L'euro remplace définitivement le franc en 2002.",
+      "analysis_zh": "虽然1999年已在银行业启动，但普通大众拿到实物欧元是在2002年1月1日。",
+      "difficulty": 1,
+      "tags": ["history", "europe"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_033",
+      "type": "single",
+      "stem": "Lors de la Seconde Guerre mondiale, à quelle date Paris a-t-elle été libérée ?",
+      "stem_zh": "第二次世界大战期间，巴黎是在哪一天解放的？",
+      "choices": [
+        { "id": "c1", "text": "6 juin 1944", "isCorrect": false, "text_zh": "1944年6月6日（诺曼底登陆）" },
+        { "id": "c2", "text": "15 août 1944", "isCorrect": false, "text_zh": "1944年8月15日（普罗旺斯登陆）" },
+        { "id": "c3", "text": "25 août 1944", "isCorrect": true, "text_zh": "1944年8月25日" },
+        { "id": "c4", "text": "8 mai 1945", "isCorrect": false, "text_zh": "1945年5月8日（二战欧洲战场结束）" }
+      ],
+      "analysis": "Paris a été libérée le 25 août 1944 par la 2e division blindée du général Leclerc et les forces alliées.",
+      "analysis_zh": "1944年8月25日，在勒克莱尔将军率领的第二装甲师和盟军的帮助下，巴黎正式解放。",
+      "difficulty": 2,
+      "tags": ["history"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_034",
+      "type": "single",
+      "stem": "Quel était le principal port français impliqué dans la traite négrière au XVIIIe siècle ?",
+      "stem_zh": "18世纪法国参与奴隶贸易的主要港口是哪一个？",
+      "choices": [
+        { "id": "c1", "text": "Marseille", "isCorrect": false, "text_zh": "马赛" },
+        { "id": "c2", "text": "Bordeaux", "isCorrect": true, "text_zh": "波尔多" },
+        { "id": "c3", "text": "Le Havre", "isCorrect": false, "text_zh": "勒阿弗尔" },
+        { "id": "c4", "text": "Nice", "isCorrect": false, "text_zh": "尼斯" }
+      ],
+      "analysis": "Bordeaux (et Nantes) furent des ports majeurs du commerce triangulaire et de la traite négrière.",
+      "analysis_zh": "波尔多（以及南特）曾是三角贸易和黑奴贸易的主要港口城市。",
+      "difficulty": 3,
+      "tags": ["history", "memory"],
+      "examTargets": ["CR"]
+    },
+    {
+      "id": "HGC_035",
+      "type": "single",
+      "stem": "Quel célèbre philosophe des Lumières a critiqué l'esclavage dans ses œuvres ?",
+      "stem_zh": "哪位著名的启蒙思想家在其著作中谴责了奴隶制？",
+      "choices": [
+        { "id": "c1", "text": "Montesquieu", "isCorrect": true, "text_zh": "孟德斯鸠" },
+        { "id": "c2", "text": "Descartes", "isCorrect": false, "text_zh": "笛卡尔" },
+        { "id": "c3", "text": "Rousseau", "isCorrect": false, "text_zh": "卢梭" },
+        { "id": "c4", "text": "Pascal", "isCorrect": false, "text_zh": "帕斯卡" }
+      ],
+      "analysis": "Dans 'De l'esprit des lois', Montesquieu dénonce l'absurdité et l'injustice de l'esclavage.",
+      "analysis_zh": "孟德斯鸠在《论法的精神》中通过反讽和逻辑分析批判了奴隶制的荒谬与不公。",
+      "difficulty": 3,
+      "tags": ["culture", "philosophy"],
+      "examTargets": ["CR"]
+    },
+    {
+      "id": "HGC_036",
+      "type": "single",
+      "stem": "Quelle œuvre majeure a été écrite par Victor Hugo ?",
+      "stem_zh": "下列哪部名著是维克多·雨果创作的？",
+      "choices": [
+        { "id": "c1", "text": "Le Rouge et le Noir", "isCorrect": false, "text_zh": "《红与黑》（司汤达）" },
+        { "id": "c2", "text": "Les Misérables", "isCorrect": true, "text_zh": "《悲惨世界》" },
+        { "id": "c3", "text": "Madame Bovary", "isCorrect": false, "text_zh": "《包法利夫人》（福楼拜）" },
+        { "id": "c4", "text": "Germinal", "isCorrect": false, "text_zh": "《萌芽》（左拉）" }
+      ],
+      "analysis": "Victor Hugo est l'auteur de chefs-d'œuvre comme 'Les Misérables' et 'Notre-Dame de Paris'.",
+      "analysis_zh": "维克多·雨果是法国最伟大的作家之一，《悲惨世界》和《巴黎圣母院》是其代表作。",
+      "difficulty": 1,
+      "tags": ["culture", "literature"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_037",
+      "type": "single",
+      "stem": "Lequel de ces peintres célèbres est de nationalité française ?",
+      "stem_zh": "下列哪位著名画家是法国籍？",
+      "choices": [
+        { "id": "c1", "text": "Pablo Picasso", "isCorrect": false, "text_zh": "毕加索（西班牙人）" },
+        { "id": "c2", "text": "Claude Monet", "isCorrect": true, "text_zh": "克劳德·莫奈" },
+        { "id": "c3", "text": "Vincent Van Gogh", "isCorrect": false, "text_zh": "梵高（荷兰人）" },
+        { "id": "c4", "text": "Salvador Dalí", "isCorrect": false, "text_zh": "达利（西班牙人）" }
+      ],
+      "analysis": "Claude Monet est l'un des fondateurs de l'impressionnisme français.",
+      "analysis_zh": "莫奈是法国印象派的创始人之一，以画作《印象·日出》闻名。",
+      "difficulty": 1,
+      "tags": ["culture", "art"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_038",
+      "type": "single",
+      "stem": "Lequel de ces plats est une spécialité emblématique de la cuisine française ?",
+      "stem_zh": "下列哪道菜是法国料理的代表性特色菜？",
+      "choices": [
+        { "id": "c1", "text": "Le couscous", "isCorrect": false, "text_zh": "库斯库斯（北非菜）" },
+        { "id": "c2", "text": "La paella", "isCorrect": false, "text_zh": "海鲜饭（西班牙菜）" },
+        { "id": "c3", "text": "Le bœuf bourguignon", "isCorrect": true, "text_zh": "红酒炖牛肉" },
+        { "id": "c4", "text": "Le sushi", "isCorrect": false, "text_zh": "寿司（日本料理）" }
+      ],
+      "analysis": "Le bœuf bourguignon est un plat traditionnel originaire de Bourgogne.",
+      "analysis_zh": "红酒炖牛肉是一道起源于勃艮第地区的传统名菜。",
+      "difficulty": 1,
+      "tags": ["culture", "gastronomy"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_039",
+      "type": "single",
+      "stem": "Qui était Marie Curie ?",
+      "stem_zh": "玛丽·居里（居里夫人）是谁？",
+      "choices": [
+        { "id": "c1", "text": "Une célèbre écrivaine", "isCorrect": false, "text_zh": "著名作家" },
+        { "id": "c2", "text": "Une scientifique, double prix Nobel", "isCorrect": true, "text_zh": "两次获得诺贝尔奖的科学家" },
+        { "id": "c3", "text": "La première femme présidente", "isCorrect": false, "text_zh": "第一位女总统" },
+        { "id": "c4", "text": "Une peintre impressionniste", "isCorrect": false, "text_zh": "印象派画家" }
+      ],
+      "analysis": "Marie Curie a reçu le Nobel de physique (1903) et de chimie (1911). Elle est au Panthéon.",
+      "analysis_zh": "玛丽·居里分别于1903年和1911年获得诺贝尔物理学奖和化学奖。她现安葬于先贤祠。",
+      "difficulty": 1,
+      "tags": ["culture", "science"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_040",
+      "type": "single",
+      "stem": "Qui a peint le célèbre tableau « La Liberté guidant le peuple » ?",
+      "stem_zh": "谁画了著名的《自由引导人民》？",
+      "choices": [
+        { "id": "c1", "text": "Claude Monet", "isCorrect": false, "text_zh": "莫奈" },
+        { "id": "c2", "text": "Eugène Delacroix", "isCorrect": true, "text_zh": "欧仁·德拉克罗瓦" },
+        { "id": "c3", "text": "Paul Cézanne", "isCorrect": false, "text_zh": "塞尚" },
+        { "id": "c4", "text": "Auguste Rodin", "isCorrect": false, "text_zh": "罗丹（雕塑家）" }
+      ],
+      "analysis": "Ce tableau commémore la Révolution des Trois Glorieuses de 1830.",
+      "analysis_zh": "这幅画是为了纪念1830年的法国七月革命（光荣三日）。",
+      "difficulty": 2,
+      "tags": ["culture", "art"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_041",
+      "type": "single",
+      "stem": "Dans quel musée parisien peut-on admirer la Joconde ?",
+      "stem_zh": "在巴黎的哪座博物馆可以欣赏到《蒙娜丽莎》？",
+      "choices": [
+        { "id": "c1", "text": "Le musée d’Orsay", "isCorrect": false, "text_zh": "奥赛博物馆" },
+        { "id": "c2", "text": "Le Centre Pompidou", "isCorrect": false, "text_zh": "蓬皮杜艺术中心" },
+        { "id": "c3", "text": "Le musée du Louvre", "isCorrect": true, "text_zh": "卢浮宫" },
+        { "id": "c4", "text": "Le musée du Quai Branly", "isCorrect": false, "text_zh": "布利码头博物馆" }
+      ],
+      "analysis": "Le Louvre est le plus grand musée d'art et d'antiquités au monde.",
+      "analysis_zh": "卢浮宫是世界上规模最大的艺术与古董博物馆，《蒙娜丽莎》是其镇馆之宝。",
+      "difficulty": 1,
+      "tags": ["culture", "museum"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_042",
+      "type": "single",
+      "stem": "Quel château symbolise le pouvoir absolu de Louis XIV ?",
+      "stem_zh": "哪座城堡象征着路易十四的绝对君主制权力？",
+      "choices": [
+        { "id": "c1", "text": "Le château de Chambord", "isCorrect": false, "text_zh": "香波堡" },
+        { "id": "c2", "text": "Le château de Versailles", "isCorrect": true, "text_zh": "凡尔赛宫" },
+        { "id": "c3", "text": "Le château de Fontainebleau", "isCorrect": false, "text_zh": "枫丹白露宫" },
+        { "id": "c4", "text": "Le château d'Amboise", "isCorrect": false, "text_zh": "昂布瓦斯城堡" }
+      ],
+      "analysis": "Louis XIV a transformé ce pavillon de chasse en un immense palais pour y installer sa cour.",
+      "analysis_zh": "路易十四将原本的狩猎行宫改造成了宏伟的凡尔赛宫，并将宫廷迁往此处以加强中央集权。",
+      "difficulty": 1,
+      "tags": ["culture", "heritage"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_043",
+      "type": "single",
+      "stem": "Où se situent les célèbres peintures rupestres préhistoriques en France ?",
+      "stem_zh": "法国著名的史前岩画位于哪里？",
+      "choices": [
+        { "id": "c1", "text": "La grotte de Lascaux", "isCorrect": true, "text_zh": "拉斯科洞窟" },
+        { "id": "c2", "text": "Le Mont-Saint-Michel", "isCorrect": false, "text_zh": "圣米歇尔山" },
+        { "id": "c3", "text": "Le Pont du Gard", "isCorrect": false, "text_zh": "加尔桥" },
+        { "id": "c4", "text": "Les arènes de Nîmes", "isCorrect": false, "text_zh": "尼姆竞技场" }
+      ],
+      "analysis": "La grotte de Lascaux, en Dordogne, est surnommée la 'chapelle Sixtine de la Préhistoire'.",
+      "analysis_zh": "拉斯科洞窟位于多尔多涅省，被称为“史前西斯廷小堂”。",
+      "difficulty": 1,
+      "tags": ["culture", "heritage"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_044",
+      "type": "single",
+      "stem": "Lequel de ces artistes a peint la série des « Nymphéas » ?",
+      "stem_zh": "下列哪位艺术家创作了《睡莲》系列画作？",
+      "choices": [
+        { "id": "c1", "text": "Auguste Renoir", "isCorrect": false, "text_zh": "雷诺阿" },
+        { "id": "c2", "text": "Paul Gauguin", "isCorrect": false, "text_zh": "高更" },
+        { "id": "c3", "text": "Claude Monet", "isCorrect": true, "text_zh": "莫奈" },
+        { "id": "c4", "text": "Henri Matisse", "isCorrect": false, "text_zh": "马蒂斯" }
+      ],
+      "analysis": "Les Nymphéas sont exposés au musée de l'Orangerie à Paris.",
+      "analysis_zh": "《睡莲》系列收藏在巴黎的橘园美术馆中。",
+      "difficulty": 1,
+      "tags": ["culture", "art"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_045",
+      "type": "single",
+      "stem": "Lors de quel événement annuel les lieux culturels ouvrent-ils gratuitement au public ?",
+      "stem_zh": "在每年的哪个活动中，文化场所会向公众免费开放？",
+      "choices": [
+        { "id": "c1", "text": "Les Journées européennes du patrimoine", "isCorrect": true, "text_zh": "欧洲遗产日" },
+        { "id": "c2", "text": "La Fête de la musique", "isCorrect": false, "text_zh": "音乐节" },
+        { "id": "c3", "text": "La Nuit blanche", "isCorrect": false, "text_zh": "白夜" },
+        { "id": "c4", "text": "Le Salon de l'agriculture", "isCorrect": false, "text_zh": "农业展" }
+      ],
+      "analysis": "Les Journées du patrimoine ont lieu chaque année le 3e week-end de septembre.",
+      "analysis_zh": "欧洲遗产日定在每年九月的第三个周末，许多平时不对外开放的官邸和古迹也会开放。",
+      "difficulty": 1,
+      "tags": ["culture"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_046",
+      "type": "single",
+      "stem": "Que célèbre-t-on traditionnellement le 1er mai en France ?",
+      "stem_zh": "在法国，5月1日传统上庆祝什么？",
+      "choices": [
+        { "id": "c1", "text": "La fête de la Victoire", "isCorrect": false, "text_zh": "二战胜利纪念日（5月8日）" },
+        { "id": "c2", "text": "La fête du Travail", "isCorrect": true, "text_zh": "劳动节" },
+        { "id": "c3", "text": "L'Assomption", "isCorrect": false, "text_zh": "圣母升天日（8月15日）" },
+        { "id": "c4", "text": "La fête des Mères", "isCorrect": false, "text_zh": "母亲节" }
+      ],
+      "analysis": "Le 1er mai est la fête du Travail et l'occasion d'offrir du muguet.",
+      "analysis_zh": "5月1日是劳动节，按照传统，法国人还会在这一天赠送铃兰花（muguet）。",
+      "difficulty": 1,
+      "tags": ["culture", "society"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_047",
+      "type": "single",
+      "stem": "Qui était Rouget de Lisle ?",
+      "stem_zh": "鲁日·德·利勒（Rouget de Lisle）是谁？",
+      "choices": [
+        { "id": "c1", "text": "Un peintre", "isCorrect": false, "text_zh": "一位画家" },
+        { "id": "c2", "text": "Le compositeur de La Marseillaise", "isCorrect": true, "text_zh": "《马赛曲》的作曲者" },
+        { "id": "c3", "text": "Un homme politique", "isCorrect": false, "text_zh": "一位政治家" },
+        { "id": "c4", "text": "Un écrivain", "isCorrect": false, "text_zh": "一位作家" }
+      ],
+      "analysis": "Rouget de Lisle a composé le Chant de guerre pour l'armée du Rhin, devenu La Marseillaise.",
+      "analysis_zh": "1792年，鲁日·德·利勒创作了《莱茵军战歌》，后来这首歌因马赛志愿军而得名《马赛曲》，并成为法国国歌。",
+      "difficulty": 1,
+      "tags": ["culture", "symbols"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_048",
+      "type": "single",
+      "stem": "À quelle occasion a été construite la Tour Eiffel ?",
+      "stem_zh": "埃菲尔铁塔是为什么契机而建造的？",
+      "choices": [
+        { "id": "c1", "text": "La Révolution française", "isCorrect": false, "text_zh": "法国大革命" },
+        { "id": "c2", "text": "L’Exposition universelle de 1889", "isCorrect": true, "text_zh": "1889年世界博览会" },
+        { "id": "c3", "text": "La Libération de Paris", "isCorrect": false, "text_zh": "巴黎解放纪念" },
+        { "id": "c4", "text": "La Coupe du monde", "isCorrect": false, "text_zh": "世界杯" }
+      ],
+      "analysis": "La Tour Eiffel a été construite pour l’Exposition universelle de 1889, marquant le centenaire de la Révolution.",
+      "analysis_zh": "埃菲尔铁塔是为1889年巴黎世博会建造的，同时也为了纪念法国大革命100周年。",
+      "difficulty": 1,
+      "tags": ["culture", "heritage"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_049",
+      "type": "single",
+      "stem": "Quelle chaîne de montagnes est située entre la France et l’Italie ?",
+      "stem_zh": "哪座山脉位于法国和意大利之间？",
+      "choices": [
+        { "id": "c1", "text": "Les Pyrénées", "isCorrect": false, "text_zh": "比利牛斯山脉（法西边境）" },
+        { "id": "c2", "text": "Le Massif central", "isCorrect": false, "text_zh": "中央高原" },
+        { "id": "c3", "text": "Les Alpes", "isCorrect": true, "text_zh": "阿尔卑斯山脉" },
+        { "id": "c4", "text": "Les Vosges", "isCorrect": false, "text_zh": "孚日山脉" }
+      ],
+      "analysis": "Les Alpes séparent la France et l’Italie. Le point culminant est le Mont-Blanc.",
+      "analysis_zh": "阿尔卑斯山脉是法意两国的天然边界，其最高峰是勃朗峰（Mont-Blanc）。",
+      "difficulty": 1,
+      "tags": ["geography"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_050",
+      "type": "single",
+      "stem": "Qui était Molière ?",
+      "stem_zh": "莫里哀（Molière）是谁？",
+      "choices": [
+        { "id": "c1", "text": "Un peintre", "isCorrect": false, "text_zh": "一位画家" },
+        { "id": "c2", "text": "Un dramaturge", "isCorrect": true, "text_zh": "一位剧作家" },
+        { "id": "c3", "text": "Un homme politique", "isCorrect": false, "text_zh": "一位政治家" },
+        { "id": "c4", "text": "Un scientifique", "isCorrect": false, "text_zh": "一位科学家" }
+      ],
+      "analysis": "Molière est le plus célèbre auteur de théâtre français du XVIIe siècle.",
+      "analysis_zh": "莫里哀是17世纪法国最伟大的喜剧大师，法语常被称为“莫里哀的语言”。",
+      "difficulty": 1,
+      "tags": ["culture", "literature"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_051",
+      "type": "single",
+      "stem": "Qui était Charles Baudelaire ?",
+      "stem_zh": "夏尔·波德莱尔（Charles Baudelaire）是谁？",
+      "choices": [
+        { "id": "c1", "text": "Un poète", "isCorrect": true, "text_zh": "一位诗人" },
+        { "id": "c2", "text": "Un peintre", "isCorrect": false, "text_zh": "一位画家" },
+        { "id": "c3", "text": "Un musicien", "isCorrect": false, "text_zh": "一位音乐家" },
+        { "id": "c4", "text": "Un philosophe", "isCorrect": false, "text_zh": "一位哲学家" }
+      ],
+      "analysis": "Charles Baudelaire est un poète français, auteur du recueil 'Les Fleurs du Mal'.",
+      "analysis_zh": "波德莱尔是著名诗人，其代表作《恶之花》对后世诗歌影响深远。",
+      "difficulty": 1,
+      "tags": ["culture", "literature"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_052",
+      "type": "single",
+      "stem": "Qui était George Sand ?",
+      "stem_zh": "乔治·桑（George Sand）是谁？",
+      "choices": [
+        { "id": "c1", "text": "Une écrivaine", "isCorrect": true, "text_zh": "一位女作家" },
+        { "id": "c2", "text": "Une peintre", "isCorrect": false, "text_zh": "一位画家" },
+        { "id": "c3", "text": "Une scientifique", "isCorrect": false, "text_zh": "一位科学家" },
+        { "id": "c4", "text": "Une reine", "isCorrect": false, "text_zh": "一位女王" }
+      ],
+      "analysis": "George Sand est une célèbre écrivaine française connue pour ses romans et son mode de vie libre.",
+      "analysis_zh": "乔治·桑是19世纪著名的女作家，她以男性化的笔名发表作品，并积极主张女性自由。",
+      "difficulty": 1,
+      "tags": ["culture", "literature"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_053",
+      "type": "single",
+      "stem": "Qui était Simone de Beauvoir ?",
+      "stem_zh": "西蒙娜·德·波伏娃（Simone de Beauvoir）是谁？",
+      "choices": [
+        { "id": "c1", "text": "Une femme politique", "isCorrect": false, "text_zh": "一位政治家" },
+        { "id": "c2", "text": "Une philosophe et écrivaine", "isCorrect": true, "text_zh": "一位哲学家和作家" },
+        { "id": "c3", "text": "Une scientifique", "isCorrect": false, "text_zh": "一位科学家" },
+        { "id": "c4", "text": "Une peintre", "isCorrect": false, "text_zh": "一位画家" }
+      ],
+      "analysis": "Simone de Beauvoir est une figure du féminisme et l'auteure du 'Deuxième Sexe'.",
+      "analysis_zh": "波伏娃是存在主义哲学家，也是现代女权主义的奠基人，著有《第二性》。",
+      "difficulty": 2,
+      "tags": ["culture", "philosophy"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_054",
+      "type": "single",
+      "stem": "Qui était Albert Camus ?",
+      "stem_zh": "阿尔贝·加缪（Albert Camus）是谁？",
+      "choices": [
+        { "id": "c1", "text": "Un peintre", "isCorrect": false, "text_zh": "一位画家" },
+        { "id": "c2", "text": "Un écrivain et philosophe", "isCorrect": true, "text_zh": "一位作家和哲学家" },
+        { "id": "c3", "text": "Un homme politique", "isCorrect": false, "text_zh": "一位政治家" },
+        { "id": "c4", "text": "Un compositeur", "isCorrect": false, "text_zh": "一位作曲家" }
+      ],
+      "analysis": "Albert Camus a reçu le prix Nobel de littérature en 1957. Auteur de 'L'Étranger'.",
+      "analysis_zh": "加缪是1957年诺贝尔文学奖得主，代表作包括《局外人》和《鼠疫》。",
+      "difficulty": 1,
+      "tags": ["culture", "literature"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_055",
+      "type": "single",
+      "stem": "Qui était Marguerite Yourcenar ?",
+      "stem_zh": "玛格丽特·尤瑟纳尔（Marguerite Yourcenar）是谁？",
+      "choices": [
+        { "id": "c1", "text": "Une écrivaine", "isCorrect": true, "text_zh": "一位女作家" },
+        { "id": "c2", "text": "Une peintre", "isCorrect": false, "text_zh": "一位画家" },
+        { "id": "c3", "text": "Une scientifique", "isCorrect": false, "text_zh": "一位科学家" },
+        { "id": "c4", "text": "Une musicienne", "isCorrect": false, "text_zh": "一位音乐家" }
+      ],
+      "analysis": "Elle fut la première femme élue à l'Académie française en 1980.",
+      "analysis_zh": "尤瑟纳尔是著名作家，1980年她成为法兰西学术院历史上第一位女性院士。",
+      "difficulty": 2,
+      "tags": ["culture", "literature"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_056",
+      "type": "single",
+      "stem": "Quel monument historique se trouve sur une île en Normandie ?",
+      "stem_zh": "哪个历史古迹位于诺曼底的一个小岛上？",
+      "choices": [
+        { "id": "c1", "text": "Le château de Chambord", "isCorrect": false, "text_zh": "香波堡" },
+        { "id": "c2", "text": "Le Mont-Saint-Michel", "isCorrect": true, "text_zh": "圣米歇尔山" },
+        { "id": "c3", "text": "La citadelle de Carcassonne", "isCorrect": false, "text_zh": "卡尔卡松城堡" },
+        { "id": "c4", "text": "Le palais des Papes", "isCorrect": false, "text_zh": "教皇宫" }
+      ],
+      "analysis": "Le Mont-Saint-Michel est un îlot rocheux célèbre pour son abbaye.",
+      "analysis_zh": "圣米歇尔山是诺曼底著名的潮汐岛，岛上的修道院是法国最重要的古迹之一。",
+      "difficulty": 1,
+      "tags": ["geography", "heritage"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_057",
+      "type": "single",
+      "stem": "Quelle ville française fait partie des plus grandes métropoles du pays ?",
+      "stem_zh": "下列哪座城市属于法国最大的城市之列？",
+      "choices": [
+        { "id": "c1", "text": "Paris", "isCorrect": true, "text_zh": "巴黎" },
+        { "id": "c2", "text": "Reims", "isCorrect": false, "text_zh": "兰斯" },
+        { "id": "c3", "text": "Tours", "isCorrect": false, "text_zh": "图尔" },
+        { "id": "c4", "text": "Poitiers", "isCorrect": false, "text_zh": "普瓦捷" }
+      ],
+      "analysis": "Paris, Marseille et Lyon sont les trois plus grandes aires urbaines de France.",
+      "analysis_zh": "巴黎是法国最大的城市和政治文化中心。另外两个大型城市是马赛和里昂。",
+      "difficulty": 1,
+      "tags": ["geography", "cities"],
+      "examTargets": ["CSP", "CR"]
+    },
+{
+      "id": "HGC_058",
+      "type": "single",
+      "stem": "Quelle île fait partie des Antilles françaises ?",
+      "stem_zh": "下列哪座岛屿属于法属安的列斯群岛？",
+      "choices": [
+        { "id": "c1", "text": "La Réunion", "isCorrect": false, "text_zh": "留尼汪（位于印度洋）" },
+        { "id": "c2", "text": "La Martinique", "isCorrect": true, "text_zh": "马提尼克" },
+        { "id": "c3", "text": "Mayotte", "isCorrect": false, "text_zh": "马约特（位于印度洋）" },
+        { "id": "c4", "text": "La Corse", "isCorrect": false, "text_zh": "科西嘉（位于地中海）" }
+      ],
+      "analysis": "La Martinique et la Guadeloupe sont les deux principales îles des Antilles françaises.",
+      "analysis_zh": "马提尼克和瓜德罗普是法属安的列斯群岛（位于加勒比海）的两个主要岛屿。",
+      "difficulty": 1,
+      "tags": ["geography", "overseas"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_059",
+      "type": "single",
+      "stem": "Quelle île est française ?",
+      "stem_zh": "下列哪座岛屿是法国的？",
+      "choices": [
+        { "id": "c1", "text": "La Sicile", "isCorrect": false, "text_zh": "西西里岛（意大利）" },
+        { "id": "c2", "text": "La Corse", "isCorrect": true, "text_zh": "科西嘉岛" },
+        { "id": "c3", "text": "Sardaigne", "isCorrect": false, "text_zh": "撒丁岛（意大利）" },
+        { "id": "c4", "text": "Crète", "isCorrect": false, "text_zh": "克里特岛（希腊）" }
+      ],
+      "analysis": "La Corse est surnommée l'Île de Beauté.",
+      "analysis_zh": "科西嘉岛被誉为“美丽岛”，是地中海上的法国领土。",
+      "difficulty": 1,
+      "tags": ["geography"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_060",
+      "type": "single",
+      "stem": "Quelle est la plus haute montagne de France ?",
+      "stem_zh": "法国最高的山峰是哪座？",
+      "choices": [
+        { "id": "c1", "text": "Le Mont Blanc", "isCorrect": true, "text_zh": "勃朗峰" },
+        { "id": "c2", "text": "Le Pic du Midi", "isCorrect": false, "text_zh": "南比戈尔峰" },
+        { "id": "c3", "text": "Le Mont Ventoux", "isCorrect": false, "text_zh": "旺图山" },
+        { "id": "c4", "text": "La Barre des Écrins", "isCorrect": false, "text_zh": "埃克兰峰" }
+      ],
+      "analysis": "Le Mont Blanc culmine à 4 807 mètres dans les Alpes.",
+      "analysis_zh": "勃朗峰位于阿尔卑斯山脉，海拔4807米，是法国及西欧的最高峰。",
+      "difficulty": 1,
+      "tags": ["geography", "mountains"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_061",
+      "type": "single",
+      "stem": "Quelle île française est située dans l'océan Indien ?",
+      "stem_zh": "哪座法国岛屿位于印度洋？",
+      "choices": [
+        { "id": "c1", "text": "La Guadeloupe", "isCorrect": false, "text_zh": "瓜德罗普（大西洋）" },
+        { "id": "c2", "text": "La Martinique", "isCorrect": false, "text_zh": "马提尼克（大西洋）" },
+        { "id": "c3", "text": "La Réunion", "isCorrect": true, "text_zh": "留尼汪" },
+        { "id": "c4", "text": "Saint-Pierre-et-Miquelon", "isCorrect": false, "text_zh": "圣皮埃尔和密克隆（北大西洋）" }
+      ],
+      "analysis": "La Réunion et Mayotte sont les îles françaises de l'océan Indien.",
+      "analysis_zh": "留尼汪和马约特是位于印度洋的法国海外领土。",
+      "difficulty": 1,
+      "tags": ["geography", "overseas"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_062",
+      "type": "single",
+      "stem": "Quel département français a une frontière avec le Brésil ?",
+      "stem_zh": "哪个法国省份与巴西接壤？",
+      "choices": [
+        { "id": "c1", "text": "La Guadeloupe", "isCorrect": false, "text_zh": "瓜德罗普" },
+        { "id": "c2", "text": "La Martinique", "isCorrect": false, "text_zh": "马提尼克" },
+        { "id": "c3", "text": "La Guyane", "isCorrect": true, "text_zh": "法属圭亚那" },
+        { "id": "c4", "text": "Mayotte", "isCorrect": false, "text_zh": "马约特" }
+      ],
+      "analysis": "La Guyane est située en Amérique du Sud et borde le Brésil et le Suriname.",
+      "analysis_zh": "法属圭亚那位于南美洲，与巴西和苏里南接壤。这是法国最长的陆地边界。",
+      "difficulty": 2,
+      "tags": ["geography", "overseas"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_063",
+      "type": "single",
+      "stem": "De quelle ville française décolle la fusée Ariane ?",
+      "stem_zh": "阿丽亚娜火箭（Ariane）是从哪座法国城市发射升空的？",
+      "choices": [
+        { "id": "c1", "text": "Paris", "isCorrect": false, "text_zh": "巴黎" },
+        { "id": "c2", "text": "Toulouse", "isCorrect": false, "text_zh": "图卢兹" },
+        { "id": "c3", "text": "Kourou", "isCorrect": true, "text_zh": "库鲁" },
+        { "id": "c4", "text": "Bordeaux", "isCorrect": false, "text_zh": "波尔多" }
+      ],
+      "analysis": "Le Centre Spatial Guyanais est situé à Kourou.",
+      "analysis_zh": "圭亚那航天中心位于法属圭亚那的库鲁（Kourou）。",
+      "difficulty": 2,
+      "tags": ["geography", "space"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_064",
+      "type": "single",
+      "stem": "Quelle mer ou océan borde la France métropolitaine à l'ouest ?",
+      "stem_zh": "哪片海洋位于法国本土的西侧？",
+      "choices": [
+        { "id": "c1", "text": "La mer Noire", "isCorrect": false, "text_zh": "黑海" },
+        { "id": "c2", "text": "L’océan Pacifique", "isCorrect": false, "text_zh": "太平洋" },
+        { "id": "c3", "text": "L’océan Atlantique", "isCorrect": true, "text_zh": "大西洋" },
+        { "id": "c4", "text": "La mer Rouge", "isCorrect": false, "text_zh": "红海" }
+      ],
+      "analysis": "La France est bordée à l'ouest par l'océan Atlantique.",
+      "analysis_zh": "法国本土西临大西洋，南临地中海，北临英吉利海峡。",
+      "difficulty": 1,
+      "tags": ["geography"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_065",
+      "type": "single",
+      "stem": "Quelle mer se situe entre la France et l’Angleterre ?",
+      "stem_zh": "哪片海域位于法国和英国之间？",
+      "choices": [
+        { "id": "c1", "text": "La mer Méditerranée", "isCorrect": false, "text_zh": "地中海" },
+        { "id": "c2", "text": "La Manche", "isCorrect": true, "text_zh": "英吉利海峡 (La Manche)" },
+        { "id": "c3", "text": "La mer du Nord", "isCorrect": false, "text_zh": "北海" },
+        { "id": "c4", "text": "La Baltique", "isCorrect": false, "text_zh": "波罗的海" }
+      ],
+      "analysis": "La Manche relie l'océan Atlantique à la mer du Nord.",
+      "analysis_zh": "英吉利海峡（法文称 La Manche，意为“袖子”）将法国与英国隔开。",
+      "difficulty": 1,
+      "tags": ["geography"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_066",
+      "type": "single",
+      "stem": "Quelle île est un département d’outre-mer (DOM) français ?",
+      "stem_zh": "下列哪座岛屿是一个法国海外省 (DOM)？",
+      "choices": [
+        { "id": "c1", "text": "La Corse", "isCorrect": false, "text_zh": "科西嘉（本土省份）" },
+        { "id": "c2", "text": "La Guadeloupe", "isCorrect": true, "text_zh": "瓜德罗普" },
+        { "id": "c3", "text": "La Nouvelle-Calédonie", "isCorrect": false, "text_zh": "新喀里多尼亚（特殊地位领土）" },
+        { "id": "c4", "text": "Tahiti", "isCorrect": false, "text_zh": "塔希提（海外自治体）" }
+      ],
+      "analysis": "Les 5 DOM sont : Guadeloupe, Martinique, Guyane, Réunion, Mayotte.",
+      "analysis_zh": "法国的5个海外省分别是：瓜德罗普、马提尼克、法属圭亚那、留尼汪、马约特。",
+      "difficulty": 1,
+      "tags": ["geography", "overseas"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_067",
+      "type": "single",
+      "stem": "Qu’est-ce que la France d’outre-mer ?",
+      "stem_zh": "什么是“海外法国” (DROM-COM)？",
+      "choices": [
+        { "id": "c1", "text": "Les anciennes colonies françaises", "isCorrect": false, "text_zh": "以前的法国殖民地" },
+        { "id": "c2", "text": "Les territoires français situés hors d’Europe", "isCorrect": true, "text_zh": "位于欧洲以外的法国领土" },
+        { "id": "c3", "text": "Les régions frontalières", "isCorrect": false, "text_zh": "边境地区" },
+        { "id": "c4", "text": "Les pays francophones", "isCorrect": false, "text_zh": "法语国家" }
+      ],
+      "analysis": "Elle comprend les départements et collectivités d'outre-mer.",
+      "analysis_zh": "海外法国指分布在大西洋、太平洋、印度洋及南极周边的法国海外省及海外领地。",
+      "difficulty": 2,
+      "tags": ["geography", "overseas"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_068",
+      "type": "single",
+      "stem": "Quelle est la population approximative de la France en 2025 ?",
+      "stem_zh": "2025年法国人口大约是多少？",
+      "choices": [
+        { "id": "c1", "text": "50 millions", "isCorrect": false, "text_zh": "5000万" },
+        { "id": "c2", "text": "60 millions", "isCorrect": false, "text_zh": "6000万" },
+        { "id": "c3", "text": "68 millions", "isCorrect": true, "text_zh": "6800万" },
+        { "id": "c4", "text": "80 millions", "isCorrect": false, "text_zh": "8000万" }
+      ],
+      "analysis": "La population de la France est estimée à environ 68 millions d'habitants.",
+      "analysis_zh": "根据最新数据，法国总人口约为6800万（含海外领土）。",
+      "difficulty": 2,
+      "tags": ["geography", "population"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_069",
+      "type": "single",
+      "stem": "Quel est le premier port de commerce de France en termes de trafic ?",
+      "stem_zh": "按货运量计算，法国第一大商港是哪个？",
+      "choices": [
+        { "id": "c1", "text": "Bordeaux", "isCorrect": false, "text_zh": "波尔多" },
+        { "id": "c2", "text": "Marseille", "isCorrect": false, "text_zh": "马赛" },
+        { "id": "c3", "text": "Le Havre", "isCorrect": true, "text_zh": "勒阿弗尔" },
+        { "id": "c4", "text": "Nantes", "isCorrect": false, "text_zh": "南特" }
+      ],
+      "analysis": "Le Havre (HAROPA Port) est le premier port français pour le commerce extérieur.",
+      "analysis_zh": "勒阿弗尔港（属于HAROPA港口群）是法国最大的外贸集装箱港口。",
+      "difficulty": 3,
+      "tags": ["geography", "economy"],
+      "examTargets": ["CR"]
+    },
+    {
+      "id": "HGC_070",
+      "type": "single",
+      "stem": "Combien y a-t-il de régions en France métropolitaine ?",
+      "stem_zh": "法国本土有多少个行政大区？",
+      "choices": [
+        { "id": "c1", "text": "12", "isCorrect": false, "text_zh": "12个" },
+        { "id": "c2", "text": "13", "isCorrect": true, "text_zh": "13个" },
+        { "id": "c3", "text": "18", "isCorrect": false, "text_zh": "18个（这是含海外的总数）" },
+        { "id": "c4", "text": "22", "isCorrect": false, "text_zh": "22个（2016年改革前）" }
+      ],
+      "analysis": "Il y a 13 régions métropolitaines (dont la Corse) et 5 régions d'outre-mer.",
+      "analysis_zh": "法国本土有13个大区，加上5个海外大区，全国共有18个大区。",
+      "difficulty": 2,
+      "tags": ["geography", "regions"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_071",
+      "type": "single",
+      "stem": "Quelle chaîne de montagnes est située entre la France et l’Espagne ?",
+      "stem_zh": "哪座山脉位于法国和西班牙之间？",
+      "choices": [
+        { "id": "c1", "text": "Les Alpes", "isCorrect": false, "text_zh": "阿尔卑斯山脉" },
+        { "id": "c2", "text": "Les Vosges", "isCorrect": false, "text_zh": "孚日山脉" },
+        { "id": "c3", "text": "Le Massif central", "isCorrect": false, "text_zh": "中央高原" },
+        { "id": "c4", "text": "Les Pyrénées", "isCorrect": true, "text_zh": "比利牛斯山脉" }
+      ],
+      "analysis": "Les Pyrénées forment une frontière naturelle entre la France et l'Espagne.",
+      "analysis_zh": "比利牛斯山脉构成了法国和西班牙之间的天然边界。",
+      "difficulty": 1,
+      "tags": ["geography"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_072",
+      "type": "single",
+      "stem": "Quelle île française se trouve au sud-est du continent africain ?",
+      "stem_zh": "哪座法国岛屿位于非洲大陆的东南部？",
+      "choices": [
+        { "id": "c1", "text": "La Réunion", "isCorrect": true, "text_zh": "留尼汪" },
+        { "id": "c2", "text": "La Martinique", "isCorrect": false, "text_zh": "马提尼克" },
+        { "id": "c3", "text": "La Guadeloupe", "isCorrect": false, "text_zh": "瓜德罗普" },
+        { "id": "c4", "text": "Saint-Martin", "isCorrect": false, "text_zh": "圣马丁" }
+      ],
+      "analysis": "La Réunion est située dans l’océan Indien, à l'est de Madagascar.",
+      "analysis_zh": "留尼汪位于印度洋，马达加斯加岛以东，非洲大陆东南方。",
+      "difficulty": 2,
+      "tags": ["geography", "overseas"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_073",
+      "type": "single",
+      "stem": "Quel est le chef-lieu de la région Auvergne-Rhône-Alpes ?",
+      "stem_zh": "奥弗涅-罗讷-阿尔卑斯大区的首府是哪里？",
+      "choices": [
+        { "id": "c1", "text": "Grenoble", "isCorrect": false, "text_zh": "格勒诺布尔" },
+        { "id": "c2", "text": "Clermont-Ferrand", "isCorrect": false, "text_zh": "克莱蒙费朗" },
+        { "id": "c3", "text": "Lyon", "isCorrect": true, "text_zh": "里昂" },
+        { "id": "c4", "text": "Saint-Étienne", "isCorrect": false, "text_zh": "圣艾蒂安" }
+      ],
+      "analysis": "Lyon est la capitale administrative de cette grande région de l'est de la France.",
+      "analysis_zh": "里昂是法国东部这个大行政区的行政中心。",
+      "difficulty": 2,
+      "tags": ["geography", "regions"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_074",
+      "type": "single",
+      "stem": "Quel est le chef-lieu de la région Bretagne ?",
+      "stem_zh": "布列塔尼大区的首府是哪里？",
+      "choices": [
+        { "id": "c1", "text": "Brest", "isCorrect": false, "text_zh": "布雷斯特" },
+        { "id": "c2", "text": "Quimper", "isCorrect": false, "text_zh": "坎佩尔" },
+        { "id": "c3", "text": "Rennes", "isCorrect": true, "text_zh": "雷恩" },
+        { "id": "c4", "text": "Saint-Malo", "isCorrect": false, "text_zh": "圣马洛" }
+      ],
+      "analysis": "Rennes est le chef-lieu administratif de la Bretagne.",
+      "analysis_zh": "雷恩是布列塔尼大区的行政首府。",
+      "difficulty": 1,
+      "tags": ["geography", "regions"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_075",
+      "type": "single",
+      "stem": "Quel est le chef-lieu de la région Provence-Alpes-Côte d’Azur (PACA) ?",
+      "stem_zh": "普罗旺斯-阿尔卑斯-蓝色海岸大区 (PACA) 的首府是哪里？",
+      "choices": [
+        { "id": "c1", "text": "Nice", "isCorrect": false, "text_zh": "尼斯" },
+        { "id": "c2", "text": "Toulon", "isCorrect": false, "text_zh": "土伦" },
+        { "id": "c3", "text": "Marseille", "isCorrect": true, "text_zh": "马赛" },
+        { "id": "c4", "text": "Aix-en-Provence", "isCorrect": false, "text_zh": "普罗旺斯地区艾克斯" }
+      ],
+      "analysis": "Marseille est la plus grande ville et le chef-lieu de la région PACA.",
+      "analysis_zh": "马赛是PACA大区最大的城市，也是其行政首府。",
+      "difficulty": 1,
+      "tags": ["geography", "regions"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_076",
+      "type": "single",
+      "stem": "Quel est le 101e département français depuis 2011 ?",
+      "stem_zh": "自2011年以来，哪个领土成为了法国第101个省？",
+      "choices": [
+        { "id": "c1", "text": "La Guyane", "isCorrect": false, "text_zh": "法属圭亚那" },
+        { "id": "c2", "text": "Mayotte", "isCorrect": true, "text_zh": "马约特" },
+        { "id": "c3", "text": "La Réunion", "isCorrect": false, "text_zh": "留尼汪" },
+        { "id": "c4", "text": "La Martinique", "isCorrect": false, "text_zh": "马提尼克" }
+      ],
+      "analysis": "Mayotte est devenue un département d'outre-mer en 2011.",
+      "analysis_zh": "马约特于2011年正式成为法国的一个海外省，也是法国最年轻的省份。",
+      "difficulty": 2,
+      "tags": ["geography", "overseas"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_077",
+      "type": "single",
+      "stem": "Quelle région française est réputée pour ses stations de ski ?",
+      "stem_zh": "法国哪个大区以其众多的滑雪场而闻名？",
+      "choices": [
+        { "id": "c1", "text": "Bretagne", "isCorrect": false, "text_zh": "布列塔尼" },
+        { "id": "c2", "text": "Île-de-France", "isCorrect": false, "text_zh": "法兰西岛" },
+        { "id": "c3", "text": "Auvergne-Rhône-Alpes", "isCorrect": true, "text_zh": "奥弗涅-罗讷-阿尔卑斯" },
+        { "id": "c4", "text": "Normandie", "isCorrect": false, "text_zh": "诺曼底" }
+      ],
+      "analysis": "La région Auvergne-Rhône-Alpes abrite la majeure partie des Alpes françaises.",
+      "analysis_zh": "奥弗涅-罗讷-阿尔卑斯大区拥有法国阿尔卑斯山脉的大部分地区，是滑雪胜地。",
+      "difficulty": 1,
+      "tags": ["geography", "tourism"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_078",
+      "type": "single",
+      "stem": "Quel fleuve traverse Paris ?",
+      "stem_zh": "哪条河流流经巴黎？",
+      "choices": [
+        { "id": "c1", "text": "La Loire", "isCorrect": false, "text_zh": "卢瓦尔河" },
+        { "id": "c2", "text": "La Seine", "isCorrect": true, "text_zh": "塞纳河" },
+        { "id": "c3", "text": "Le Rhône", "isCorrect": false, "text_zh": "罗讷河" },
+        { "id": "c4", "text": "La Garonne", "isCorrect": false, "text_zh": "加龙河" }
+      ],
+      "analysis": "La Seine est le fleuve qui divise Paris en Rive Droite et Rive Gauche.",
+      "analysis_zh": "塞纳河横贯巴黎，将其分为左岸和右岸。",
+      "difficulty": 1,
+      "tags": ["geography"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_079",
+      "type": "single",
+      "stem": "Quel musée célèbre est situé à Paris ?",
+      "stem_zh": "哪座著名的博物馆位于巴黎？",
+      "choices": [
+        { "id": "c1", "text": "Le musée du Louvre", "isCorrect": true, "text_zh": "卢浮宫" },
+        { "id": "c2", "text": "Le musée Guggenheim", "isCorrect": false, "text_zh": "古根海姆博物馆（主要在毕尔巴鄂/纽约）" },
+        { "id": "c3", "text": "Le Prado", "isCorrect": false, "text_zh": "普拉多博物馆（在马德里）" },
+        { "id": "c4", "text": "Le British Museum", "isCorrect": false, "text_zh": "大英博物馆（在伦敦）" }
+      ],
+      "analysis": "Le Louvre est l'un des musées les plus visités au monde, situé au cœur de Paris.",
+      "analysis_zh": "卢浮宫位于巴黎市中心，是世界上参观人数最多的博物馆之一。",
+      "difficulty": 1,
+      "tags": ["culture", "museum"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_080",
+      "type": "single",
+      "stem": "Quelle chaîne de montagnes ancienne occupe une grande partie du centre de la France ?",
+      "stem_zh": "哪座古老山脉占据了法国中部的大部分地区？",
+      "choices": [
+        { "id": "c1", "text": "Les Alpes", "isCorrect": false, "text_zh": "阿尔卑斯山脉" },
+        { "id": "c2", "text": "Les Pyrénées", "isCorrect": false, "text_zh": "比利牛斯山脉" },
+        { "id": "c3", "text": "Le Massif central", "isCorrect": true, "text_zh": "中央高原" },
+        { "id": "c4", "text": "Les Vosges", "isCorrect": false, "text_zh": "孚日山脉" }
+      ],
+      "analysis": "Le Massif central est un massif ancien d'origine volcanique au centre du pays.",
+      "analysis_zh": "中央高原是位于法国中部的古老火山地貌山脉。",
+      "difficulty": 2,
+      "tags": ["geography"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_081",
+      "type": "single",
+      "stem": "Lequel de ces personnages est une allégorie de la République française ?",
+      "stem_zh": "下列哪个形象是法兰西共和国的象征（寓意人物）？",
+      "choices": [
+        { "id": "c1", "text": "Marianne", "isCorrect": true, "text_zh": "玛丽安娜" },
+        { "id": "c2", "text": "Napoléon Ier", "isCorrect": false, "text_zh": "拿破仑一世" },
+        { "id": "c3", "text": "Louis XIV", "isCorrect": false, "text_zh": "路易十四" },
+        { "id": "c4", "text": "Charlemagne", "isCorrect": false, "text_zh": "查理大帝" }
+      ],
+      "analysis": "Marianne, portant le bonnet phrygien, incarne la République et ses valeurs.",
+      "analysis_zh": "玛丽安娜头戴弗里吉亚无边帽，象征着共和国及其价值观（自由、平等、博爱）。",
+      "difficulty": 2,
+      "tags": ["history", "symbols"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_082",
+      "type": "single",
+      "stem": "Qui était Paul Cézanne ?",
+      "stem_zh": "保罗·塞尚（Paul Cézanne）是谁？",
+      "choices": [
+        { "id": "c1", "text": "Un écrivain", "isCorrect": false, "text_zh": "一位作家" },
+        { "id": "c2", "text": "Un peintre", "isCorrect": true, "text_zh": "一位画家" },
+        { "id": "c3", "text": "Un sculpteur", "isCorrect": false, "text_zh": "一位雕塑家" },
+        { "id": "c4", "text": "Un musicien", "isCorrect": false, "text_zh": "一位音乐家" }
+      ],
+      "analysis": "Paul Cézanne est un peintre français, considéré comme le précurseur du cubisme et de l'art moderne.",
+      "analysis_zh": "保罗·塞尚是法国著名画家，被誉为“现代艺术之父”，他的风格为后来的立体主义奠定了基础。",
+      "difficulty": 1,
+      "tags": ["culture", "art"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_083",
+      "type": "single",
+      "stem": "Qui était Auguste Rodin ?",
+      "stem_zh": "奥古斯特·罗丹（Auguste Rodin）是谁？",
+      "choices": [
+        { "id": "c1", "text": "Un peintre", "isCorrect": false, "text_zh": "一位画家" },
+        { "id": "c2", "text": "Un écrivain", "isCorrect": false, "text_zh": "一位作家" },
+        { "id": "c3", "text": "Un sculpteur", "isCorrect": true, "text_zh": "一位雕塑家" },
+        { "id": "c4", "text": "Un compositeur", "isCorrect": false, "text_zh": "一位作曲家" }
+      ],
+      "analysis": "Auguste Rodin est l'un des plus grands sculpteurs français, auteur du célèbre 'Penseur'.",
+      "analysis_zh": "罗丹是法国著名的雕塑家，其代表作包括《思想者》和《地狱之门》。",
+      "difficulty": 1,
+      "tags": ["culture", "art"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_084",
+      "type": "single",
+      "stem": "Lequel de ces personnages était un célèbre compositeur français ?",
+      "stem_zh": "下列人物中，哪位是著名的法国作曲家？",
+      "choices": [
+        { "id": "c1", "text": "Claude Debussy", "isCorrect": true, "text_zh": "克劳德·德彪西" },
+        { "id": "c2", "text": "Ludwig van Beethoven", "isCorrect": false, "text_zh": "路德维希·凡·贝多芬（德国）" },
+        { "id": "c3", "text": "Wolfgang Amadeus Mozart", "isCorrect": false, "text_zh": "沃尔夫冈·阿马德乌斯·莫扎特（奥地利）" },
+        { "id": "c4", "text": "Johann Sebastian Bach", "isCorrect": false, "text_zh": "约翰·塞巴斯蒂安·巴赫（德国）" }
+      ],
+      "analysis": "Claude Debussy est un compositeur français majeur, associé à la musique impressionniste.",
+      "analysis_zh": "德彪西是法国最具影响力的作曲家之一，也是印象派音乐的代表人物，代表作有《月光》。",
+      "difficulty": 2,
+      "tags": ["culture", "music"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "HGC_085",
+      "type": "single",
+      "stem": "Qui était Auguste Renoir ?",
+      "stem_zh": "奥古斯特·雷诺阿（Auguste Renoir）是谁？",
+      "choices": [
+        { "id": "c1", "text": "Un sculpteur", "isCorrect": false, "text_zh": "一位雕塑家" },
+        { "id": "c2", "text": "Un écrivain", "isCorrect": false, "text_zh": "一位作家" },
+        { "id": "c3", "text": "Un peintre", "isCorrect": true, "text_zh": "一位画家" },
+        { "id": "c4", "text": "Un musicien", "isCorrect": false, "text_zh": "一位音乐家" }
+      ],
+      "analysis": "Pierre-Auguste Renoir est un peintre français majeur de l'impressionnisme.",
+      "analysis_zh": "皮埃尔-奥古斯特·雷诺阿是法国印象派运动的核心人物之一，以描绘女性和生活场景著称。",
+      "difficulty": 1,
+      "tags": ["culture", "art"],
+      "examTargets": ["CSP", "CR"]
+    }
+  ]
+}

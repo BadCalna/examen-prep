@@ -1,0 +1,1505 @@
+{
+  "meta": {
+    "sectionId": "institutions",
+    "sectionTitle": "Système institutionnel et politique",
+    "language": "fr",
+    "examTargets": [
+      "CSP",
+      "CR"
+    ]
+  },
+  "questions": [
+    {
+      "id": "INS_001",
+      "type": "single",
+      "stem": "Comment est désigné le Premier ministre ?",
+      "stem_zh": "总理是如何诞生的？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Par l'Assemblée nationale",
+          "isCorrect": false,
+          "text_zh": "由国民议会选出"
+        },
+        {
+          "id": "c2",
+          "text": "Par le Président de la République",
+          "isCorrect": true,
+          "text_zh": "由共和国总统任命"
+        },
+        {
+          "id": "c3",
+          "text": "Par le Sénat",
+          "isCorrect": false,
+          "text_zh": "由参议院选出"
+        },
+        {
+          "id": "c4",
+          "text": "Par référendum",
+          "isCorrect": false,
+          "text_zh": "通过公民投票产生"
+        }
+      ],
+      "analysis": "Le Premier ministre est nommé par le Président de la République.",
+      "analysis_zh": "总理由共和国总统根据宪法第八条规定任命。",
+      "difficulty": 2,
+      "tags": ["institutions", "government"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_002",
+      "type": "single",
+      "stem": "Qui peut se présenter aux élections présidentielles ?",
+      "stem_zh": "谁可以参加总统选举？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Toute personne résidant en France",
+          "isCorrect": false,
+          "text_zh": "任何居住在法国的人"
+        },
+        {
+          "id": "c2",
+          "text": "Tout citoyen français majeur remplissant les conditions légales",
+          "isCorrect": true,
+          "text_zh": "所有符合法律规定的成年法国公民"
+        },
+        {
+          "id": "c3",
+          "text": "Tout électeur inscrit",
+          "isCorrect": false,
+          "text_zh": "任何登记过的选民"
+        },
+        {
+          "id": "c4",
+          "text": "Tout membre d'un parti politique",
+          "isCorrect": false,
+          "text_zh": "任何政党成员"
+        }
+      ],
+      "analysis": "Seuls les citoyens français majeurs remplissant les conditions (comme l'obtention de 500 parrainages) peuvent être candidats.",
+      "analysis_zh": "只有达到法定年龄（18岁）、拥有法国国籍且符合法律规定条件（如获得500个民选代表签名支持）的公民才能参选。",
+      "difficulty": 3,
+      "tags": ["institutions", "elections"],
+      "examTargets": ["CR"]
+    },
+    {
+      "id": "INS_003",
+      "type": "single",
+      "stem": "À qui appartient la souveraineté nationale ?",
+      "stem_zh": "国家主权属于谁？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Au Président de la République",
+          "isCorrect": false,
+          "text_zh": "属于共和国总统"
+        },
+        {
+          "id": "c2",
+          "text": "Au gouvernement",
+          "isCorrect": false,
+          "text_zh": "属于政府"
+        },
+        {
+          "id": "c3",
+          "text": "Au peuple",
+          "isCorrect": true,
+          "text_zh": "属于人民"
+        },
+        {
+          "id": "c4",
+          "text": "Au Parlement",
+          "isCorrect": false,
+          "text_zh": "属于议会"
+        }
+      ],
+      "analysis": "La souveraineté nationale appartient au peuple qui l'exerce par ses représentants et par la voie du référendum.",
+      "analysis_zh": "国家主权属于人民，人民通过其代表和公民投票行使主权。",
+      "difficulty": 2,
+      "tags": ["institutions", "democracy"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_004",
+      "type": "single",
+      "stem": "Qui est élu lors des élections municipales ?",
+      "stem_zh": "市镇选举选出的是谁？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Le préfet",
+          "isCorrect": false,
+          "text_zh": "省长"
+        },
+        {
+          "id": "c2",
+          "text": "Le maire et le conseil municipal",
+          "isCorrect": true,
+          "text_zh": "市长和市议会"
+        },
+        {
+          "id": "c3",
+          "text": "Les députés",
+          "isCorrect": false,
+          "text_zh": "国民议会议员"
+        },
+        {
+          "id": "c4",
+          "text": "Le Président",
+          "isCorrect": false,
+          "text_zh": "总统"
+        }
+      ],
+      "analysis": "Les élections municipales servent à élire le conseil municipal, qui élit ensuite le maire.",
+      "analysis_zh": "市镇选举选出市议会议员，随后由议员投票选出市长。",
+      "difficulty": 2,
+      "tags": ["institutions", "local_government"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_005",
+      "type": "single",
+      "stem": "L'inscription sur les listes électorales est :",
+      "stem_zh": "选民名单登记是：",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Automatique pour tous",
+          "isCorrect": false,
+          "text_zh": "对所有人都是自动的"
+        },
+        {
+          "id": "c2",
+          "text": "Obligatoire pour pouvoir voter",
+          "isCorrect": true,
+          "text_zh": "参加投票的必要前提"
+        },
+        {
+          "id": "c3",
+          "text": "Facultative",
+          "isCorrect": false,
+          "text_zh": "自愿的"
+        },
+        {
+          "id": "c4",
+          "text": "Réservée aux élus",
+          "isCorrect": false,
+          "text_zh": "仅限民选代表"
+        }
+      ],
+      "analysis": "Il faut être obligatoirement inscrit sur les listes électorales pour pouvoir voter.",
+      "analysis_zh": "要行使投票权，必须在选民名单上进行登记。",
+      "difficulty": 1,
+      "tags": ["institutions", "elections"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_006",
+      "type": "single",
+      "stem": "Quelle condition est nécessaire pour voter aux élections présidentielles ?",
+      "stem_zh": "参加总统大选投票的必要条件是什么？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Être résident depuis 5 ans",
+          "isCorrect": false,
+          "text_zh": "在法居住满5年"
+        },
+        {
+          "id": "c2",
+          "text": "Être citoyen français majeur et inscrit",
+          "isCorrect": true,
+          "text_zh": "是具有投票资格的成年法国公民"
+        },
+        {
+          "id": "c3",
+          "text": "Avoir un emploi",
+          "isCorrect": false,
+          "text_zh": "有一份工作"
+        },
+        {
+          "id": "c4",
+          "text": "Être membre d'un parti politique",
+          "isCorrect": false,
+          "text_zh": "是某个政党的成员"
+        }
+      ],
+      "analysis": "Il faut être citoyen français, majeur et inscrit sur les listes électorales.",
+      "analysis_zh": "投票者必须是成年法国公民，并已在选民名单上登记。",
+      "difficulty": 1,
+      "tags": ["institutions", "elections"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_007",
+      "type": "single",
+      "stem": "Parmi ces autorités, laquelle est élue ?",
+      "stem_zh": "在下列权威职位中，哪一个是选举产生的？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Le préfet",
+          "isCorrect": false,
+          "text_zh": "省长"
+        },
+        {
+          "id": "c2",
+          "text": "Le maire",
+          "isCorrect": true,
+          "text_zh": "市长"
+        },
+        {
+          "id": "c3",
+          "text": "Le Premier ministre",
+          "isCorrect": false,
+          "text_zh": "总理"
+        },
+        {
+          "id": "c4",
+          "text": "Le procureur",
+          "isCorrect": false,
+          "text_zh": "检察官"
+        }
+      ],
+      "analysis": "Le maire est un élu local, contrairement au préfet ou au Premier ministre qui sont nommés.",
+      "analysis_zh": "市长是地方民选官员，而省长和总理是由任命产生的。",
+      "difficulty": 1,
+      "tags": ["institutions"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_008",
+      "type": "single",
+      "stem": "Quelles sont les fonctions du maire ?",
+      "stem_zh": "市长的职能是什么？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Voter les lois",
+          "isCorrect": false,
+          "text_zh": "投票通过法律"
+        },
+        {
+          "id": "c2",
+          "text": "Diriger la commune et représenter l'État localement",
+          "isCorrect": true,
+          "text_zh": "管理市镇并在当地代表国家"
+        },
+        {
+          "id": "c3",
+          "text": "Diriger le gouvernement",
+          "isCorrect": false,
+          "text_zh": "领导政府"
+        },
+        {
+          "id": "c4",
+          "text": "Rendre la justice",
+          "isCorrect": false,
+          "text_zh": "主持司法"
+        }
+      ],
+      "analysis": "Le maire est à la fois l'exécutif de la commune et un représentant de l'État dans la commune (officier d'état civil et de police judiciaire).",
+      "analysis_zh": "市长既是市镇的行政首长，也是国家在当地的代表（负责户籍管理和执行司法警察职能）。",
+      "difficulty": 3,
+      "tags": ["institutions", "local_government"],
+      "examTargets": ["CR"]
+    },
+    {
+      "id": "INS_009",
+      "type": "single",
+      "stem": "À quel âge peut-on devenir électeur ?",
+      "stem_zh": "满几岁可以成为选民？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "16 ans",
+          "isCorrect": false,
+          "text_zh": "16岁"
+        },
+        {
+          "id": "c2",
+          "text": "18 ans",
+          "isCorrect": true,
+          "text_zh": "18岁"
+        },
+        {
+          "id": "c3",
+          "text": "21 ans",
+          "isCorrect": false,
+          "text_zh": "21岁"
+        },
+        {
+          "id": "c4",
+          "text": "25 ans",
+          "isCorrect": false,
+          "text_zh": "25岁"
+        }
+      ],
+      "analysis": "En France, la majorité civile et électorale est fixée à 18 ans.",
+      "analysis_zh": "在法国，法定成年年龄和投票年龄均为18岁。",
+      "difficulty": 1,
+      "tags": ["institutions", "elections"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_010",
+      "type": "single",
+      "stem": "En France, est-ce obligatoire de voter ?",
+      "stem_zh": "在法国，投票是强制性的吗？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Oui",
+          "isCorrect": false,
+          "text_zh": "是"
+        },
+        {
+          "id": "c2",
+          "text": "Non",
+          "isCorrect": true,
+          "text_zh": "否"
+        },
+        {
+          "id": "c3",
+          "text": "Seulement aux présidentielles",
+          "isCorrect": false,
+          "text_zh": "仅限总统选举"
+        },
+        {
+          "id": "c4",
+          "text": "Seulement aux municipales",
+          "isCorrect": false,
+          "text_zh": "仅限市镇选举"
+        }
+      ],
+      "analysis": "Le vote est un droit et un devoir civique mais il n'est pas obligatoire juridiquement.",
+      "analysis_zh": "投票是公民的一项权利和道德义务，但在法律上并非强制性（不投票不会受到处罚）。",
+      "difficulty": 1,
+      "tags": ["institutions", "elections"],
+      "examTargets": ["CSP", "CR"]
+    },
+{
+  "questions": [
+    {
+      "id": "INS_011",
+      "type": "single",
+      "stem": "Qui vote les lois ?",
+      "stem_zh": "谁负责投票通过法律？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Le Président",
+          "isCorrect": false,
+          "text_zh": "总统"
+        },
+        {
+          "id": "c2",
+          "text": "Le gouvernement",
+          "isCorrect": false,
+          "text_zh": "政府"
+        },
+        {
+          "id": "c3",
+          "text": "Le Parlement",
+          "isCorrect": true,
+          "text_zh": "议会"
+        },
+        {
+          "id": "c4",
+          "text": "Le Conseil constitutionnel",
+          "isCorrect": false,
+          "text_zh": "宪法委员会"
+        }
+      ],
+      "analysis": "En France, le pouvoir législatif est exercé par le Parlement, composé de l'Assemblée nationale et du Sénat.",
+      "analysis_zh": "在法国，立法权由议会行使，议会由国民议会和参议院组成。",
+      "difficulty": 1,
+      "tags": ["institutions", "legislative"],
+      "examTargets": ["CSP", "CR"]
+    },
+{
+  "questions": [
+    {
+      "id": "INS_012",
+      "type": "single",
+      "stem": "La séparation des pouvoirs concerne :",
+      "stem_zh": "“三权分立”涉及哪些权力：",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Le pouvoir exécutif, législatif et judiciaire",
+          "isCorrect": true,
+          "text_zh": "行政权、立法权和司法权"
+        },
+        {
+          "id": "c2",
+          "text": "Le pouvoir politique, religieux et médiatique",
+          "isCorrect": false,
+          "text_zh": "政治权力、宗教权力和媒体权力"
+        },
+        {
+          "id": "c3",
+          "text": "Le pouvoir militaire, civil et diplomatique",
+          "isCorrect": false,
+          "text_zh": "军事权力、民政权力和外交权力"
+        },
+        {
+          "id": "c4",
+          "text": "Le pouvoir régional, départemental et communal",
+          "isCorrect": false,
+          "text_zh": "大区权力、省权力、和市镇权力"
+        }
+      ],
+      "analysis": "Ce principe, essentiel à la démocratie, sépare les organes qui font les lois (Parlement), ceux qui les exécutent (Gouvernement) et ceux qui les font respecter (Tribunaux).",
+      "analysis_zh": "这一原则对民主至关重要，它将制定法律的机构（议会）、执行法律的机构（政府）和确保法律得到遵守的机构（法院）分开。",
+      "difficulty": 2,
+      "tags": ["institutions", "law"],
+      "examTargets": ["CSP", "CR"]
+    }
+  ]
+    },
+    {
+      "id": "INS_013",
+      "type": "single",
+      "stem": "Quelle collectivité territoriale est responsable des transports régionaux (TER) ?",
+      "stem_zh": "哪一级地方行政区负责大区内的运输（TER）？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "La commune",
+          "isCorrect": false,
+          "text_zh": "市镇"
+        },
+        {
+          "id": "c2",
+          "text": "Le département",
+          "isCorrect": false,
+          "text_zh": "省"
+        },
+        {
+          "id": "c3",
+          "text": "La région",
+          "isCorrect": true,
+          "text_zh": "大区"
+        },
+        {
+          "id": "c4",
+          "text": "L'État",
+          "isCorrect": false,
+          "text_zh": "国家"
+        }
+      ],
+      "analysis": "Depuis les lois de décentralisation, la Région est l'autorité organisatrice des transports régionaux.",
+      "analysis_zh": "自地方分权法实施以来，大区是地方交通运输的组织机构。",
+      "difficulty": 2,
+      "tags": ["institutions", "territorial"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_014",
+      "type": "single",
+      "stem": "Quelle est l'une des voies possibles pour modifier la Constitution ?",
+      "stem_zh": "修改宪法的可行途径之一是什么？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Un décret présidentiel",
+          "isCorrect": false,
+          "text_zh": "总统法令"
+        },
+        {
+          "id": "c2",
+          "text": "Un référendum",
+          "isCorrect": true,
+          "text_zh": "全民公投"
+        },
+        {
+          "id": "c3",
+          "text": "Une décision du Conseil constitutionnel",
+          "isCorrect": false,
+          "text_zh": "宪法委员会的裁决"
+        },
+        {
+          "id": "c4",
+          "text": "Un vote des maires",
+          "isCorrect": false,
+          "text_zh": "市长投票"
+        }
+      ],
+      "analysis": "Selon l'article 89, la révision de la Constitution est votée par les deux assemblées, puis approuvée par référendum ou par le Congrès (Parlement réuni).",
+      "analysis_zh": "根据宪法第89条，宪法修正案由两院投票通过，随后通过全民公投或两院联席会议（Congrès）批准。",
+      "difficulty": 3,
+      "tags": ["institutions", "constitution"],
+      "examTargets": ["CR"]
+    },
+    {
+      "id": "INS_015",
+      "type": "single",
+      "stem": "Qui assure l'intérim du Président de la République en cas de décès ?",
+      "stem_zh": "如果共和国总统去世，谁负责代行职权？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Le Premier ministre",
+          "isCorrect": false,
+          "text_zh": "总理"
+        },
+        {
+          "id": "c2",
+          "text": "Le Président du Sénat",
+          "isCorrect": true,
+          "text_zh": "参议院议长"
+        },
+        {
+          "id": "c3",
+          "text": "Le Président de l'Assemblée nationale",
+          "isCorrect": false,
+          "text_zh": "国民议会议长"
+        },
+        {
+          "id": "c4",
+          "text": "Le Conseil constitutionnel",
+          "isCorrect": false,
+          "text_zh": "宪法委员会"
+        }
+      ],
+      "analysis": "En cas de vacance de la Présidence de la République, c'est le Président du Sénat qui exerce les fonctions, mais avec des pouvoirs limités (pas de dissolution, pas de référendum).",
+      "analysis_zh": "如果共和国总统职位空缺，由参议院议长代行职务，但其权力受到限制（不能解散议会，不能发起公投）。",
+      "difficulty": 3,
+      "tags": ["institutions", "constitution"],
+      "examTargets": ["CR"]
+    },
+    {
+      "id": "INS_016",
+      "type": "single",
+      "stem": "Quel est le rôle du Conseil constitutionnel ?",
+      "stem_zh": "宪法委员会的作用是什么？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Diriger le gouvernement",
+          "isCorrect": false,
+          "text_zh": "领导政府"
+        },
+        {
+          "id": "c2",
+          "text": "Contrôler la conformité des lois à la Constitution",
+          "isCorrect": true,
+          "text_zh": "审查法律是否符合宪法"
+        },
+        {
+          "id": "c3",
+          "text": "Rendre la justice pénale",
+          "isCorrect": false,
+          "text_zh": "主持刑事司法"
+        },
+        {
+          "id": "c4",
+          "text": "Proposer des lois",
+          "isCorrect": false,
+          "text_zh": "提出法律草案"
+        }
+      ],
+      "analysis": "Surnommé 'le juge des lois', il vérifie qu'une loi votée n'enfreint pas les principes constitutionnels avant sa promulgation.",
+      "analysis_zh": "被称为“法律的裁判官”，它在法律颁布前核查投票通过的法律是否违反宪法原则。",
+      "difficulty": 2,
+      "tags": ["institutions", "constitution"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_017",
+      "type": "single",
+      "stem": "Quelle condition est obligatoire pour se présenter à l'élection présidentielle ?",
+      "stem_zh": "参加总统大选的必要条件是什么？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Être membre d'un parti",
+          "isCorrect": false,
+          "text_zh": "是政党成员"
+        },
+        {
+          "id": "c2",
+          "text": "Être citoyen français majeur",
+          "isCorrect": true,
+          "text_zh": "是成年法国公民"
+        },
+        {
+          "id": "c3",
+          "text": "Être élu local",
+          "isCorrect": false,
+          "text_zh": "是地方选举代表"
+        },
+        {
+          "id": "c4",
+          "text": "Être fonctionnaire",
+          "isCorrect": false,
+          "text_zh": "是公职人员"
+        }
+      ],
+      "analysis": "Il faut posséder la nationalité française, avoir 18 ans révolus et être en règle avec les obligations de transparence financière.",
+      "analysis_zh": "必须拥有法国国籍，年满18周岁，并符合财务透明度义务。",
+      "difficulty": 2,
+      "tags": ["institutions", "elections"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_018",
+      "type": "single",
+      "stem": "Combien y a-t-il de départements en France ?",
+      "stem_zh": "法国有多少个省？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "96",
+          "isCorrect": false,
+          "text_zh": "96个"
+        },
+        {
+          "id": "c2",
+          "text": "101",
+          "isCorrect": true,
+          "text_zh": "101个"
+        },
+        {
+          "id": "c3",
+          "text": "13",
+          "isCorrect": false,
+          "text_zh": "13个"
+        },
+        {
+          "id": "c4",
+          "text": "18",
+          "isCorrect": false,
+          "text_zh": "18个"
+        }
+      ],
+      "analysis": "La France est divisée en 101 départements : 96 en métropole et 5 départements d'outre-mer (DOM).",
+      "analysis_zh": "法国分为101个省：本土96个，海外省（DOM）5个。",
+      "difficulty": 3,
+      "tags": ["institutions", "territorial"],
+      "examTargets": ["CR"]
+    },
+    {
+      "id": "INS_019",
+      "type": "single",
+      "stem": "Comment est organisé le découpage administratif de la France ?",
+      "stem_zh": "法国的行政区划是如何组织的？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Régions, départements, communes",
+          "isCorrect": true,
+          "text_zh": "大区、省、市镇"
+        },
+        {
+          "id": "c2",
+          "text": "Communes, cantons, États",
+          "isCorrect": false,
+          "text_zh": "市镇、县、国家"
+        },
+        {
+          "id": "c3",
+          "text": "Régions, États, provinces",
+          "isCorrect": false,
+          "text_zh": "大区、国家、省份"
+        },
+        {
+          "id": "c4",
+          "text": "Départements, États, villes",
+          "isCorrect": false,
+          "text_zh": "省、国家、城市"
+        }
+      ],
+      "analysis": "C'est ce qu'on appelle le 'mille-feuille administratif' français composé de ces trois échelons principaux.",
+      "analysis_zh": "这就是所谓的法国“行政千层酥”，由这三个主要层级组成。",
+      "difficulty": 2,
+      "tags": ["institutions", "territorial"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_020",
+      "type": "single",
+      "stem": "Qui représente l'État dans un département ?",
+      "stem_zh": "谁在省一级代表国家？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Le maire",
+          "isCorrect": false,
+          "text_zh": "市长"
+        },
+        {
+          "id": "c2",
+          "text": "Le préfet",
+          "isCorrect": true,
+          "text_zh": "省长"
+        },
+        {
+          "id": "c3",
+          "text": "Le président du département",
+          "isCorrect": false,
+          "text_zh": "省议会主席"
+        },
+        {
+          "id": "c4",
+          "text": "Le gouverneur",
+          "isCorrect": false,
+          "text_zh": "总督"
+        }
+      ],
+      "analysis": "Le préfet est le représentant direct du Premier ministre et de chacun des ministres dans le département.",
+      "analysis_zh": "省长是总理及各部部长在省一级的直接代表。",
+      "difficulty": 1,
+      "tags": ["institutions"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_021",
+      "type": "single",
+      "stem": "Quel est le rôle du Président de la République ?",
+      "stem_zh": "共和国总统的角色是什么？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Voter les lois",
+          "isCorrect": false,
+          "text_zh": "投票通过法律"
+        },
+        {
+          "id": "c2",
+          "text": "Garantir le fonctionnement des institutions",
+          "isCorrect": true,
+          "text_zh": "保障机构的正常运行"
+        },
+        {
+          "id": "c3",
+          "text": "Diriger les régions",
+          "isCorrect": false,
+          "text_zh": "领导大区"
+        },
+        {
+          "id": "c4",
+          "text": "Rendre la justice",
+          "isCorrect": false,
+          "text_zh": "主持司法"
+        }
+      ],
+      "analysis": "D'après l'article 5 de la Constitution, le Président assure par son arbitrage le fonctionnement régulier des pouvoirs publics.",
+      "analysis_zh": "根据宪法第5条，总统通过其裁决权确保公共权力的正常运行。",
+      "difficulty": 2,
+      "tags": ["institutions"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_022",
+      "type": "single",
+      "stem": "Quel est le rôle du Premier ministre ?",
+      "stem_zh": "总理的角色是什么？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Diriger l'action du gouvernement",
+          "isCorrect": true,
+          "text_zh": "领导政府的行动"
+        },
+        {
+          "id": "c2",
+          "text": "Représenter la France à l'étranger",
+          "isCorrect": false,
+          "text_zh": "在国外代表法国"
+        },
+        {
+          "id": "c3",
+          "text": "Contrôler les lois",
+          "isCorrect": false,
+          "text_zh": "审查法律"
+        },
+        {
+          "id": "c4",
+          "text": "Présider le Sénat",
+          "isCorrect": false,
+          "text_zh": "主持参议院"
+        }
+      ],
+      "analysis": "Le Premier ministre coordonne l'action des différents ministres et assure l'exécution des lois.",
+      "analysis_zh": "总理协调各部长的行动并确保法律的执行。",
+      "difficulty": 2,
+      "tags": ["institutions", "government"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_023",
+      "type": "single",
+      "stem": "Quel est le rôle du Défenseur des droits ?",
+      "stem_zh": "权利捍卫者的角色是什么？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Rendre la justice",
+          "isCorrect": false,
+          "text_zh": "主持司法"
+        },
+        {
+          "id": "c2",
+          "text": "Défendre les droits des citoyens face aux administrations",
+          "isCorrect": true,
+          "text_zh": "在行政部门面前捍卫公民权利"
+        },
+        {
+          "id": "c3",
+          "text": "Voter les lois",
+          "isCorrect": false,
+          "text_zh": "投票通过法律"
+        },
+        {
+          "id": "c4",
+          "text": "Contrôler le gouvernement",
+          "isCorrect": false,
+          "text_zh": "监督政府"
+        }
+      ],
+      "analysis": "C'est une autorité constitutionnelle indépendante qui peut être saisie gratuitement par toute personne s'estimant lésée par une administration ou un service public.",
+      "analysis_zh": "这是一个独立的宪法机构，任何认为自己受到行政机关或公共服务损害的人都可以免费向其申诉。",
+      "difficulty": 3,
+      "tags": ["institutions", "rights_duties"],
+      "examTargets": ["CR"]
+    }
+  ]
+},
+{
+  "questions": [
+    {
+      "id": "INS_024",
+      "type": "single",
+      "stem": "En quelle année la citoyenneté européenne a-t-elle été créée ?",
+      "stem_zh": "欧盟公民身份是在哪一年创设的？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "1957",
+          "isCorrect": false,
+          "text_zh": "1957年（《罗马条约》签署）"
+        },
+        {
+          "id": "c2",
+          "text": "1992",
+          "isCorrect": true,
+          "text_zh": "1992年（《马斯特里赫特条约》签署）"
+        },
+        {
+          "id": "c3",
+          "text": "2002",
+          "isCorrect": false,
+          "text_zh": "2002年（欧元正式流通）"
+        },
+        {
+          "id": "c4",
+          "text": "2009",
+          "isCorrect": false,
+          "text_zh": "2009年（《里斯本条约》生效）"
+        }
+      ],
+      "analysis": "La citoyenneté européenne a été officiellement créée par le Traité de Maastricht en 1992. Elle complète la citoyenneté nationale sans la remplacer.",
+      "analysis_zh": "欧盟公民身份由1992年的《马斯特里赫特条约》正式创设。它补充了原有的国民身份，但并不取代后者。",
+      "difficulty": 3,
+      "tags": ["institutions", "europe"],
+      "examTargets": ["CR"]
+    },
+    {
+      "id": "INS_025",
+      "type": "single",
+      "stem": "Quel est le dernier État à avoir intégré l'Union européenne en 2013 ?",
+      "stem_zh": "2013年最后一个加入欧盟的国家是哪个？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "La Bulgarie",
+          "isCorrect": false,
+          "text_zh": "保加利亚"
+        },
+        {
+          "id": "c2",
+          "text": "La Croatie",
+          "isCorrect": true,
+          "text_zh": "克罗地亚"
+        },
+        {
+          "id": "c3",
+          "text": "La Roumanie",
+          "isCorrect": false,
+          "text_zh": "罗马尼亚"
+        },
+        {
+          "id": "c4",
+          "text": "L'Estonie",
+          "isCorrect": false,
+          "text_zh": "爱沙尼亚"
+        }
+      ],
+      "analysis": "La Croatie est devenue le 28ème État membre le 1er juillet 2013. Depuis le départ du Royaume-Uni (Brexit), l'UE compte 27 membres.",
+      "analysis_zh": "克罗地亚于2013年7月1日成为欧盟第28个成员国。随着英国脱欧，目前欧盟共有27个成员国。",
+      "difficulty": 3,
+      "tags": ["institutions", "europe"],
+      "examTargets": ["CR"]
+    },
+    {
+      "id": "INS_026",
+      "type": "single",
+      "stem": "Qui a composé la musique de l'hymne de l'Union européenne ?",
+      "stem_zh": "谁创作了欧盟盟歌的旋律？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Mozart",
+          "isCorrect": false,
+          "text_zh": "莫扎特"
+        },
+        {
+          "id": "c2",
+          "text": "Beethoven",
+          "isCorrect": true,
+          "text_zh": "贝多芬"
+        },
+        {
+          "id": "c3",
+          "text": "Bach",
+          "isCorrect": false,
+          "text_zh": "巴赫"
+        },
+        {
+          "id": "c4",
+          "text": "Wagner",
+          "isCorrect": false,
+          "text_zh": "瓦格纳"
+        }
+      ],
+      "analysis": "L'hymne européen est un extrait de la 9ème symphonie de Ludwig van Beethoven, l'Ode à la joie.",
+      "analysis_zh": "欧盟盟歌取自路德维希·凡·贝多芬《第九交响曲》中的《欢乐颂》片段。",
+      "difficulty": 2,
+      "tags": ["institutions", "europe"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_027",
+      "type": "single",
+      "stem": "Quand est célébrée la Journée de l'Europe ?",
+      "stem_zh": "“欧洲日”是在哪一天庆祝的？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "9 mai",
+          "isCorrect": true,
+          "text_zh": "5月9日"
+        },
+        {
+          "id": "c2",
+          "text": "14 juillet",
+          "isCorrect": false,
+          "text_zh": "7月14日（法国国庆节）"
+        },
+        {
+          "id": "c3",
+          "text": "1er mai",
+          "isCorrect": false,
+          "text_zh": "5月1日（劳动节）"
+        },
+        {
+          "id": "c4",
+          "text": "18 juin",
+          "isCorrect": false,
+          "text_zh": "6月18日（戴高乐呼吁日）"
+        }
+      ],
+      "analysis": "Le 9 mai commémore la déclaration Schuman de 1950, considérée comme l'acte fondateur de la construction européenne.",
+      "analysis_zh": "5月9日是为了纪念1950年的“舒曼宣言”，该宣言被视为欧洲一体化建设的基石。",
+      "difficulty": 2,
+      "tags": ["institutions", "europe"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_028",
+      "type": "single",
+      "stem": "Où est situé le siège de la Banque centrale européenne (BCE) ?",
+      "stem_zh": "欧洲中央银行（BCE）的总部设在哪里？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Bruxelles (Belgique)",
+          "isCorrect": false,
+          "text_zh": "布鲁塞尔（比利时）"
+        },
+        {
+          "id": "c2",
+          "text": "Strasbourg (France)",
+          "isCorrect": false,
+          "text_zh": "斯特拉斯堡（法国）"
+        },
+        {
+          "id": "c3",
+          "text": "Francfort (Allemagne)",
+          "isCorrect": true,
+          "text_zh": "法兰克福（德国）"
+        },
+        {
+          "id": "c4",
+          "text": "Luxembourg (Luxembourg)",
+          "isCorrect": false,
+          "text_zh": "卢森堡（卢森堡）"
+        }
+      ],
+      "analysis": "La BCE, responsable de la gestion de l'euro, a son siège à Francfort-sur-le-Main en Allemagne.",
+      "analysis_zh": "负责欧元管理的欧洲央行总部位于德国的美因河畔法兰克福。",
+      "difficulty": 2,
+      "tags": ["institutions", "europe"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_029",
+      "type": "single",
+      "stem": "Où se trouve le siège principal de la Commission européenne ?",
+      "stem_zh": "欧盟委员会的主要总部位于何处？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Strasbourg",
+          "isCorrect": false,
+          "text_zh": "斯特拉斯堡"
+        },
+        {
+          "id": "c2",
+          "text": "Genève",
+          "isCorrect": false,
+          "text_zh": "日内瓦"
+        },
+        {
+          "id": "c3",
+          "text": "Bruxelles",
+          "isCorrect": true,
+          "text_zh": "布鲁塞尔"
+        },
+        {
+          "id": "c4",
+          "text": "Berlin",
+          "isCorrect": false,
+          "text_zh": "柏林"
+        }
+      ],
+      "analysis": "La Commission européenne, l'organe exécutif de l'UE, siège principalement à Bruxelles (bâtiment Berlaymont).",
+      "analysis_zh": "欧盟委员会是欧盟的行政机构，总部设在布鲁塞尔（贝尔莱蒙大楼）。",
+      "difficulty": 1,
+      "tags": ["institutions", "europe"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_030",
+      "type": "single",
+      "stem": "Qui siège au Parlement européen ?",
+      "stem_zh": "谁在欧洲议会中拥有席位？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Les chefs d'État et de gouvernement",
+          "isCorrect": false,
+          "text_zh": "各国元首和政府首脑"
+        },
+        {
+          "id": "c2",
+          "text": "Les députés européens élus au suffrage universel",
+          "isCorrect": true,
+          "text_zh": "由全民直接选举产生的欧洲议会议员"
+        },
+        {
+          "id": "c3",
+          "text": "Les ambassadeurs des États membres",
+          "isCorrect": false,
+          "text_zh": "成员国大使"
+        },
+        {
+          "id": "c4",
+          "text": "Les juges de la Cour de justice",
+          "isCorrect": false,
+          "text_zh": "欧洲法院的法官"
+        }
+      ],
+      "analysis": "Les députés européens (MPE) sont élus tous les 5 ans par les citoyens des pays membres.",
+      "analysis_zh": "欧洲议会议员（MEP）由各成员国公民每5年选举一次产生。",
+      "difficulty": 1,
+      "tags": ["institutions", "europe"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_031",
+      "type": "single",
+      "stem": "Les citoyens de l'UE résidant en France peuvent-ils voter à certaines élections françaises ?",
+      "stem_zh": "居住在法国的欧盟公民可以参加某些法国选举吗？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Non, ils n'ont aucun droit de vote",
+          "isCorrect": false,
+          "text_zh": "不可以，他们没有任何投票权"
+        },
+        {
+          "id": "c2",
+          "text": "Oui, aux élections municipales et européennes",
+          "isCorrect": true,
+          "text_zh": "可以，参加市镇选举和欧洲大选"
+        },
+        {
+          "id": "c3",
+          "text": "Oui, à toutes les élections y compris présidentielles",
+          "isCorrect": false,
+          "text_zh": "可以，参加包括总统大选在内的所有选举"
+        },
+        {
+          "id": "c4",
+          "text": "Seulement s'ils ont la double nationalité",
+          "isCorrect": false,
+          "text_zh": "仅在拥有双重国籍的情况下可以"
+        }
+      ],
+      "analysis": "Le droit de vote et d'éligibilité aux élections municipales et au Parlement européen est un droit fondamental de la citoyenneté européenne.",
+      "analysis_zh": "在居住地参加市镇选举和欧洲议会选举的投票权及受选举权，是欧盟公民身份的一项基本权利。",
+      "difficulty": 3,
+      "tags": ["institutions", "europe"],
+      "examTargets": ["CR"]
+    },
+    {
+      "id": "INS_032",
+      "type": "single",
+      "stem": "Combien d'États membres l'Union européenne compte-t-elle au 1er janvier 2026 ?",
+      "stem_zh": "截至2026年1月1日，欧盟有多少个成员国？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "27",
+          "isCorrect": true,
+          "text_zh": "27个"
+        },
+        {
+          "id": "c2",
+          "text": "28",
+          "isCorrect": false,
+          "text_zh": "28个"
+        },
+        {
+          "id": "c3",
+          "text": "19",
+          "isCorrect": false,
+          "text_zh": "19个（欧元区成员数）"
+        },
+        {
+          "id": "c4",
+          "text": "30",
+          "isCorrect": false,
+          "text_zh": "30个"
+        }
+      ],
+      "analysis": "Depuis le retrait effectif du Royaume-Uni le 31 janvier 2020, l'UE est composée de 27 États membres.",
+      "analysis_zh": "自2020年1月31日英国正式退出后，欧盟目前由27个成员国组成。",
+      "difficulty": 2,
+      "tags": ["institutions", "europe"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_033",
+      "type": "single",
+      "stem": "Quel traité a transformé la Communauté économique européenne (CEE) en Union européenne (UE) ?",
+      "stem_zh": "哪项条约将欧洲经济共同体（CEE）转变为欧洲联盟（UE）？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Le Traité de Rome",
+          "isCorrect": false,
+          "text_zh": "罗马条约"
+        },
+        {
+          "id": "c2",
+          "text": "Le Traité de Nice",
+          "isCorrect": false,
+          "text_zh": "尼斯条约"
+        },
+        {
+          "id": "c3",
+          "text": "Le Traité de Maastricht",
+          "isCorrect": true,
+          "text_zh": "马斯特里赫特条约"
+        },
+        {
+          "id": "c4",
+          "text": "Le Traité de Lisbonne",
+          "isCorrect": false,
+          "text_zh": "里斯本条约"
+        }
+      ],
+      "analysis": "Signé en 1992, le Traité de Maastricht marque la naissance de l'UE et pose les bases de la monnaie unique.",
+      "analysis_zh": "1992年签署的《马斯特里赫特条约》标志着欧盟的诞生，并为统一货币奠定了基础。",
+      "difficulty": 3,
+      "tags": ["institutions", "europe"],
+      "examTargets": ["CR"]
+    }
+  ]
+},
+    {
+      "id": "INS_034",
+      "type": "single",
+      "stem": "Quel traité est considéré comme l'acte de naissance de la Communauté économique européenne (CEE) ?",
+      "stem_zh": "哪项条约被视为欧洲经济共同体（CEE）诞生的标志？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Le Traité de Rome",
+          "isCorrect": true,
+          "text_zh": "罗马条约（1957年）"
+        },
+        {
+          "id": "c2",
+          "text": "Le Traité de Versailles",
+          "isCorrect": false,
+          "text_zh": "凡尔赛条约（1919年，第一次世界大战结束）"
+        },
+        {
+          "id": "c3",
+          "text": "Le Traité d'Amiens",
+          "isCorrect": false,
+          "text_zh": "亚眠条约"
+        },
+        {
+          "id": "c4",
+          "text": "Le Traité de Londres",
+          "isCorrect": false,
+          "text_zh": "伦敦条约"
+        }
+      ],
+      "analysis": "Le Traité de Rome, signé en 1957, a instauré la CEE. Bien que les traités de Maastricht et de Lisbonne soient cruciaux pour l'UE actuelle, Rome en est la base historique.",
+      "analysis_zh": "1957年签署的《罗马条约》建立了欧洲经济共同体。虽然《马斯特里赫特条约》和《里斯本条约》对现在的欧盟至关重要，但罗马条约是其历史基础。",
+      "difficulty": 3,
+      "tags": ["institutions", "europe"],
+      "examTargets": ["CR"]
+    },
+    {
+      "id": "INS_035",
+      "type": "single",
+      "stem": "Quel État a officiellement quitté l'Union européenne en 2020 ?",
+      "stem_zh": "哪个国家在2020年正式退出了欧盟？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "L'Irlande",
+          "isCorrect": false,
+          "text_zh": "爱尔兰"
+        },
+        {
+          "id": "c2",
+          "text": "Le Royaume-Uni",
+          "isCorrect": true,
+          "text_zh": "英国"
+        },
+        {
+          "id": "c3",
+          "text": "La Norvège",
+          "isCorrect": false,
+          "text_zh": "挪威（非欧盟成员国）"
+        },
+        {
+          "id": "c4",
+          "text": "La Grèce",
+          "isCorrect": false,
+          "text_zh": "希腊"
+        }
+      ],
+      "analysis": "Le Royaume-Uni a quitté l'Union européenne le 31 janvier 2020 suite au référendum sur le Brexit.",
+      "analysis_zh": "继脱欧公投后，英国于2020年1月31日正式退出欧盟。",
+      "difficulty": 1,
+      "tags": ["institutions", "europe"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_036",
+      "type": "single",
+      "stem": "Quelle est la devise de l'Union européenne ?",
+      "stem_zh": "欧盟的格言是什么？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Liberté, Égalité, Fraternité",
+          "isCorrect": false,
+          "text_zh": "自由、平等、博爱（法国格言）"
+        },
+        {
+          "id": "c2",
+          "text": "Unie dans la diversité",
+          "isCorrect": true,
+          "text_zh": "多元一体 / 多样性中的团结"
+        },
+        {
+          "id": "c3",
+          "text": "L'union fait la force",
+          "isCorrect": false,
+          "text_zh": "团结就是力量（比利时格言）"
+        },
+        {
+          "id": "c4",
+          "text": "Paix, Progrès, Solidarité",
+          "isCorrect": false,
+          "text_zh": "和平、进步、团结"
+        }
+      ],
+      "analysis": "La devise « Unie dans la diversité » signifie que les Européens s'unissent pour la paix et la prospérité, tout en préservant leurs différentes cultures.",
+      "analysis_zh": "格言“多元一体”意味着欧洲人为和平与繁荣而团结，同时保留其不同的文化。",
+      "difficulty": 1,
+      "tags": ["institutions", "europe"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_037",
+      "type": "single",
+      "stem": "Quel est l'hymne officiel de l'Union européenne ?",
+      "stem_zh": "欧盟的官方盟歌是什么？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "L'Ode à la joie",
+          "isCorrect": true,
+          "text_zh": "欢乐颂"
+        },
+        {
+          "id": "c2",
+          "text": "La Marseillaise",
+          "isCorrect": false,
+          "text_zh": "马赛曲"
+        },
+        {
+          "id": "c3",
+          "text": "L'Hymne à la paix",
+          "isCorrect": false,
+          "text_zh": "和平赞歌"
+        },
+        {
+          "id": "c4",
+          "text": "Le Chant des partisans",
+          "isCorrect": false,
+          "text_zh": "游击队之歌"
+        }
+      ],
+      "analysis": "Il s'agit du thème musical de la Neuvième Symphonie composée en 1823 par Ludwig van Beethoven.",
+      "analysis_zh": "这是由路德维希·凡·贝多芬于1823年创作的第九交响曲的主题音乐。",
+      "difficulty": 1,
+      "tags": ["institutions", "europe"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_038",
+      "type": "single",
+      "stem": "De quoi est composé le drapeau européen ?",
+      "stem_zh": "欧盟旗帜是由什么组成的？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "De 27 étoiles (une par État membre)",
+          "isCorrect": false,
+          "text_zh": "27颗星（每成员国一颗）"
+        },
+        {
+          "id": "c2",
+          "text": "De 12 étoiles dorées sur fond bleu",
+          "isCorrect": true,
+          "text_zh": "蓝底上的12颗金星"
+        },
+        {
+          "id": "c3",
+          "text": "De bandes bleues et jaunes",
+          "isCorrect": false,
+          "text_zh": "蓝色和黄色的条纹"
+        },
+        {
+          "id": "c4",
+          "text": "D'un cercle de 12 étoiles sur fond blanc",
+          "isCorrect": false,
+          "text_zh": "白底上的12颗星环"
+        }
+      ],
+      "analysis": "Le nombre d'étoiles est fixe (12) et ne dépend pas du nombre d'États. Il symbolise la perfection, la plénitude et l'unité.",
+      "analysis_zh": "星星的数量是固定的（12颗），不随成员国数量变化。它象征着完美、圆满和统一。",
+      "difficulty": 1,
+      "tags": ["institutions", "europe"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_039",
+      "type": "single",
+      "stem": "Comment sont choisis les députés qui siègent au Parlement européen ?",
+      "stem_zh": "在欧洲议会任职的议员是如何选出的？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Ils sont nommés par les gouvernements nationaux",
+          "isCorrect": false,
+          "text_zh": "由各国政府任命"
+        },
+        {
+          "id": "c2",
+          "text": "Ils sont élus au suffrage universel direct par les citoyens",
+          "isCorrect": true,
+          "text_zh": "由公民通过全民直接选举产生"
+        },
+        {
+          "id": "c3",
+          "text": "Ils sont tirés au sort parmi les élus locaux",
+          "isCorrect": false,
+          "text_zh": "从地方民选代表中随机抽取"
+        },
+        {
+          "id": "c4",
+          "text": "Ils sont nommés par la Commission européenne",
+          "isCorrect": false,
+          "text_zh": "由欧盟委员会任命"
+        }
+      ],
+      "analysis": "Depuis 1979, les députés européens sont élus tous les 5 ans par les citoyens de chaque pays membre.",
+      "analysis_zh": "自1979年以来，欧洲议会议员由各成员国公民每5年选举一次产生。",
+      "difficulty": 2,
+      "tags": ["institutions", "europe"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "INS_040",
+      "type": "single",
+      "stem": "Dans quelle ville se trouve le siège officiel des sessions plénières du Parlement européen ?",
+      "stem_zh": "欧洲议会全体会议的官方总部设在哪个城市？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Bruxelles",
+          "isCorrect": false,
+          "text_zh": "布鲁塞尔"
+        },
+        {
+          "id": "c2",
+          "text": "Luxembourg",
+          "isCorrect": false,
+          "text_zh": "卢森堡"
+        },
+        {
+          "id": "c3",
+          "text": "Strasbourg",
+          "isCorrect": true,
+          "text_zh": "斯特拉斯堡"
+        },
+        {
+          "id": "c4",
+          "text": "Genève",
+          "isCorrect": false,
+          "text_zh": "日内瓦"
+        }
+      ],
+      "analysis": "Bien que le Parlement travaille aussi à Bruxelles, son siège officiel et historique est à Strasbourg, en France.",
+      "analysis_zh": "尽管议会在布鲁塞尔也有办公点，但其官方和历史总部位于法国的斯特拉斯堡。",
+      "difficulty": 1,
+      "tags": ["institutions", "europe"],
+      "examTargets": ["CSP", "CR"]
+    }
+  ]
+}

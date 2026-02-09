@@ -1,0 +1,1486 @@
+{
+  "questions": [
+    {
+      "id": "VSF_001",
+      "type": "single",
+      "stem": "Où faut-il déclarer la naissance d'un enfant ?",
+      "stem_zh": "孩子出生后应该去哪里申报？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "À la préfecture",
+          "isCorrect": false,
+          "text_zh": "去省政府 (Préfecture)"
+        },
+        {
+          "id": "c2",
+          "text": "À la mairie du lieu de naissance",
+          "isCorrect": true,
+          "text_zh": "去出生地的市政厅 (Mairie)"
+        },
+        {
+          "id": "c3",
+          "text": "À l’hôpital",
+          "isCorrect": false,
+          "text_zh": "在医院"
+        },
+        {
+          "id": "c4",
+          "text": "Au tribunal",
+          "isCorrect": false,
+          "text_zh": "在法院"
+        }
+      ],
+      "analysis": "La naissance doit être déclarée à la mairie du lieu de naissance.",
+      "analysis_zh": "出生登记必须在出生地的市政厅办理。",
+      "difficulty": 1,
+      "tags": ["etat_civil", "famille"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_002",
+      "type": "single",
+      "stem": "Quelle action peut réaliser le locataire d'un logement sans l'autorisation du propriétaire ?",
+      "stem_zh": "租客在未获得房东许可的情况下可以做什么？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Abattre un mur",
+          "isCorrect": false,
+          "text_zh": "拆除一堵墙"
+        },
+        {
+          "id": "c2",
+          "text": "Changer les installations électriques",
+          "isCorrect": false,
+          "text_zh": "改动电路设施"
+        },
+        {
+          "id": "c3",
+          "text": "Effectuer des réparations courantes",
+          "isCorrect": true,
+          "text_zh": "进行日常维修"
+        },
+        {
+          "id": "c4",
+          "text": "Transformer le logement",
+          "isCorrect": false,
+          "text_zh": "改造房屋结构"
+        }
+      ],
+      "analysis": "Les réparations courantes sont à la charge du locataire.",
+      "analysis_zh": "日常的小型维修由租客承担，无需房东批准。",
+      "difficulty": 2,
+      "tags": ["logement", "droit"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_003",
+      "type": "single",
+      "stem": "Quel mariage est reconnu légalement en France ?",
+      "stem_zh": "在法国，哪种婚礼形式具有法律效力？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Le mariage religieux",
+          "isCorrect": false,
+          "text_zh": "宗教婚礼"
+        },
+        {
+          "id": "c2",
+          "text": "Le mariage civil",
+          "isCorrect": true,
+          "text_zh": "民事婚姻（市政厅注册）"
+        },
+        {
+          "id": "c3",
+          "text": "Le mariage coutumier",
+          "isCorrect": false,
+          "text_zh": "习俗婚礼"
+        },
+        {
+          "id": "c4",
+          "text": "Le mariage traditionnel",
+          "isCorrect": false,
+          "text_zh": "传统婚礼"
+        }
+      ],
+      "analysis": "Seul le mariage civil est reconnu par la loi.",
+      "analysis_zh": "法律仅承认在市政厅举行的民事婚姻。",
+      "difficulty": 1,
+      "tags": ["famille", "droit"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_004",
+      "type": "single",
+      "stem": "Le stationnement sur une place réservée aux personnes handicapées est :",
+      "stem_zh": "在残疾人专用车位停车是：",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Autorisé à tous",
+          "isCorrect": false,
+          "text_zh": "对所有人开放"
+        },
+        {
+          "id": "c2",
+          "text": "Autorisé uniquement avec un badge spécifique",
+          "isCorrect": true,
+          "text_zh": "仅限持有特定证件者使用"
+        },
+        {
+          "id": "c3",
+          "text": "Autorisé la nuit",
+          "isCorrect": false,
+          "text_zh": "夜间允许停放"
+        },
+        {
+          "id": "c4",
+          "text": "Autorisé le week-end",
+          "isCorrect": false,
+          "text_zh": "周末允许停放"
+        }
+      ],
+      "analysis": "Ces places sont réservées aux titulaires d’une carte spécifique.",
+      "analysis_zh": "这些车位严格保留给持有残疾人停车卡的人员。",
+      "difficulty": 1,
+      "tags": ["handicap", "transport"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_005",
+      "type": "single",
+      "stem": "Si une machine à laver est cassée, il est possible de :",
+      "stem_zh": "如果（房东提供的）洗衣机坏了，租客可以：",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Arrêter de payer le loyer",
+          "isCorrect": false,
+          "text_zh": "停止支付房租"
+        },
+        {
+          "id": "c2",
+          "text": "Prévenir le propriétaire",
+          "isCorrect": true,
+          "text_zh": "告知房东"
+        },
+        {
+          "id": "c3",
+          "text": "Quitter le logement sans préavis",
+          "isCorrect": false,
+          "text_zh": "不经预告直接搬走"
+        },
+        {
+          "id": "c4",
+          "text": "Modifier le contrat de location",
+          "isCorrect": false,
+          "text_zh": "单方面修改租房合同"
+        }
+      ],
+      "analysis": "Le locataire doit informer le propriétaire.",
+      "analysis_zh": "租客应第一时间通知房东协商修理，不能以此为由拒付房租。",
+      "difficulty": 1,
+      "tags": ["logement"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_006",
+      "type": "single",
+      "stem": "Dans quel cas faut-il déclarer son enfant au service d'état civil ?",
+      "stem_zh": "在什么情况下必须向户籍管理部门申报孩子？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Lors de la naissance",
+          "isCorrect": true,
+          "text_zh": "出生时"
+        },
+        {
+          "id": "c2",
+          "text": "À l’entrée à l’école",
+          "isCorrect": false,
+          "text_zh": "入学时"
+        },
+        {
+          "id": "c3",
+          "text": "À la majorité",
+          "isCorrect": false,
+          "text_zh": "成年时"
+        },
+        {
+          "id": "c4",
+          "text": "Lors du mariage",
+          "isCorrect": false,
+          "text_zh": "结婚时"
+        }
+      ],
+      "analysis": "Toute naissance doit être déclarée à l’état civil.",
+      "analysis_zh": "所有出生行为都必须依法进行户籍登记。",
+      "difficulty": 1,
+      "tags": ["etat_civil"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_007",
+      "type": "single",
+      "stem": "Quand faut-il déclarer son enfant au service d'état civil ?",
+      "stem_zh": "必须在多久之内申报新生儿？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Dans les 24 heures",
+          "isCorrect": false,
+          "text_zh": "24小时内"
+        },
+        {
+          "id": "c2",
+          "text": "Dans les 3 jours",
+          "isCorrect": false,
+          "text_zh": "3天内"
+        },
+        {
+          "id": "c3",
+          "text": "Dans les 5 jours",
+          "isCorrect": true,
+          "text_zh": "5天内"
+        },
+        {
+          "id": "c4",
+          "text": "Dans le mois",
+          "isCorrect": false,
+          "text_zh": "一个月内"
+        }
+      ],
+      "analysis": "La déclaration doit être faite dans les 5 jours suivant la naissance.",
+      "analysis_zh": "根据法国法律，必须在出生后的5天内完成申报。",
+      "difficulty": 2,
+      "tags": ["etat_civil"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_008",
+      "type": "single",
+      "stem": "Quel numéro d'urgence permet d'appeler la police ?",
+      "stem_zh": "拨打哪个紧急号码可以叫警察？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "15",
+          "isCorrect": false,
+          "text_zh": "15"
+        },
+        {
+          "id": "c2",
+          "text": "17",
+          "isCorrect": true,
+          "text_zh": "17"
+        },
+        {
+          "id": "c3",
+          "text": "18",
+          "isCorrect": false,
+          "text_zh": "18"
+        },
+        {
+          "id": "c4",
+          "text": "112",
+          "isCorrect": false,
+          "text_zh": "112"
+        }
+      ],
+      "analysis": "Le 17 est le numéro d’urgence de la police.",
+      "analysis_zh": "17是警察紧急出警热线。",
+      "difficulty": 1,
+      "tags": ["urgence"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_009",
+      "type": "single",
+      "stem": "Quel numéro d'urgence permet d'appeler le SAMU ?",
+      "stem_zh": "拨打哪个紧急号码可以叫救护车 (SAMU)？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "15",
+          "isCorrect": true,
+          "text_zh": "15"
+        },
+        {
+          "id": "c2",
+          "text": "17",
+          "isCorrect": false,
+          "text_zh": "17"
+        },
+        {
+          "id": "c3",
+          "text": "18",
+          "isCorrect": false,
+          "text_zh": "18"
+        },
+        {
+          "id": "c4",
+          "text": "112",
+          "isCorrect": false,
+          "text_zh": "112"
+        }
+      ],
+      "analysis": "Le SAMU est joignable au 15.",
+      "analysis_zh": "15是医疗急救服务热线。",
+      "difficulty": 1,
+      "tags": ["sante", "urgence"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_010",
+      "type": "single",
+      "stem": "Auprès de quelle institution les parents peuvent-ils inscrire leurs enfants à l'école publique ?",
+      "stem_zh": "家长应该去哪个机构为孩子办理公立学校入学登记？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "La préfecture",
+          "isCorrect": false,
+          "text_zh": "省政府"
+        },
+        {
+          "id": "c2",
+          "text": "La mairie",
+          "isCorrect": true,
+          "text_zh": "市政厅"
+        },
+        {
+          "id": "c3",
+          "text": "Le rectorat",
+          "isCorrect": false,
+          "text_zh": "教育局 (Rectorat)"
+        },
+        {
+          "id": "c4",
+          "text": "La CAF",
+          "isCorrect": false,
+          "text_zh": "家庭补助局 (CAF)"
+        }
+      ],
+      "analysis": "L’inscription scolaire se fait auprès de la mairie.",
+      "analysis_zh": "小学阶段的入学注册通常首先在市政厅办理。",
+      "difficulty": 1,
+      "tags": ["ecole"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_011",
+      "type": "single",
+      "stem": "En cas de divorce, qui exerce l'autorité parentale ?",
+      "stem_zh": "离婚后，谁行使亲权（监护权）？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Un seul parent",
+          "isCorrect": false,
+          "text_zh": "父母中的一方"
+        },
+        {
+          "id": "c2",
+          "text": "Le juge",
+          "isCorrect": false,
+          "text_zh": "法官"
+        },
+        {
+          "id": "c3",
+          "text": "Les deux parents en principe",
+          "isCorrect": true,
+          "text_zh": "原则上父母双方共同行使"
+        },
+        {
+          "id": "c4",
+          "text": "La mairie",
+          "isCorrect": false,
+          "text_zh": "市政厅"
+        }
+      ],
+      "analysis": "L’autorité parentale est exercée conjointement sauf décision contraire.",
+      "analysis_zh": "除非法官另有判决，否则父母双方共同承担孩子的抚养和决策责任。",
+      "difficulty": 2,
+      "tags": ["famille"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_012",
+      "type": "single",
+      "stem": "Quelle aide permet aux personnes ayant des difficultés financières d'avoir un avocat ?",
+      "stem_zh": "哪种补助可以帮助经济困难的人聘请律师？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "La mutuelle",
+          "isCorrect": false,
+          "text_zh": "商业补充保险"
+        },
+        {
+          "id": "c2",
+          "text": "L’aide juridictionnelle",
+          "isCorrect": true,
+          "text_zh": "法律援助 (Aide juridictionnelle)"
+        },
+        {
+          "id": "c3",
+          "text": "La CAF",
+          "isCorrect": false,
+          "text_zh": "CAF"
+        },
+        {
+          "id": "c4",
+          "text": "La Sécurité sociale",
+          "isCorrect": false,
+          "text_zh": "社会保障局"
+        }
+      ],
+      "analysis": "L’aide juridictionnelle permet l’accès à un avocat.",
+      "analysis_zh": "法律援助制度确保人人都能获得司法保护。",
+      "difficulty": 2,
+      "tags": ["justice"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_014",
+      "type": "single",
+      "stem": "Auprès de quel organisme faut-il demander le remboursement des frais de santé ?",
+      "stem_zh": "应该向哪个机构申请医疗费用报销？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "La mutuelle",
+          "isCorrect": false,
+          "text_zh": "补充医疗保险"
+        },
+        {
+          "id": "c2",
+          "text": "L’Assurance maladie",
+          "isCorrect": true,
+          "text_zh": "医疗保险局 (L’Assurance maladie / CPAM)"
+        },
+        {
+          "id": "c3",
+          "text": "La CAF",
+          "isCorrect": false,
+          "text_zh": "CAF"
+        },
+        {
+          "id": "c4",
+          "text": "La mairie",
+          "isCorrect": false,
+          "text_zh": "市政厅"
+        }
+      ],
+      "analysis": "Le remboursement est effectué par l’Assurance maladie.",
+      "analysis_zh": "基础报销部分由国家医疗保险系统负责。",
+      "difficulty": 1,
+      "tags": ["sante"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_016",
+      "type": "single",
+      "stem": "À quoi sert la carte Vitale ?",
+      "stem_zh": "医保卡 (Carte Vitale) 的作用是什么？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "À payer les soins",
+          "isCorrect": false,
+          "text_zh": "支付医疗费（它不是信用卡）"
+        },
+        {
+          "id": "c2",
+          "text": "À faciliter le remboursement des soins",
+          "isCorrect": true,
+          "text_zh": "简化和加速医疗费用报销"
+        },
+        {
+          "id": "c3",
+          "text": "À remplacer la carte d’identité",
+          "isCorrect": false,
+          "text_zh": "替代身份证"
+        },
+        {
+          "id": "c4",
+          "text": "À prendre rendez-vous médical",
+          "isCorrect": false,
+          "text_zh": "预约医生"
+        }
+      ],
+      "analysis": "La carte Vitale facilite le remboursement des soins.",
+      "analysis_zh": "它能通过电子传输（Feuille de soins électronique）实现快速报销。",
+      "difficulty": 1,
+      "tags": ["sante"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_023",
+      "type": "single",
+      "stem": "Qu'est-ce que le SMIC ?",
+      "stem_zh": "什么是 SMIC？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Un impôt",
+          "isCorrect": false,
+          "text_zh": "一种税收"
+        },
+        {
+          "id": "c2",
+          "text": "Un contrat de travail",
+          "isCorrect": false,
+          "text_zh": "一种劳动合同"
+        },
+        {
+          "id": "c3",
+          "text": "Le salaire minimum légal",
+          "isCorrect": true,
+          "text_zh": "法定的最低工资"
+        },
+        {
+          "id": "c4",
+          "text": "Une aide sociale",
+          "isCorrect": false,
+          "text_zh": "一种社会补助"
+        }
+      ],
+      "analysis": "Le SMIC est le salaire minimum interprofessionnel de croissance.",
+      "analysis_zh": "这是法国保障劳动者最低收入的法定标准。",
+      "difficulty": 1,
+      "tags": ["travail", "economie"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_025",
+      "type": "single",
+      "stem": "Quelle est la durée légale du temps de travail par semaine ?",
+      "stem_zh": "法定的每周工作时间是多少小时？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "32 heures",
+          "isCorrect": false,
+          "text_zh": "32小时"
+        },
+        {
+          "id": "c2",
+          "text": "35 heures",
+          "isCorrect": true,
+          "text_zh": "35小时"
+        },
+        {
+          "id": "c3",
+          "text": "39 heures",
+          "isCorrect": false,
+          "text_zh": "39小时"
+        },
+        {
+          "id": "c4",
+          "text": "40 heures",
+          "isCorrect": false,
+          "text_zh": "40小时"
+        }
+      ],
+      "analysis": "La durée légale du travail est fixée à 35 heures.",
+      "analysis_zh": "35小时是计算加班费的基准时长。",
+      "difficulty": 1,
+      "tags": ["travail"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_030",
+      "type": "single",
+      "stem": "Quelles sont les affaires traitées par le conseil de prud'hommes ?",
+      "stem_zh": "劳资仲裁委员会 (Prud'hommes) 处理哪类案件？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Les conflits entre voisins",
+          "isCorrect": false,
+          "text_zh": "邻里纠纷"
+        },
+        {
+          "id": "c2",
+          "text": "Les litiges entre employeurs et salariés",
+          "isCorrect": true,
+          "text_zh": "雇主与员工之间的纠纷"
+        },
+        {
+          "id": "c3",
+          "text": "Les affaires pénales",
+          "isCorrect": false,
+          "text_zh": "刑事案件"
+        },
+        {
+          "id": "c4",
+          "text": "Les litiges commerciaux",
+          "isCorrect": false,
+          "text_zh": "商业合同纠纷"
+        }
+      ],
+      "analysis": "Les prud’hommes règlent les conflits du travail.",
+      "analysis_zh": "专门负责调解或判决因劳动合同产生的争议。",
+      "difficulty": 2,
+      "tags": ["justice", "travail"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_036",
+      "type": "single",
+      "stem": "Jusqu'à quel âge l'école est-elle obligatoire ?",
+      "stem_zh": "义务教育（instruction）直到多少岁？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "14 ans",
+          "isCorrect": false,
+          "text_zh": "14岁"
+        },
+        {
+          "id": "c2",
+          "text": "16 ans",
+          "isCorrect": true,
+          "text_zh": "16岁"
+        },
+        {
+          "id": "c3",
+          "text": "18 ans",
+          "isCorrect": false,
+          "text_zh": "18岁"
+        },
+        {
+          "id": "c4",
+          "text": "21 ans",
+          "isCorrect": false,
+          "text_zh": "21岁"
+        }
+      ],
+      "analysis": "L’instruction est obligatoire jusqu’à 16 ans.",
+      "analysis_zh": "在法国，孩子必须接受教育（无论是学校还是家庭）直到16周岁。",
+      "difficulty": 1,
+      "tags": ["education"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_037",
+      "type": "single",
+      "stem": "À quel âge commence l'instruction obligatoire des enfants ?",
+      "stem_zh": "孩子从几岁开始必须接受义务教育？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "2 ans",
+          "isCorrect": false,
+          "text_zh": "2岁"
+        },
+        {
+          "id": "c2",
+          "text": "3 ans",
+          "isCorrect": true,
+          "text_zh": "3岁"
+        },
+        {
+          "id": "c3",
+          "text": "5 ans",
+          "isCorrect": false,
+          "text_zh": "5岁"
+        },
+        {
+          "id": "c4",
+          "text": "6 ans",
+          "isCorrect": false,
+          "text_zh": "6岁"
+        }
+      ],
+      "analysis": "Depuis 2019, l’instruction est obligatoire dès 3 ans.",
+      "analysis_zh": "2019年法律修改后，义务教育起始年龄从6岁降到了3岁（即幼儿园小班）。",
+      "difficulty": 2,
+      "tags": ["education"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_013",
+      "type": "single",
+      "stem": "Qui peut demander le divorce de personnes mariées ?",
+      "stem_zh": "谁可以申请离婚？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Uniquement le mari",
+          "isCorrect": false,
+          "text_zh": "仅限丈夫"
+        },
+        {
+          "id": "c2",
+          "text": "Uniquement l’épouse",
+          "isCorrect": false,
+          "text_zh": "仅限妻子"
+        },
+        {
+          "id": "c3",
+          "text": "Les deux époux",
+          "isCorrect": true,
+          "text_zh": "夫妻双方中的任何一方或双方"
+        },
+        {
+          "id": "c4",
+          "text": "La mairie",
+          "isCorrect": false,
+          "text_zh": "市政厅"
+        }
+      ],
+      "analysis": "Chaque époux peut demander le divorce.",
+      "analysis_zh": "在法律面前男女平等，任何一方都有权提出离婚申请。",
+      "difficulty": 1,
+      "tags": ["famille"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_015",
+      "type": "single",
+      "stem": "La contraception :",
+      "stem_zh": "关于避孕：",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Est interdite en France",
+          "isCorrect": false,
+          "text_zh": "在法国是禁止的"
+        },
+        {
+          "id": "c2",
+          "text": "Permet d’éviter une grossesse",
+          "isCorrect": true,
+          "text_zh": "可以避免怀孕"
+        },
+        {
+          "id": "c3",
+          "text": "Est réservée aux adultes",
+          "isCorrect": false,
+          "text_zh": "仅限成年人使用"
+        },
+        {
+          "id": "c4",
+          "text": "N’existe que pour les femmes",
+          "isCorrect": false,
+          "text_zh": "只存在针对女性的避孕方式"
+        }
+      ],
+      "analysis": "La contraception permet d’éviter une grossesse.",
+      "analysis_zh": "避孕是合法的个人权利，旨在控制生育。",
+      "difficulty": 1,
+      "tags": ["sante"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_017",
+      "type": "single",
+      "stem": "À quoi sert une mutuelle santé ?",
+      "stem_zh": "补充医疗保险 (Mutuelle) 的作用是什么？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "À remplacer l’Assurance maladie",
+          "isCorrect": false,
+          "text_zh": "替代国家医疗保险"
+        },
+        {
+          "id": "c2",
+          "text": "À compléter les remboursements",
+          "isCorrect": true,
+          "text_zh": "补充报销（报销国家不涵盖的余数）"
+        },
+        {
+          "id": "c3",
+          "text": "À consulter un médecin gratuitement",
+          "isCorrect": false,
+          "text_zh": "免费看医生"
+        },
+        {
+          "id": "c4",
+          "text": "À obtenir une carte Vitale",
+          "isCorrect": false,
+          "text_zh": "为了获得医保卡"
+        }
+      ],
+      "analysis": "La mutuelle complète les remboursements de l’Assurance maladie.",
+      "analysis_zh": "国家报销一部分，Mutuelle 报销剩下的一部分。",
+      "difficulty": 1,
+      "tags": ["sante"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_018",
+      "type": "single",
+      "stem": "Qu'est-ce que le tiers payant ?",
+      "stem_zh": "什么是“第三方支付” (Tiers payant)？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Un paiement différé",
+          "isCorrect": false,
+          "text_zh": "延后付款"
+        },
+        {
+          "id": "c2",
+          "text": "Un paiement en plusieurs fois",
+          "isCorrect": false,
+          "text_zh": "分期付款"
+        },
+        {
+          "id": "c3",
+          "text": "L'absence d'avance de frais",
+          "isCorrect": true,
+          "text_zh": "免预付费用（看病时直接免除报销部分，不用先付再报）"
+        },
+        {
+          "id": "c4",
+          "text": "Une aide financière",
+          "isCorrect": false,
+          "text_zh": "一种现金补助"
+        }
+      ],
+      "analysis": "Le tiers payant permet de ne pas avancer les frais médicaux.",
+      "analysis_zh": "通过 Tiers payant，药店或医生直接结算，患者只需付自付部分。",
+      "difficulty": 2,
+      "tags": ["sante"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_020",
+      "type": "single",
+      "stem": "L'avortement est-il possible en France ?",
+      "stem_zh": "在法国可以堕胎（人工终止妊娠）吗？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Non",
+          "isCorrect": false,
+          "text_zh": "不可以"
+        },
+        {
+          "id": "c2",
+          "text": "Oui, sous conditions légales",
+          "isCorrect": true,
+          "text_zh": "可以，在法律规定的条件下"
+        },
+        {
+          "id": "c3",
+          "text": "Seulement pour raisons médicales",
+          "isCorrect": false,
+          "text_zh": "仅限出于医疗原因"
+        },
+        {
+          "id": "c4",
+          "text": "Uniquement à l’étranger",
+          "isCorrect": false,
+          "text_zh": "只能去国外"
+        }
+      ],
+      "analysis": "L’IVG est autorisée par la loi en France.",
+      "analysis_zh": "法国法律保障女性堕胎（IVG）的权利。",
+      "difficulty": 2,
+      "tags": ["sante", "droits"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_022",
+      "type": "single",
+      "stem": "Travailler sans être déclaré est :",
+      "stem_zh": "打黑工（不申报工作）是：",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Autorisé sous conditions",
+          "isCorrect": false,
+          "text_zh": "在某些条件下允许"
+        },
+        {
+          "id": "c2",
+          "text": "Toléré pour les petits emplois",
+          "isCorrect": false,
+          "text_zh": "小额兼职可以被容忍"
+        },
+        {
+          "id": "c3",
+          "text": "Illégal",
+          "isCorrect": true,
+          "text_zh": "违法的"
+        },
+        {
+          "id": "c4",
+          "text": "Réservé aux étrangers",
+          "isCorrect": false,
+          "text_zh": "专门针对外国人的"
+        }
+      ],
+      "analysis": "Le travail dissimulé est interdit par la loi.",
+      "analysis_zh": "打黑工剥夺了员工的社会保障权益，属于违法行为。",
+      "difficulty": 1,
+      "tags": ["travail", "droit"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_024",
+      "type": "single",
+      "stem": "Quelle est la première démarche à réaliser pour chercher un emploi ?",
+      "stem_zh": "找工作的第一步通常是什么？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Créer une entreprise",
+          "isCorrect": false,
+          "text_zh": "创办公司"
+        },
+        {
+          "id": "c2",
+          "text": "S’inscrire auprès de France Travail",
+          "isCorrect": true,
+          "text_zh": "在 France Travail (原 Pôle Emploi) 登记"
+        },
+        {
+          "id": "c3",
+          "text": "Aller à la mairie",
+          "isCorrect": false,
+          "text_zh": "去市政厅"
+        },
+        {
+          "id": "c4",
+          "text": "S’inscrire à la CAF",
+          "isCorrect": false,
+          "text_zh": "去 CAF 登记"
+        }
+      ],
+      "analysis": "L’inscription auprès de France Travail est une première étape.",
+      "analysis_zh": "France Travail 是政府负责就业指导和失业金发放的机构。",
+      "difficulty": 1,
+      "tags": ["emploi"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_026",
+      "type": "single",
+      "stem": "Qui peut demander un congé parental d'éducation ?",
+      "stem_zh": "谁可以申请育儿假？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Uniquement la mère",
+          "isCorrect": false,
+          "text_zh": "仅限母亲"
+        },
+        {
+          "id": "c2",
+          "text": "Uniquement le père",
+          "isCorrect": false,
+          "text_zh": "仅限父亲"
+        },
+        {
+          "id": "c3",
+          "text": "Les deux parents",
+          "isCorrect": true,
+          "text_zh": "父母双方均可"
+        },
+        {
+          "id": "c4",
+          "text": "Les grands-parents",
+          "isCorrect": false,
+          "text_zh": "祖父母/外祖父母"
+        }
+      ],
+      "analysis": "Le congé parental peut être demandé par le père ou la mère.",
+      "analysis_zh": "育儿假是为了方便父母照顾幼子，双方享有同等权利。",
+      "difficulty": 1,
+      "tags": ["famille", "travail"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_031",
+      "type": "single",
+      "stem": "Qui a le droit de se syndiquer ?",
+      "stem_zh": "谁有权参加工会？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Uniquement les fonctionnaires",
+          "isCorrect": false,
+          "text_zh": "仅限公务员"
+        },
+        {
+          "id": "c2",
+          "text": "Tous les salariés",
+          "isCorrect": true,
+          "text_zh": "所有员工（受薪者）"
+        },
+        {
+          "id": "c3",
+          "text": "Uniquement les citoyens français",
+          "isCorrect": false,
+          "text_zh": "仅限法国公民"
+        },
+        {
+          "id": "c4",
+          "text": "Uniquement les employés du privé",
+          "isCorrect": false,
+          "text_zh": "仅限私企员工"
+        }
+      ],
+      "analysis": "Le droit syndical est garanti à tous les salariés.",
+      "analysis_zh": "无论国籍或身份，所有在职人员都有加入工会的权利。",
+      "difficulty": 1,
+      "tags": ["travail", "droits"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_032",
+      "type": "single",
+      "stem": "Est-il possible de licencier une femme enceinte ou en congé maternité en raison de sa grossesse ?",
+      "stem_zh": "可以因为怀孕而解雇怀孕或休产假的女性吗？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Oui",
+          "isCorrect": false,
+          "text_zh": "可以"
+        },
+        {
+          "id": "c2",
+          "text": "Oui sous conditions",
+          "isCorrect": false,
+          "text_zh": "在特定条件下可以"
+        },
+        {
+          "id": "c3",
+          "text": "Non",
+          "isCorrect": true,
+          "text_zh": "不可以"
+        },
+        {
+          "id": "c4",
+          "text": "Seulement dans le privé",
+          "isCorrect": false,
+          "text_zh": "仅限私企可以"
+        }
+      ],
+      "analysis": "La loi protège les femmes enceintes contre le licenciement.",
+      "analysis_zh": "法国劳动法严禁因怀孕或生育相关的理由解雇女性。",
+      "difficulty": 2,
+      "tags": ["travail", "egalite"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_035",
+      "type": "single",
+      "stem": "Quel motif d'absence est accepté par l'école ?",
+      "stem_zh": "学校接受以下哪种缺勤理由？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Un voyage personnel",
+          "isCorrect": false,
+          "text_zh": "私人旅行"
+        },
+        {
+          "id": "c2",
+          "text": "Une maladie de l’enfant",
+          "isCorrect": true,
+          "text_zh": "孩子生病"
+        },
+        {
+          "id": "c3",
+          "text": "Un loisir",
+          "isCorrect": false,
+          "text_zh": "个人爱好/娱乐活动"
+        },
+        {
+          "id": "c4",
+          "text": "Une absence non justifiée",
+          "isCorrect": false,
+          "text_zh": "无理由缺勤"
+        }
+      ],
+      "analysis": "La maladie est un motif légitime d’absence.",
+      "analysis_zh": "由于教育是法定的义务，只有生病、家庭丧事等重大原因才被接受为合法缺勤。",
+      "difficulty": 1,
+      "tags": ["education"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_038",
+      "type": "single",
+      "stem": "Comment s'appellent les établissements scolaires que les élèves intègrent après l'école élémentaire ?",
+      "stem_zh": "学生在小学毕业后进入什么学校？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Les lycées",
+          "isCorrect": false,
+          "text_zh": "高中 (Lycée)"
+        },
+        {
+          "id": "c2",
+          "text": "Les universités",
+          "isCorrect": false,
+          "text_zh": "大学 (Université)"
+        },
+        {
+          "id": "c3",
+          "text": "Les collèges",
+          "isCorrect": true,
+          "text_zh": "初中 (Collège)"
+        },
+        {
+          "id": "c4",
+          "text": "Les crèches",
+          "isCorrect": false,
+          "text_zh": "托儿所 (Crèche)"
+        }
+      ],
+      "analysis": "Après l’école élémentaire, les élèves vont au collège.",
+      "analysis_zh": "法国教育体系：École élémentaire (小学) -> Collège (初中) -> Lycée (高中)。",
+      "difficulty": 1,
+      "tags": ["education"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_041",
+      "type": "single",
+      "stem": "S'agissant de l'accueil des enfants en situation de handicap à l'école, laquelle des propositions est vraie ?",
+      "stem_zh": "关于学校接收残疾儿童，以下哪项描述是正确的？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Ils ne sont pas scolarisés",
+          "isCorrect": false,
+          "text_zh": "他们不接受教育"
+        },
+        {
+          "id": "c2",
+          "text": "Ils sont scolarisés avec des aménagements",
+          "isCorrect": true,
+          "text_zh": "他们在有适当设施和安排的情况下接受教育"
+        },
+        {
+          "id": "c3",
+          "text": "Ils doivent aller dans des écoles spécialisées uniquement",
+          "isCorrect": false,
+          "text_zh": "他们只能去专门的特教学校"
+        },
+        {
+          "id": "c4",
+          "text": "Ils ne sont pas concernés par l’école",
+          "isCorrect": false,
+          "text_zh": "学校不负责他们"
+        }
+      ],
+      "analysis": "L’école inclusive permet l’accueil avec des adaptations.",
+      "analysis_zh": "法国倡导全向教育，尽可能让残疾儿童在普通学校接受教育并提供配套支持。",
+      "difficulty": 2,
+      "tags": ["education", "handicap"],
+      "examTargets": ["CSP", "CR"]
+    }
+,
+
+    {
+      "id": "VSF_019",
+      "type": "single",
+      "stem": "En France, l'inscription à l'Assurance Maladie (Sécurité Sociale) est :",
+      "stem_zh": "在法国，注册国家医疗保险（社保）是：",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Une option facultative pour ceux qui ne sont jamais malades",
+          "isCorrect": false,
+          "text_zh": "觉得不会生病的人可以不交（自选项）"
+        },
+        {
+          "id": "c2",
+          "text": "Obligatoire pour toute personne résidant en France de manière stable",
+          "isCorrect": true,
+          "text_zh": "对所有稳定居住在法国的人都是强制性的（法定保障）"
+        },
+        {
+          "id": "c3",
+          "text": "Réservée uniquement aux citoyens ayant la nationalité française",
+          "isCorrect": false,
+          "text_zh": "仅限拥有法国国籍的公民"
+        },
+        {
+          "id": "c4",
+          "text": "Gratuite pour les entreprises mais payante pour les retraités",
+          "isCorrect": false,
+          "text_zh": "企业免费，退休人员收费"
+        }
+      ],
+      "analysis": "La protection universelle maladie (PUMA) garantit une prise en charge obligatoire.",
+      "analysis_zh": "在法国居住和工作，注册社保是法律规定的义务，也是获得医疗报销的前提。",
+      "difficulty": 1,
+      "tags": ["sante"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_027",
+      "type": "single",
+      "stem": "Un étranger possédant un titre de séjour autorisant à travailler peut-il créer une entreprise ?",
+      "stem_zh": "持有允许工作的居留卡的外国人可以自己创业或开公司吗？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Non, il doit obligatoirement avoir un associé français",
+          "isCorrect": false,
+          "text_zh": "不可以，必须有一个法国合伙人"
+        },
+        {
+          "id": "c2",
+          "text": "Oui, il a la même liberté d'entreprendre qu'un citoyen français",
+          "isCorrect": true,
+          "text_zh": "可以，他享有与法国公民完全平等的创业自由"
+        },
+        {
+          "id": "c3",
+          "text": "Seulement s'il demande une autorisation au préfet chaque mois",
+          "isCorrect": false,
+          "text_zh": "只有每个月都向省长申请许可才可以"
+        },
+        {
+          "id": "c4",
+          "text": "Uniquement s'il a déjà vécu 10 ans en France",
+          "isCorrect": false,
+          "text_zh": "只有在法国住满10年以后才可以"
+        }
+      ],
+      "analysis": "Le droit d'entreprendre est ouvert à tout étranger en situation régulière.",
+      "analysis_zh": "只要拥有合法居留权（且居留卡允许工作），外国人开餐馆、办公司或做自雇人士都不受限制。",
+      "difficulty": 2,
+      "tags": ["travail", "liberte"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_028",
+      "type": "single",
+      "stem": "Une femme mariée peut-elle exercer une profession sans l'accord de son mari ?",
+      "stem_zh": "已婚女性在没有丈夫同意的情况下可以参加工作吗？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Non, elle doit fournir une signature de son époux à l'employeur",
+          "isCorrect": false,
+          "text_zh": "不可以，她必须向雇主出示丈夫的签字"
+        },
+        {
+          "id": "c2",
+          "text": "Oui, elle est libre de travailler et de percevoir seule son salaire",
+          "isCorrect": true,
+          "text_zh": "可以，她有权自由选择工作并独立领取个人薪水"
+        },
+        {
+          "id": "c3",
+          "text": "Seulement si le salaire est inférieur à un certain plafond",
+          "isCorrect": false,
+          "text_zh": "只有当薪水低于某个标准时才可以"
+        },
+        {
+          "id": "c4",
+          "text": "Cela dépend du contrat de mariage signé chez le notaire",
+          "isCorrect": false,
+          "text_zh": "这取决于他们在公证处签署的婚前协议"
+        }
+      ],
+      "analysis": "Depuis 1965, les femmes mariées disposent de l'autonomie financière.",
+      "analysis_zh": "男女平等是法国核心价值观，女性不需要任何人的许可就能独立工作并管理财产。",
+      "difficulty": 1,
+      "tags": ["egalite", "famille"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_029",
+      "type": "single",
+      "stem": "Quel document regroupe les lois applicables au travail entre employeurs et salariés ?",
+      "stem_zh": "哪本法典汇总了适用于雇主和员工之间的劳动法律？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Le Code de la Famille",
+          "isCorrect": false,
+          "text_zh": "家庭法典"
+        },
+        {
+          "id": "c2",
+          "text": "Le Code du Travail",
+          "isCorrect": true,
+          "text_zh": "劳动法典（Code du Travail）"
+        },
+        {
+          "id": "c3",
+          "text": "Le Guide du Routard",
+          "isCorrect": false,
+          "text_zh": "旅游指南"
+        },
+        {
+          "id": "c4",
+          "text": "Le Code Pénal",
+          "isCorrect": false,
+          "text_zh": "刑法典"
+        }
+      ],
+      "analysis": "Le Code du Travail régit les contrats, les congés et les salaires.",
+      "analysis_zh": "劳动法典是法国职场的行为准则，规定了假期、薪水和辞职等所有细则。",
+      "difficulty": 1,
+      "tags": ["travail"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_033",
+      "type": "single",
+      "stem": "L'instruction est obligatoire. Que risquent les parents en cas de non-respect ?",
+      "stem_zh": "教育是义务性的。如果家长拒绝让孩子受教育，会面临什么风险？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Rien, car l'éducation est un choix privé des parents",
+          "isCorrect": false,
+          "text_zh": "没有任何后果，因为这是家长的私人选择"
+        },
+        {
+          "id": "c2",
+          "text": "Des sanctions pénales, des amendes et un suivi éducatif",
+          "isCorrect": true,
+          "text_zh": "刑事处罚、罚款以及相关的教育干预"
+        },
+        {
+          "id": "c3",
+          "text": "L'interdiction de voyager pendant les vacances",
+          "isCorrect": false,
+          "text_zh": "假期禁止全家出游"
+        },
+        {
+          "id": "c4",
+          "text": "Une obligation de faire les devoirs à la place de l'enfant",
+          "isCorrect": false,
+          "text_zh": "强制家长替孩子写作业"
+        }
+      ],
+      "analysis": "L'instruction est un droit de l'enfant protégé par la loi.",
+      "analysis_zh": "在法国，接受教育不仅是权利也是义务，剥夺孩子的受教育权属于刑事违法。",
+      "difficulty": 2,
+      "tags": ["education"],
+      "examTargets": ["CR"]
+    },
+    {
+      "id": "VSF_034",
+      "type": "single",
+      "stem": "Qu'est-ce que l'autorité parentale ?",
+      "stem_zh": "什么是“亲权”（Autorité parentale）？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Le pouvoir de décider tout seul sans l'avis de l'autre parent",
+          "isCorrect": false,
+          "text_zh": "独自一人做决定而不需要另一方家长参与的权力"
+        },
+        {
+          "id": "c2",
+          "text": "Un ensemble de droits et de devoirs visant l'intérêt de l'enfant",
+          "isCorrect": true,
+          "text_zh": "旨在保护孩子利益的一系列权利和义务的总和"
+        },
+        {
+          "id": "c3",
+          "text": "Le droit de propriété des parents sur leurs enfants",
+          "isCorrect": false,
+          "text_zh": "父母对子女拥有的所有权"
+        },
+        {
+          "id": "c4",
+          "text": "Une allocation versée chaque mois par la CAF",
+          "isCorrect": false,
+          "text_zh": "CAF每月发放的一种津贴"
+        }
+      ],
+      "analysis": "Elle concerne la santé, la sécurité et l'éducation de l'enfant.",
+      "analysis_zh": "亲权不仅是管教孩子的权利，更包含了保护孩子健康、安全和教育的法定责任。",
+      "difficulty": 1,
+      "tags": ["famille"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_039",
+      "type": "single",
+      "stem": "Comment les parents participent-ils à la vie de l'école ?",
+      "stem_zh": "家长如何参与子女的校园生活？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "En venant déjeuner tous les jours à la cantine avec l'enfant",
+          "isCorrect": false,
+          "text_zh": "每天去学校食堂陪孩子吃午饭"
+        },
+        {
+          "id": "c2",
+          "text": "En élisant des représentants de parents d'élèves et via les réunions",
+          "isCorrect": true,
+          "text_zh": "通过参加家长会议和选举家长代表来参与学校决策"
+        },
+        {
+          "id": "c3",
+          "text": "En corrigeant les copies des autres élèves",
+          "isCorrect": false,
+          "text_zh": "协助老师批改其他学生的考卷"
+        },
+        {
+          "id": "c4",
+          "text": "En payant un abonnement spécial à la mairie",
+          "isCorrect": false,
+          "text_zh": "向市政厅支付一笔特殊的“参与费”"
+        }
+      ],
+      "analysis": "Les parents sont des partenaires de l'institution scolaire.",
+      "analysis_zh": "在法国，家长是学校教育的“合作伙伴”，可以通过家长委员会发声。",
+      "difficulty": 1,
+      "tags": ["education"],
+      "examTargets": ["CSP", "CR"]
+    },
+    {
+      "id": "VSF_040",
+      "type": "single",
+      "stem": "Un enfant étranger arrive en France sans parler français. Peut-il aller à l'école ?",
+      "stem_zh": "外国孩子刚到法国一句法语都不会，可以直接上学吗？",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Non, il doit d'abord apprendre seul à la maison",
+          "isCorrect": false,
+          "text_zh": "不可以，他必须先在家里自学学会法语"
+        },
+        {
+          "id": "c2",
+          "text": "Oui, il est accueilli et bénéficie souvent d'un soutien (UPE2A)",
+          "isCorrect": true,
+          "text_zh": "可以，学校必须接收他，并提供专门的法语强化课程（如UPE2A）"
+        },
+        {
+          "id": "c3",
+          "text": "Seulement s'il réussit un test de langue payant",
+          "isCorrect": false,
+          "text_zh": "只有通过一项付费的语言测试才可以"
+        },
+        {
+          "id": "c4",
+          "text": "Il doit attendre d'avoir 18 ans",
+          "isCorrect": false,
+          "text_zh": "他必须等到18岁以后"
+        }
+      ],
+      "analysis": "L'école est un droit pour tous les enfants, peu importe leur langue d'origine.",
+      "analysis_zh": "法律规定学校必须接纳所有学龄儿童。对于新移民孩子，法国学校有专门的法语过渡班。",
+      "difficulty": 2,
+      "tags": ["education", "integration"],
+      "examTargets": ["CSP", "CR"]
+    }
+  ]
+}

@@ -1,21 +1,52 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import Link from 'next/link';
-import { ChevronLeft, BookOpen, Heart, Trash2, CheckCircle, AlertCircle, Tag } from 'lucide-react';
+import {
+  ChevronLeft,
+  ChevronDown,
+  BookOpen,
+  Heart,
+  Trash2,
+  CheckCircle,
+  AlertCircle,
+  Tag,
+  Filter,
+  Sparkles,
+} from 'lucide-react';
 import { useUserProgress, MistakeRecord, BookmarkRecord } from '@/hooks/useUserProgress';
+import {
+  filterMistakes,
+  isSituationTopic,
+  MistakeQuestionKind,
+} from '@/lib/mistakeFilters';
 
 type TabType = 'mistakes' | 'bookmarks';
 
-// Topic name mapping
+type WrongCountFilter = 1 | 2 | 3 | 5;
+
 const TOPIC_NAMES: Record<string, { title: string; titleCn: string }> = {
-  'values': { title: 'Principes et valeurs', titleCn: '原则与价值观' },
-  'institutions': { title: 'Système institutionnel', titleCn: '制度体系' },
-  'rights': { title: 'Droits et devoirs', titleCn: '权利与义务' },
-  'history': { title: 'Histoire et culture', titleCn: '历史与文化' },
-  'society': { title: 'Société française', titleCn: '法国社会' },
+  values: { title: 'Principes et valeurs', titleCn: '原则与价值观' },
+  institutions: { title: 'Système institutionnel', titleCn: '制度体系' },
+  rights: { title: 'Droits et devoirs', titleCn: '权利与义务' },
+  history: { title: 'Histoire et culture', titleCn: '历史与文化' },
+  society: { title: 'Société française', titleCn: '法国社会' },
   'daily-practice': { title: 'Pratique quotidienne', titleCn: '每日练习' },
+  situation: { title: 'Situations pratiques', titleCn: '情景题' },
 };
+
+const KIND_FILTERS: Array<{ value: MistakeQuestionKind; label: string }> = [
+  { value: 'all', label: '全部' },
+  { value: 'choice', label: '选择题' },
+  { value: 'situation', label: '情景题' },
+];
+
+const COUNT_FILTERS: Array<{ value: WrongCountFilter; label: string }> = [
+  { value: 1, label: '全部次数' },
+  { value: 2, label: '错 >= 2 次' },
+  { value: 3, label: '错 >= 3 次' },
+  { value: 5, label: '错 >= 5 次' },
+];
 
 function getTopicLabel(topicId: string): { title: string; titleCn: string } {
   return TOPIC_NAMES[topicId] || { title: topicId, titleCn: topicId };
@@ -30,6 +61,25 @@ function formatDate(timestamp: number): string {
   if (diffDays === 1) return '昨天';
   if (diffDays < 7) return `${diffDays}天前`;
   return date.toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' });
+}
+
+function getTopicOptions(records: MistakeRecord[], kind: MistakeQuestionKind): string[] {
+  const topics = records
+    .map((record) => record.topicId)
+    .filter((topicId) => {
+      if (kind === 'choice') return !isSituationTopic(topicId);
+      if (kind === 'situation') return isSituationTopic(topicId);
+      return true;
+    });
+
+  return Array.from(new Set(topics));
+}
+
+function isTopicAllowedInKind(topicId: string, kind: MistakeQuestionKind): boolean {
+  if (topicId === 'all') return true;
+  if (kind === 'all') return true;
+  if (kind === 'choice') return !isSituationTopic(topicId);
+  return isSituationTopic(topicId);
 }
 
 interface MistakeItemProps {
@@ -193,7 +243,7 @@ function EmptyState({ type }: { type: TabType }) {
       </h3>
       <p className="mt-2 text-sm text-slate-500 max-w-xs">
         {type === 'mistakes'
-          ? '目前没有错题记录，继续保持！'
+          ? '当前筛选条件下没有错题，调整筛选试试。'
           : '点击题目卡片右上角的 ❤️ 收藏题目，方便复习。'}
       </p>
     </div>
@@ -203,15 +253,60 @@ function EmptyState({ type }: { type: TabType }) {
 export default function ProgressPage() {
   const [activeTab, setActiveTab] = useState<TabType>('mistakes');
   const [mounted, setMounted] = useState(false);
+  const [kindFilter, setKindFilter] = useState<MistakeQuestionKind>('all');
+  const [topicFilter, setTopicFilter] = useState<string>('all');
+  const [minWrongCount, setMinWrongCount] = useState<WrongCountFilter>(1);
+  const [showMistakeFilters, setShowMistakeFilters] = useState(true);
+
   const { mistakes, bookmarks, removeMistake, toggleBookmark } = useUserProgress();
 
-  // Handle hydration
   useEffect(() => {
     setMounted(true);
   }, []);
 
-  const mistakesList = Object.values(mistakes).sort((a, b) => b.count - a.count);
-  const bookmarksList = Object.values(bookmarks).sort((a, b) => b.addedAt - a.addedAt);
+  const mistakesList = useMemo(
+    () => Object.values(mistakes).sort((a, b) => b.count - a.count || b.lastWrongAt - a.lastWrongAt),
+    [mistakes]
+  );
+
+  const bookmarksList = useMemo(
+    () => Object.values(bookmarks).sort((a, b) => b.addedAt - a.addedAt),
+    [bookmarks]
+  );
+
+  const topicOptions = useMemo(() => getTopicOptions(mistakesList, kindFilter), [mistakesList, kindFilter]);
+
+  const filteredMistakes = useMemo(
+    () => filterMistakes(mistakesList, { kind: kindFilter, topicId: topicFilter, minWrongCount }),
+    [mistakesList, kindFilter, topicFilter, minWrongCount]
+  );
+
+  const groupedMistakes = useMemo(() => {
+    const groups = new Map<string, MistakeRecord[]>();
+    filteredMistakes.forEach((record) => {
+      if (!groups.has(record.topicId)) {
+        groups.set(record.topicId, []);
+      }
+      groups.get(record.topicId)?.push(record);
+    });
+    return Array.from(groups.entries());
+  }, [filteredMistakes]);
+
+  const handleToggleKind = (value: MistakeQuestionKind) => {
+    const nextKind: MistakeQuestionKind = kindFilter === value ? 'all' : value;
+    setKindFilter(nextKind);
+    if (!isTopicAllowedInKind(topicFilter, nextKind)) {
+      setTopicFilter('all');
+    }
+  };
+
+  const handleToggleTopic = (value: string) => {
+    setTopicFilter((prev) => (prev === value ? 'all' : value));
+  };
+
+  const handleToggleCount = (value: WrongCountFilter) => {
+    setMinWrongCount((prev) => (prev === value ? 1 : value));
+  };
 
   const tabs = [
     { id: 'mistakes' as TabType, label: '错题本', count: mistakesList.length, icon: AlertCircle },
@@ -229,7 +324,6 @@ export default function ProgressPage() {
   return (
     <div className="min-h-screen bg-slate-50">
       <div className="mx-auto max-w-2xl px-4 py-8">
-        {/* Header */}
         <div className="mb-8">
           <Link
             href="/"
@@ -244,7 +338,6 @@ export default function ProgressPage() {
           </h1>
         </div>
 
-        {/* Tabs */}
         <div className="flex gap-2 p-1 bg-slate-200/50 rounded-xl mb-6">
           {tabs.map((tab) => (
             <button
@@ -275,17 +368,109 @@ export default function ProgressPage() {
           ))}
         </div>
 
-        {/* Content */}
+        {activeTab === 'mistakes' && (
+          <div className="mb-5 rounded-2xl border border-slate-200 bg-white p-4">
+            <div className="mb-3 flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={() => setShowMistakeFilters((prev) => !prev)}
+                  className="inline-flex items-center rounded-full bg-slate-100 px-3 py-1.5 text-xs font-semibold text-slate-700 hover:bg-slate-200"
+                >
+                  <Filter className="mr-1.5 h-3.5 w-3.5" />
+                  {showMistakeFilters ? '收起筛选' : '展开筛选'}
+                  <ChevronDown
+                    className={`ml-1.5 h-3.5 w-3.5 transition-transform ${showMistakeFilters ? 'rotate-180' : ''}`}
+                  />
+                </button>
+              </div>
+              <Link
+                href="/exam/mistakes"
+                className="inline-flex items-center rounded-full bg-slate-900 px-3 py-1.5 text-xs font-semibold text-white hover:bg-slate-800"
+              >
+                <Sparkles className="mr-1.5 h-3.5 w-3.5" />
+                开始刷错题
+              </Link>
+            </div>
+
+            {showMistakeFilters && (
+              <div className="space-y-3">
+                <div className="flex flex-wrap gap-2">
+                  {KIND_FILTERS.map((item) => (
+                    <button
+                      key={item.value}
+                      onClick={() => handleToggleKind(item.value)}
+                      className={`rounded-full px-3 py-1.5 text-xs font-medium transition ${
+                        kindFilter === item.value
+                          ? 'bg-blue-100 text-blue-700'
+                          : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                      }`}
+                    >
+                      {item.label}
+                    </button>
+                  ))}
+                </div>
+
+                {topicOptions.length > 0 && (
+                  <div className="flex flex-wrap gap-2">
+                    {topicOptions.map((topicId) => {
+                      const topic = getTopicLabel(topicId);
+                      return (
+                        <button
+                          key={topicId}
+                          onClick={() => handleToggleTopic(topicId)}
+                          className={`rounded-full px-3 py-1.5 text-xs font-medium transition ${
+                            topicFilter === topicId
+                              ? 'bg-indigo-100 text-indigo-700'
+                              : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                          }`}
+                        >
+                          {topic.titleCn}
+                        </button>
+                      );
+                    })}
+                  </div>
+                )}
+
+                <div className="flex flex-wrap gap-2">
+                  {COUNT_FILTERS.map((item) => (
+                    <button
+                      key={item.value}
+                      onClick={() => handleToggleCount(item.value)}
+                      className={`rounded-full px-3 py-1.5 text-xs font-medium transition ${
+                        minWrongCount === item.value
+                          ? 'bg-amber-100 text-amber-700'
+                          : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                      }`}
+                    >
+                      {item.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
         <div className="space-y-3">
           {activeTab === 'mistakes' && (
-            mistakesList.length > 0 ? (
-              mistakesList.map((record) => (
-                <MistakeItem
-                  key={record.questionId}
-                  record={record}
-                  onRemove={() => removeMistake(record.questionId)}
-                />
-              ))
+            filteredMistakes.length > 0 ? (
+              groupedMistakes.map(([topicId, records]) => {
+                const topic = getTopicLabel(topicId);
+                return (
+                  <div key={topicId} className="space-y-2">
+                    <div className="sticky top-0 z-[1] rounded-xl bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-700">
+                      {topic.titleCn} · {records.length} 题
+                    </div>
+                    {records.map((record) => (
+                      <MistakeItem
+                        key={record.questionId}
+                        record={record}
+                        onRemove={() => removeMistake(record.questionId)}
+                      />
+                    ))}
+                  </div>
+                );
+              })
             ) : (
               <EmptyState type="mistakes" />
             )

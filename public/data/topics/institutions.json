@@ -17,22 +17,26 @@
         {
           "id": "c1",
           "text": "Par l'Assemblée nationale",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "由国民议会选出"
         },
         {
           "id": "c2",
           "text": "Par le Président de la République",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "由共和国总统任命"
         },
         {
           "id": "c3",
           "text": "Par le Sénat",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "由参议院选出"
         },
         {
           "id": "c4",
           "text": "Par référendum",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "通过公民投票产生"
         }
       ],
       "analysis": "Le Premier ministre est nommé par le Président de la République.",
@@ -44,7 +48,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "总理是如何诞生的？",
+      "analysisZh": "总理由共和国总统根据宪法第八条规定任命。"
     },
     {
       "id": "INS_002",
@@ -54,22 +60,26 @@
         {
           "id": "c1",
           "text": "Toute personne résidant en France",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "任何居住在法国的人"
         },
         {
           "id": "c2",
           "text": "Tout citoyen français majeur remplissant les conditions légales",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "所有符合法律规定的成年法国公民"
         },
         {
           "id": "c3",
           "text": "Tout électeur inscrit",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "任何登记过的选民"
         },
         {
           "id": "c4",
           "text": "Tout membre d'un parti politique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "任何政党成员"
         }
       ],
       "analysis": "Seuls les citoyens français majeurs remplissant les conditions peuvent être candidats.",
@@ -80,7 +90,9 @@
       ],
       "examTargets": [
         "CR"
-      ]
+      ],
+      "stemZh": "谁可以参加总统选举？",
+      "analysisZh": "只有达到法定年龄（18岁）、拥有法国国籍且符合法律规定条件（如获得500个民选代表签名支持）的公民才能参选。"
     },
     {
       "id": "INS_003",
@@ -90,22 +102,26 @@
         {
           "id": "c1",
           "text": "Au Président de la République",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "属于共和国总统"
         },
         {
           "id": "c2",
           "text": "Au gouvernement",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "属于政府"
         },
         {
           "id": "c3",
           "text": "Au peuple",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "属于人民"
         },
         {
           "id": "c4",
           "text": "Au Parlement",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "属于议会"
         }
       ],
       "analysis": "La souveraineté nationale appartient au peuple.",
@@ -117,7 +133,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "国家主权属于谁？",
+      "analysisZh": "国家主权属于人民，人民通过其代表和公民投票行使主权。"
     },
     {
       "id": "INS_004",
@@ -127,22 +145,26 @@
         {
           "id": "c1",
           "text": "Le préfet",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "省长"
         },
         {
           "id": "c2",
           "text": "Le maire et le conseil municipal",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "市长和市议会"
         },
         {
           "id": "c3",
           "text": "Les députés",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "国民议会议员"
         },
         {
           "id": "c4",
           "text": "Le Président",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "总统"
         }
       ],
       "analysis": "Les élections municipales servent à élire le conseil municipal et le maire.",
@@ -154,7 +176,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "市镇选举选出的是谁？",
+      "analysisZh": "市镇选举选出市议会议员，随后由议员投票选出市长。"
     },
     {
       "id": "INS_005",
@@ -164,22 +188,26 @@
         {
           "id": "c1",
           "text": "Automatique pour tous",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "对所有人都是自动的"
         },
         {
           "id": "c2",
           "text": "Obligatoire pour pouvoir voter",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "参加投票的必要前提"
         },
         {
           "id": "c3",
           "text": "Facultative",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "自愿的"
         },
         {
           "id": "c4",
           "text": "Réservée aux élus",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅限民选代表"
         }
       ],
       "analysis": "Il faut être inscrit sur les listes électorales pour pouvoir voter.",
@@ -191,7 +219,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "选民名单登记是：",
+      "analysisZh": "要行使投票权，必须在选民名单上进行登记。"
     },
     {
       "id": "INS_006",
@@ -201,22 +231,26 @@
         {
           "id": "c1",
           "text": "Être résident depuis 5 ans",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "在法居住满5年"
         },
         {
           "id": "c2",
           "text": "Être citoyen français majeur et inscrit",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "是具有投票资格的成年法国公民"
         },
         {
           "id": "c3",
           "text": "Avoir un emploi",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "有一份工作"
         },
         {
           "id": "c4",
           "text": "Être membre d'un parti politique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "是某个政党的成员"
         }
       ],
       "analysis": "Il faut être citoyen français, majeur et inscrit sur les listes électorales.",
@@ -228,7 +262,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "参加总统大选投票的必要条件是什么？",
+      "analysisZh": "投票者必须是成年法国公民，并已在选民名单上登记。"
     },
     {
       "id": "INS_007",
@@ -238,22 +274,26 @@
         {
           "id": "c1",
           "text": "Le préfet",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "省长"
         },
         {
           "id": "c2",
           "text": "Le maire",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "市长"
         },
         {
           "id": "c3",
           "text": "Le Premier ministre",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "总理"
         },
         {
           "id": "c4",
           "text": "Le procureur",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "检察官"
         }
       ],
       "analysis": "Le maire est un élu local.",
@@ -264,7 +304,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在下列权威职位中，哪一个是选举产生的？",
+      "analysisZh": "市长是地方民选官员，而省长和总理是由任命产生的。"
     },
     {
       "id": "INS_008",
@@ -274,22 +316,26 @@
         {
           "id": "c1",
           "text": "Voter les lois",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "投票通过法律"
         },
         {
           "id": "c2",
           "text": "Diriger la commune et représenter l'État localement",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "管理市镇并在当地代表国家"
         },
         {
           "id": "c3",
           "text": "Diriger le gouvernement",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "领导政府"
         },
         {
           "id": "c4",
           "text": "Rendre la justice",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "主持司法"
         }
       ],
       "analysis": "Le maire dirige la commune et exerce des fonctions administratives.",
@@ -300,7 +346,9 @@
       ],
       "examTargets": [
         "CR"
-      ]
+      ],
+      "stemZh": "市长的职能是什么？",
+      "analysisZh": "市长既是市镇的行政首长，也是国家在当地的代表（负责户籍管理和执行司法警察职能）。"
     },
     {
       "id": "INS_009",
@@ -310,22 +358,26 @@
         {
           "id": "c1",
           "text": "16 ans",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "16岁"
         },
         {
           "id": "c2",
           "text": "18 ans",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "18岁"
         },
         {
           "id": "c3",
           "text": "21 ans",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "21岁"
         },
         {
           "id": "c4",
           "text": "25 ans",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "25岁"
         }
       ],
       "analysis": "On devient électeur à 18 ans.",
@@ -337,7 +389,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "满几岁可以成为选民？",
+      "analysisZh": "在法国，法定成年年龄和投票年龄均为18岁。"
     },
     {
       "id": "INS_010",
@@ -347,22 +401,26 @@
         {
           "id": "c1",
           "text": "Oui",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "是"
         },
         {
           "id": "c2",
           "text": "Non",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "否"
         },
         {
           "id": "c3",
           "text": "Seulement aux présidentielles",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅限总统选举"
         },
         {
           "id": "c4",
           "text": "Seulement aux municipales",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅限市镇选举"
         }
       ],
       "analysis": "Le vote est un droit, pas une obligation.",
@@ -374,7 +432,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在法国，投票是强制性的吗？",
+      "analysisZh": "投票是公民的一项权利和道德义务，但在法律上并非强制性（不投票不会受到处罚）。"
     },
     {
       "id": "INS_011",
@@ -1225,22 +1285,26 @@
         {
           "id": "c1",
           "text": "Le traité de Rome",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "罗马条约（1957年）"
         },
         {
           "id": "c2",
           "text": "Le traité de Versailles",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "凡尔赛条约（1919年，第一次世界大战结束）"
         },
         {
           "id": "c3",
           "text": "Le traité de Nice",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "亚眠条约"
         },
         {
           "id": "c4",
           "text": "Le traité de Lisbonne",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "伦敦条约"
         }
       ],
       "analysis": "Le traité de Rome (1957) est à l'origine de la construction européenne.",
@@ -1251,7 +1315,9 @@
       ],
       "examTargets": [
         "CR"
-      ]
+      ],
+      "stemZh": "哪项条约被视为欧洲经济共同体（CEE）诞生的标志？",
+      "analysisZh": "1957年签署的《罗马条约》建立了欧洲经济共同体。虽然《马斯特里赫特条约》和《里斯本条约》对现在的欧盟至关重要，但罗马条约是其历史基础。"
     },
     {
       "id": "INS_035",
@@ -1261,22 +1327,26 @@
         {
           "id": "c1",
           "text": "L'Irlande",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "爱尔兰"
         },
         {
           "id": "c2",
           "text": "Le Royaume-Uni",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "英国"
         },
         {
           "id": "c3",
           "text": "La Norvège",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "挪威（非欧盟成员国）"
         },
         {
           "id": "c4",
           "text": "La Suisse",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "希腊"
         }
       ],
       "analysis": "Le Royaume-Uni a quitté l'Union européenne en 2020 (Brexit).",
@@ -1288,7 +1358,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "哪个国家在2020年正式退出了欧盟？",
+      "analysisZh": "继脱欧公投后，英国于2020年1月31日正式退出欧盟。"
     },
     {
       "id": "INS_036",
@@ -1298,22 +1370,26 @@
         {
           "id": "c1",
           "text": "Liberté, Égalité, Fraternité",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "自由、平等、博爱（法国格言）"
         },
         {
           "id": "c2",
           "text": "Unie dans la diversité",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "多元一体 / 多样性中的团结"
         },
         {
           "id": "c3",
           "text": "Paix et solidarité",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "团结就是力量（比利时格言）"
         },
         {
           "id": "c4",
           "text": "Justice et progrès",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "和平、进步、团结"
         }
       ],
       "analysis": "La devise de l'Union européenne est « Unie dans la diversité ».",
@@ -1325,7 +1401,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "欧盟的格言是什么？",
+      "analysisZh": "格言“多元一体”意味着欧洲人为和平与繁荣而团结，同时保留其不同的文化。"
     },
     {
       "id": "INS_037",
@@ -1335,22 +1413,26 @@
         {
           "id": "c1",
           "text": "L'Ode à la joie",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "欢乐颂"
         },
         {
           "id": "c2",
           "text": "La Marseillaise",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "马赛曲"
         },
         {
           "id": "c3",
           "text": "L'Hymne à la liberté",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "和平赞歌"
         },
         {
           "id": "c4",
           "text": "Le Chant de l'Europe",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "游击队之歌"
         }
       ],
       "analysis": "L'hymne européen est l'Ode à la joie.",
@@ -1362,7 +1444,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "欧盟的官方盟歌是什么？",
+      "analysisZh": "这是由路德维希·凡·贝多芬于1823年创作的第九交响曲的主题音乐。"
     },
     {
       "id": "INS_038",
@@ -1372,22 +1456,26 @@
         {
           "id": "c1",
           "text": "De bandes bleues et blanches",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "27颗星（每成员国一颗）"
         },
         {
           "id": "c2",
           "text": "De 12 étoiles dorées sur fond bleu",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "蓝底上的12颗金星"
         },
         {
           "id": "c3",
           "text": "De 27 étoiles",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "蓝色和黄色的条纹"
         },
         {
           "id": "c4",
           "text": "De cercles dorés",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "白底上的12颗星环"
         }
       ],
       "analysis": "Le drapeau européen comporte 12 étoiles dorées sur fond bleu.",
@@ -1399,7 +1487,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "欧盟旗帜是由什么组成的？",
+      "analysisZh": "星星的数量是固定的（12颗），不随成员国数量变化。它象征着完美、圆满和统一。"
     },
     {
       "id": "INS_039",
@@ -1409,22 +1499,26 @@
         {
           "id": "c1",
           "text": "Les gouvernements",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "由各国政府任命"
         },
         {
           "id": "c2",
           "text": "Les citoyens de l'Union européenne",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "由公民通过全民直接选举产生"
         },
         {
           "id": "c3",
           "text": "La Commission européenne",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "从地方民选代表中随机抽取"
         },
         {
           "id": "c4",
           "text": "Le Conseil européen",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "由欧盟委员会任命"
         }
       ],
       "analysis": "Les députés européens sont élus au suffrage universel direct.",
@@ -1436,7 +1530,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在欧洲议会任职的议员是如何选出的？",
+      "analysisZh": "自1979年以来，欧洲议会议员由各成员国公民每5年选举一次产生。"
     },
     {
       "id": "INS_040",
@@ -1446,22 +1542,26 @@
         {
           "id": "c1",
           "text": "Bruxelles",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "布鲁塞尔"
         },
         {
           "id": "c2",
           "text": "Luxembourg",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "卢森堡"
         },
         {
           "id": "c3",
           "text": "Strasbourg",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "斯特拉斯堡"
         },
         {
           "id": "c4",
           "text": "Francfort",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "日内瓦"
         }
       ],
       "analysis": "Le siège officiel du Parlement européen est à Strasbourg.",
@@ -1473,7 +1573,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "欧洲议会全体会议的官方总部设在哪个城市？",
+      "analysisZh": "尽管议会在布鲁塞尔也有办公点，但其官方和历史总部位于法国的斯特拉斯堡。"
     }
   ]
 }

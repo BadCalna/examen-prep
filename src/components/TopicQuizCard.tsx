@@ -11,9 +11,16 @@ interface TopicQuizCardProps {
   userAnswer: string | null;
   onAnswer: (choiceId: string) => void;
   topicId: string;
+  showTranslation?: boolean;
 }
 
-export default function TopicQuizCard({ question, userAnswer, onAnswer, topicId }: TopicQuizCardProps) {
+const zhFadeVariants = {
+  hidden: { opacity: 0, height: 0, marginTop: 0 },
+  visible: { opacity: 1, height: 'auto', marginTop: 4 },
+  exit: { opacity: 0, height: 0, marginTop: 0 },
+};
+
+export default function TopicQuizCard({ question, userAnswer, onAnswer, topicId, showTranslation = false }: TopicQuizCardProps) {
   const isAnswered = userAnswer !== null;
   const { isBookmarked, toggleBookmark } = useUserProgress();
   const bookmarked = isBookmarked(question.id);
@@ -36,6 +43,23 @@ export default function TopicQuizCard({ question, userAnswer, onAnswer, topicId 
         <h2 className="text-xl font-semibold leading-relaxed text-slate-900 sm:text-2xl pr-12">
           {question.stem}
         </h2>
+
+        {/* 中文题干翻译 */}
+        <AnimatePresence>
+          {showTranslation && question.stemZh && (
+            <motion.p
+              key="stem-zh"
+              variants={zhFadeVariants}
+              initial="hidden"
+              animate="visible"
+              exit="exit"
+              transition={{ duration: 0.25 }}
+              className="text-sm leading-relaxed text-blue-500/80 pr-12"
+            >
+              {question.stemZh}
+            </motion.p>
+          )}
+        </AnimatePresence>
 
         <div className="mt-8 space-y-3">
           {question.choices.map((choice) => {
@@ -61,15 +85,34 @@ export default function TopicQuizCard({ question, userAnswer, onAnswer, topicId 
                 key={choice.id}
                 onClick={() => !isAnswered && onAnswer(choice.id)}
                 disabled={isAnswered}
-                className={`group relative flex w-full items-center rounded-xl border p-4 text-left text-base font-medium transition-all ${buttonStyle}`}
+                className={`group relative flex w-full flex-col rounded-xl border p-4 text-left text-base font-medium transition-all ${buttonStyle}`}
               >
-                <span className="flex-1">{choice.text}</span>
-                {isAnswered && isSelected && isCorrect && (
-                  <CheckCircle2 className="ml-3 h-5 w-5 text-green-600" />
-                )}
-                {isAnswered && isSelected && !isCorrect && (
-                  <XCircle className="ml-3 h-5 w-5 text-red-600" />
-                )}
+                <div className="flex w-full items-center">
+                  <span className="flex-1">{choice.text}</span>
+                  {isAnswered && isSelected && isCorrect && (
+                    <CheckCircle2 className="ml-3 h-5 w-5 shrink-0 text-green-600" />
+                  )}
+                  {isAnswered && isSelected && !isCorrect && (
+                    <XCircle className="ml-3 h-5 w-5 shrink-0 text-red-600" />
+                  )}
+                </div>
+
+                {/* 中文选项翻译 */}
+                <AnimatePresence>
+                  {showTranslation && choice.textZh && (
+                    <motion.span
+                      key={`choice-zh-${choice.id}`}
+                      variants={zhFadeVariants}
+                      initial="hidden"
+                      animate="visible"
+                      exit="exit"
+                      transition={{ duration: 0.2 }}
+                      className="text-xs text-slate-400"
+                    >
+                      {choice.textZh}
+                    </motion.span>
+                  )}
+                </AnimatePresence>
               </button>
             );
           })}
@@ -84,11 +127,24 @@ export default function TopicQuizCard({ question, userAnswer, onAnswer, topicId 
             >
               <h3 className="mb-2 font-semibold text-slate-900">Analyse</h3>
               <p>{question.analysis}</p>
-              <div className="mt-4 pt-4 border-t border-slate-200">
-                <p className="text-sm text-slate-500 italic">
-                  [Traduction en chinois à venir...]
-                </p>
-              </div>
+
+              {/* 中文解析 */}
+              <AnimatePresence>
+                {showTranslation && question.analysisZh && (
+                  <motion.div
+                    key="analysis-zh"
+                    initial={{ opacity: 0, height: 0 }}
+                    animate={{ opacity: 1, height: 'auto' }}
+                    exit={{ opacity: 0, height: 0 }}
+                    transition={{ duration: 0.25 }}
+                    className="mt-4 pt-4 border-t border-slate-200"
+                  >
+                    <p className="text-sm text-blue-500/80 leading-relaxed">
+                      {question.analysisZh}
+                    </p>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </motion.div>
           )}
         </AnimatePresence>

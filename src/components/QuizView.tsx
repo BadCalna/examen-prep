@@ -1,8 +1,10 @@
 "use client";
 
+import { useState } from 'react';
 import useTopicQuiz from '@/hooks/useTopicQuiz';
 import TopicQuizCard from './TopicQuizCard';
 import CircularProgress from './CircularProgress';
+import BilingualToggle from './BilingualToggle';
 import { ArrowRight, RotateCcw, ArrowLeft, Home } from 'lucide-react';
 import Link from 'next/link';
 
@@ -11,6 +13,7 @@ interface QuizViewProps {
 }
 
 export default function QuizView({ slug }: QuizViewProps) {
+  const [showTranslation, setShowTranslation] = useState(false);
   const {
     questions,
     currentQuestion,
@@ -111,6 +114,10 @@ export default function QuizView({ slug }: QuizViewProps) {
           <ArrowLeft className="mr-1 h-4 w-4" />
           Retour
         </Link>
+        <BilingualToggle
+          enabled={showTranslation}
+          onChange={setShowTranslation}
+        />
       </div>
 
       <div className="mb-4 h-2 w-full overflow-hidden rounded-full bg-slate-200">
@@ -125,6 +132,7 @@ export default function QuizView({ slug }: QuizViewProps) {
         userAnswer={currentAnswer}
         onAnswer={submitAnswer}
         topicId={slug}
+        showTranslation={showTranslation}
       />
 
       <div className="mt-8 flex justify-end h-12">

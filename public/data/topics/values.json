@@ -17,22 +17,26 @@
         {
           "id": "c1",
           "text": "Le jour de gloire est arrivé",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "光荣的日子已经到来"
         },
         {
           "id": "c2",
           "text": "Marchons ensemble vers la paix",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "让我们一起走向和平"
         },
         {
           "id": "c3",
           "text": "La République nous appelle",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "共和国在召唤我们"
         },
         {
           "id": "c4",
           "text": "Le peuple chante la liberté",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "人民歌唱自由"
         }
       ],
       "analysis": "Le premier vers de La Marseillaise est « Allons enfants de la Patrie, le jour de gloire est arrivé ».",
@@ -44,7 +48,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "补全《马赛曲》的歌词：“祖国的孩子们，……”",
+      "analysisZh": "法国国歌的第一句歌词是由鲁日·德·利勒于1792年创作的：“祖国的孩子们，光荣的日子已经到来。”"
     },
     {
       "id": "VAL_002",
@@ -54,22 +60,26 @@
         {
           "id": "c1",
           "text": "Sa religion",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "他的宗教或信仰"
         },
         {
           "id": "c2",
           "text": "Son origine",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "他的种族出身"
         },
         {
           "id": "c3",
           "text": "Ses compétences professionnelles",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "他的职业技能/能力"
         },
         {
           "id": "c4",
           "text": "Ses opinions politiques",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "他的政治观点或工会背景"
         }
       ],
       "analysis": "Lors d'un entretien d'embauche, seules les questions en lien avec le poste et les compétences sont autorisées.",
@@ -81,7 +91,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在求职面试中，法律允许向候选人询问的是：",
+      "analysisZh": "反歧视原则禁止询问候选人的私人生活、信仰或出身。面试内容必须仅限于与岗位相关的职业能力。"
     },
     {
       "id": "VAL_003",
@@ -202,22 +214,26 @@
         {
           "id": "c1",
           "text": "Sans aucune limite",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "绝对且没有任何限制"
         },
         {
           "id": "c2",
           "text": "Encadrée par la loi",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "受法律约束（禁止煽动仇恨）"
         },
         {
           "id": "c3",
           "text": "Interdite",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅限法国公民享有"
         },
         {
           "id": "c4",
           "text": "Réservée aux journalistes",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "须经国家的预先审查"
         }
       ],
       "analysis": "La liberté d'expression s'exerce dans le respect de la loi.",
@@ -228,7 +244,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在法国，言论自由是：",
+      "analysisZh": "言论自由是一项原则，但也有界限：法律制裁侮辱、诽谤、煽动仇恨或暴力等行为。"
     },
     {
       "id": "VAL_007",
@@ -385,22 +403,26 @@
         {
           "id": "c1",
           "text": "Oui",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "可以，以言论自由之名"
         },
         {
           "id": "c2",
           "text": "Non, c'est interdit par la loi",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "不可以，这属于违法行为，可处以罚款"
         },
         {
           "id": "c3",
           "text": "Seulement le 14 juillet",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅在游行示威期间允许"
         },
         {
           "id": "c4",
           "text": "Uniquement à l'étranger",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "可以，如果国旗是个人私产"
         }
       ],
       "analysis": "Brûler le drapeau français constitue une infraction.",
@@ -412,7 +434,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "是否允许在公共场合破坏或侮辱法国国旗？",
+      "analysisZh": "在公共活动中侮辱三色旗或国歌属于刑事犯罪，受法国法律惩处。"
     },
     {
       "id": "VAL_012",
@@ -459,22 +483,26 @@
         {
           "id": "c1",
           "text": "La prise de la Bastille",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "攻占巴士底狱（1789）和联盟节（1790）"
         },
         {
           "id": "c2",
           "text": "La fin de la Seconde Guerre mondiale",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "拿破仑·波拿巴的加冕"
         },
         {
           "id": "c3",
           "text": "La Constitution de 1958",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "第一次世界大战停战"
         },
         {
           "id": "c4",
           "text": "La création de l'Union européenne",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "人权宣言的发表"
         }
       ],
       "analysis": "Le 14 juillet commémore la prise de la Bastille.",
@@ -486,7 +514,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "7月14日国庆节主要纪念什么？",
+      "analysisZh": "7月14日既庆祝1789年的革命事件，也庆祝1790年象征国家统一的联盟节。"
     },
     {
       "id": "VAL_014",
@@ -715,22 +745,26 @@
         {
           "id": "c1",
           "text": "Monarchique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "联邦制且地方分权的"
         },
         {
           "id": "c2",
           "text": "Laïque, démocratique et sociale",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "不可分割、世俗、民主和社会"
         },
         {
           "id": "c3",
           "text": "Religieuse",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "基督教且自由主义的"
         },
         {
           "id": "c4",
           "text": "Autoritaire",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "议会制且王室的"
         }
       ],
       "analysis": "La Constitution définit la France comme une République indivisible, laïque, démocratique et sociale.",
@@ -742,7 +776,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "根据宪法第一条，法国是一个怎样的共和国？",
+      "analysisZh": "这四个词定义了法国国家的支柱。其中“世俗性”和“社会性”（团结互助）尤为重要。"
     },
     {
       "id": "VAL_021",
@@ -752,22 +788,26 @@
         {
           "id": "c1",
           "text": "La carte d'identité",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "身份证"
         },
         {
           "id": "c2",
           "text": "Le permis de conduire",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "驾驶证"
         },
         {
           "id": "c3",
           "text": "La carte Vitale",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "医保卡"
         },
         {
           "id": "c4",
           "text": "Un passeport étranger",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "外国护照"
         }
       ],
       "analysis": "Marianne figure sur les documents officiels comme la carte d'identité ainsi que sur d'autres documents administratifs et supports officiels.",
@@ -779,7 +819,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在哪种证件上可以看到玛丽安娜？",
+      "analysisZh": "玛丽安娜出现在身份证等官方证件上，还有一些政府部门的文件，如税单。"
     },
     {
       "id": "VAL_022",
@@ -789,22 +831,26 @@
         {
           "id": "c1",
           "text": "Tous les citoyens sont égaux devant la loi",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "所有公民在法律面前平等"
         },
         {
           "id": "c2",
           "text": "Tous ont les mêmes revenus",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "所有人收入相同"
         },
         {
           "id": "c3",
           "text": "Tous pensent de la même façon",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "所有人思考方式相同"
         },
         {
           "id": "c4",
           "text": "Tous ont la même origine",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "所有人有相同的出身"
         }
       ],
       "analysis": "L'égalité signifie l'égalité des droits devant la loi.",
@@ -815,7 +861,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "法国共和国格言中的价值之一是平等。这个意味着什么？",
+      "analysisZh": "平等意味着在法律面前的权利平等。"
     },
     {
       "id": "VAL_023",
@@ -825,22 +873,26 @@
         {
           "id": "c1",
           "text": "Non",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "不可以"
         },
         {
           "id": "c2",
           "text": "Oui",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "可以"
         },
         {
           "id": "c3",
           "text": "Avec autorisation",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "需要许可"
         },
         {
           "id": "c4",
           "text": "Uniquement après 18 ans",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "只有在18岁后"
         }
       ],
       "analysis": "La liberté de conscience permet de changer de religion.",
@@ -852,7 +904,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在法国，一个人可以自由更换宗教吗？",
+      "analysisZh": "信仰自由允许改变宗教。"
     },
     {
       "id": "VAL_024",
@@ -862,22 +916,26 @@
         {
           "id": "c1",
           "text": "L'État favorise une religion",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "国家支持某个宗教"
         },
         {
           "id": "c2",
           "text": "L'État ne privilégie aucune religion",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "国家不偏袒任何宗教"
         },
         {
           "id": "c3",
           "text": "L'État interdit les religions",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "国家禁止宗教"
         },
         {
           "id": "c4",
           "text": "L'État impose l'athéisme",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "国家强制无神论"
         }
       ],
       "analysis": "La neutralité signifie l'absence de religion officielle.",
@@ -889,7 +947,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "根据世俗原则，国家的中立性意味着什么？",
+      "analysisZh": "中立性意味着没有官方宗教。"
     },
     {
       "id": "VAL_025",
@@ -899,22 +959,26 @@
         {
           "id": "c1",
           "text": "Accéder aux services publics",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "办理行政手续（如户籍登记、身份证件办理）"
         },
         {
           "id": "c2",
           "text": "Refuser les lois",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "申诉刑事判决"
         },
         {
           "id": "c3",
           "text": "Imposer ses opinions",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "办理私人保险合同"
         },
         {
           "id": "c4",
           "text": "Contrôler les agents",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "直接对国家法律进行投票"
         }
       ],
       "analysis": "Un usager peut accéder aux services publics.",
@@ -926,7 +990,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在市政厅，公共服务的服务对象可以做什么？",
+      "analysisZh": "市政厅是负责基层行政事务的地方市镇当局。其职能包括处理户籍（出生、结婚）和身份证明文件。市政厅既不具备司法职能（属于法院范畴），也不具备立法职能（属于议会范畴），更不提供如保险之类的私人商业服务。"
     },
     {
       "id": "VAL_026",
@@ -936,22 +1002,26 @@
         {
           "id": "c1",
           "text": "Les services publics",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "公共服务"
         },
         {
           "id": "c2",
           "text": "Les cultes",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "宗教活动的开展"
         },
         {
           "id": "c3",
           "text": "Les opinions",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "个人观点的宣传"
         },
         {
           "id": "c4",
           "text": "Les partis religieux",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "宗教政党"
         }
       ],
       "analysis": "L'État finance les services publics.",
@@ -963,7 +1033,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在法国，国家可以资助什么？",
+      "analysisZh": "根据1905年法案，共和国不承认、不发放薪水也不资助任何宗教。公共资金专门用于公共服务的运作，以确保公共利益。"
     },
     {
       "id": "VAL_027",
@@ -973,22 +1045,26 @@
         {
           "id": "c1",
           "text": "1789",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1789年（人权宣言）"
         },
         {
           "id": "c2",
           "text": "1905",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "1905年（世俗化法案）"
         },
         {
           "id": "c3",
           "text": "1945",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1945年（二战结束及投票权）"
         },
         {
           "id": "c4",
           "text": "1958",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1958年（第五共和国宪法）"
         }
       ],
       "analysis": "La loi fondatrice de la laïcité date de 1905.",
@@ -1000,7 +1076,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "教会与国家分离法案是哪一年通过的？",
+      "analysisZh": "1905年12月9日的法案是法国世俗主义的奠基性文本，结束了公认宗教制度，确立了国家的中立性。"
     },
     {
       "id": "VAL_028",
@@ -1010,22 +1088,26 @@
         {
           "id": "c1",
           "text": "Elle sépare les Églises et l'État",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "确立教会与国家的分离"
         },
         {
           "id": "c2",
           "text": "Elle impose une religion",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "强制推行一种官方宗教"
         },
         {
           "id": "c3",
           "text": "Elle interdit toute croyance",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "禁止任何宗教信仰"
         },
         {
           "id": "c4",
           "text": "Elle favorise certains cultes",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "优待某些特定的宗教派别"
         }
       ],
       "analysis": "La loi de 1905 établit la séparation des Églises et de l'État.",
@@ -1037,7 +1119,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "1905年法案的主要内容是什么？",
+      "analysisZh": "1905年12月9日的法案通过结束“公认宗教制”确立了法国的世俗化原则。国家保障信仰自由，但不资助任何宗教活动。"
     },
     {
       "id": "VAL_029",
@@ -1047,22 +1131,26 @@
         {
           "id": "c1",
           "text": "La liberté de conscience",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "良知自由与宗教信仰自由"
         },
         {
           "id": "c2",
           "text": "La religion obligatoire",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "必须拥有宗教信仰的义务"
         },
         {
           "id": "c3",
           "text": "La domination religieuse",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "宗教权力高于法律"
         },
         {
           "id": "c4",
           "text": "L'interdiction des croyances",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "禁止在私人场合表达个人信仰"
         }
       ],
       "analysis": "La laïcité garantit la liberté de conscience et la neutralité de l'État.",
@@ -1074,7 +1162,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "世俗化原则保障了什么？",
+      "analysisZh": "世俗化原则建立在三大支柱之上：良知自由、公共机构与宗教组织分离，以及法律面前人人平等（无论其信仰如何）。"
     },
     {
       "id": "VAL_030",
@@ -1084,22 +1174,26 @@
         {
           "id": "c1",
           "text": "9 décembre",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "12月9日"
         },
         {
           "id": "c2",
           "text": "14 juillet",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "7月14日（国庆节）"
         },
         {
           "id": "c3",
           "text": "11 novembre",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "11月11日（一战停战纪念日）"
         },
         {
           "id": "c4",
           "text": "1er mai",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "5月1日（劳动节）"
         }
       ],
       "analysis": "Le 9 décembre correspond à la date de la loi de 1905.",
@@ -1111,7 +1205,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在法国，哪一天是法定的“世俗化日”？",
+      "analysisZh": "国家世俗化日定于每年的12月9日，即1905年法案通过的纪念日，旨在增强公民对这一共和国原则的意识。"
     },
     {
       "id": "VAL_031",
@@ -1121,22 +1217,26 @@
         {
           "id": "c1",
           "text": "Un signe religieux visible",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "明显的宗教标志（如头巾、大十字架）"
         },
         {
           "id": "c2",
           "text": "Un signe religieux discret",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "隐蔽/细小的宗教标志"
         },
         {
           "id": "c3",
           "text": "Tout symbole religieux",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "任何具有宗教性质的服装"
         },
         {
           "id": "c4",
           "text": "Aucun symbole religieux",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "任何标志都不行，即便藏在衣服里"
         }
       ],
       "analysis": "Seuls les signes religieux discrets sont autorisés à l'école publique.",
@@ -1148,7 +1248,9 @@
       ],
       "examTargets": [
         "CR"
-      ]
+      ],
+      "stemZh": "在公立学校，可以佩戴哪种宗教符号？",
+      "analysisZh": "根据2004年法案，公立学校学生禁止佩戴显眼的（可见且具宣示性的）宗教标志。但允许佩戴隐蔽的小型符号（如藏在衣服里的小十字架或大卫之星挂坠）。"
     },
     {
       "id": "VAL_032",
@@ -1158,22 +1260,26 @@
         {
           "id": "c1",
           "text": "Le racisme",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "种族主义（广义）"
         },
         {
           "id": "c2",
           "text": "La xénophobie",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仇外心理"
         },
         {
           "id": "c3",
           "text": "L'antisémitisme",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "反犹主义"
         },
         {
           "id": "c4",
           "text": "La discrimination sociale",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "性别歧视"
         }
       ],
       "analysis": "L'antisémitisme désigne la haine ou les préjugés envers les Juifs.",
@@ -1185,7 +1291,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "哪个词专门指代针对犹太人的仇恨或偏见？",
+      "analysisZh": "反犹主义是一种针对犹太群体（作为民族、宗教或文化群体）的特定形式的歧视和仇恨。"
     },
     {
       "id": "VAL_033",
@@ -1195,22 +1303,26 @@
         {
           "id": "c1",
           "text": "La Déclaration de 1789",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1789年《人权和公民权宣言》"
         },
         {
           "id": "c2",
           "text": "La Constitution de 1958",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1958年《第五共和国宪法》"
         },
         {
           "id": "c3",
           "text": "La loi de séparation des Églises et de l'État de 1905",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "1905年《教会与国家分离法》"
         },
         {
           "id": "c4",
           "text": "Le Code civil",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "《拿破仑法典》"
         }
       ],
       "analysis": "La loi de 1905 est le texte fondateur de la laïcité.",
@@ -1222,7 +1334,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "哪项法律文件被视为法国世俗化的奠基性文本？",
+      "analysisZh": "虽然良知自由在1789年就被提及，但1905年法案才真正从法律实操层面确立了国家的中立性以及对宗教不予资助的规定。"
     },
     {
       "id": "VAL_034",
@@ -1232,22 +1346,26 @@
         {
           "id": "c1",
           "text": "Les entreprises privées",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "私营企业"
         },
         {
           "id": "c2",
           "text": "Les associations",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "政党"
         },
         {
           "id": "c3",
           "text": "L'État et les services publics",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "国家及公共服务部门"
         },
         {
           "id": "c4",
           "text": "Les citoyens",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "宗教活动场所"
         }
       ],
       "analysis": "La neutralité religieuse s'impose à l'État et aux services publics.",
@@ -1260,7 +1378,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "下列哪个法国机构必须在宗教事务上保持严格中立？",
+      "analysisZh": "世俗化原则要求国家和所有公共行政部门在宗教上保持严格中立，以确保所有公民受到平等对待。"
     },
     {
       "id": "VAL_035",
@@ -1270,22 +1390,26 @@
         {
           "id": "c1",
           "text": "La reconnaissance d'une religion officielle",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "承认某种国教"
         },
         {
           "id": "c2",
           "text": "La séparation des religions et de l'État",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "政教分离与良知自由"
         },
         {
           "id": "c3",
           "text": "L'interdiction de toute croyance",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "禁止在公共场合进行宗教活动"
         },
         {
           "id": "c4",
           "text": "L'obligation de pratiquer une religion",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "强制要求不信仰任何神灵"
         }
       ],
       "analysis": "La laïcité garantit la liberté de conscience et la neutralité de l'État.",
@@ -1297,7 +1421,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在法国，什么是“世俗主义（Laïcité）”？",
+      "analysisZh": "世俗主义并非针对宗教的偏见，而是一种法律框架，它将政治与宗教分离，并保障公民信仰或不信仰的自由。"
     },
     {
       "id": "VAL_036",
@@ -1307,22 +1433,26 @@
         {
           "id": "c1",
           "text": "Promouvoir une religion",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "让学生皈依某种国家哲学"
         },
         {
           "id": "c2",
           "text": "Garantir la liberté de conscience et le respect de chacun",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "保障良知自由并为所有人提供宁静的学习环境"
         },
         {
           "id": "c3",
           "text": "Interdire toute opinion personnelle",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "防止学生在私人谈话中讨论自己的信仰"
         },
         {
           "id": "c4",
           "text": "Favoriser certaines croyances",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "优待没有宗教信仰的学生"
         }
       ],
       "analysis": "La charte rappelle les principes de neutralité et de respect.",
@@ -1335,7 +1465,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在公立学校，《世俗化宪章》旨在：",
+      "analysisZh": "学校的《世俗化宪章》申明教学是中立的，且学校保护学生免受任何形式的宗教劝诱或压力。"
     },
     {
       "id": "VAL_037",
@@ -1345,22 +1477,26 @@
         {
           "id": "c1",
           "text": "Les usagers uniquement",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "公共服务的使用者（民众）"
         },
         {
           "id": "c2",
           "text": "Les agents du service public",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "公共服务人员（公务员）"
         },
         {
           "id": "c3",
           "text": "Les associations religieuses",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "私营商户"
         },
         {
           "id": "c4",
           "text": "Les entreprises privées",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "宗教协会的志愿者"
         }
       ],
       "analysis": "Les agents du service public sont soumis à une obligation de neutralité.",
@@ -1373,7 +1509,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "哪类人员在履行职责时必须遵守宗教中立义务？",
+      "analysisZh": "严格中立的义务适用于公职人员。相比之下，民众在不扰乱公共秩序的前提下，有权自由表达其宗教信仰。"
     },
     {
       "id": "VAL_038",
@@ -1383,22 +1521,26 @@
         {
           "id": "c1",
           "text": "Qu'elle est croyante",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "不可知论者"
         },
         {
           "id": "c2",
           "text": "Qu'elle est pratiquante",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "宗教实践者"
         },
         {
           "id": "c3",
           "text": "Qu'elle est athée",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "无神论者"
         },
         {
           "id": "c4",
           "text": "Qu'elle est religieuse",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "世俗人士（注：在法语中 laïc 更多指非神职人员）"
         }
       ],
       "analysis": "Une personne qui ne croit en aucun dieu est dite athée.",
@@ -1410,7 +1552,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "如何称呼一个声明不信仰任何神灵的人？",
+      "analysisZh": "无神论是不信仰任何神灵的哲学立场。世俗化原则保障无神论者拥有与信徒同等的权利。"
     },
     {
       "id": "VAL_039",
@@ -1420,22 +1564,26 @@
         {
           "id": "c1",
           "text": "soldats",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "士兵们"
         },
         {
           "id": "c2",
           "text": "enfants",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "爱国者们"
         },
         {
           "id": "c3",
           "text": "citoyens",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "公民们"
         },
         {
           "id": "c4",
           "text": "amis",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "人民"
         }
       ],
       "analysis": "Les paroles exactes de la Marseillaise sont « Aux armes, citoyens ! »",
@@ -1447,39 +1595,52 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
-    },
-{
-  "id": "VAL_022",
-  "type": "single",
-  "stem": "Sur quels supports peut-on voir le symbole de Marianne ?",
-  "choices": [
-    {
-      "id": "c1",
-      "text": "Sur des documents administratifs comme la déclaration d'impôts, des timbres et des pièces de monnaie",
-      "isCorrect": true
+      ],
+      "stemZh": "请补全《马赛曲》著名的副歌歌词：“武装起来，___！”",
+      "analysisZh": "法国国歌的副歌是：“武装起来，公民们！组成你们的军队！”这强调了公民身份与保卫祖国之间的联系。"
     },
     {
-      "id": "c2",
-      "text": "Uniquement dans les écoles",
-      "isCorrect": false
-    },
-    {
-      "id": "c3",
-      "text": "Seulement sur les passeports étrangers",
-      "isCorrect": false
-    },
-    {
-      "id": "c4",
-      "text": "Exclusivement sur les permis de conduire",
-      "isCorrect": false
+      "id": "VAL_022",
+      "type": "single",
+      "stem": "Sur quels supports peut-on voir le symbole de Marianne ?",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Sur des documents administratifs comme la déclaration d'impôts, des timbres et des pièces de monnaie",
+          "isCorrect": true,
+          "textZh": "所有公民在法律面前平等"
+        },
+        {
+          "id": "c2",
+          "text": "Uniquement dans les écoles",
+          "isCorrect": false,
+          "textZh": "所有人收入相同"
+        },
+        {
+          "id": "c3",
+          "text": "Seulement sur les passeports étrangers",
+          "isCorrect": false,
+          "textZh": "所有人思考方式相同"
+        },
+        {
+          "id": "c4",
+          "text": "Exclusivement sur les permis de conduire",
+          "isCorrect": false,
+          "textZh": "所有人有相同的出身"
+        }
+      ],
+      "analysis": "Marianne est un symbole de la République française. Elle figure notamment sur la carte nationale d'identité ainsi que sur d'autres documents administratifs et supports officiels.",
+      "difficulty": 2,
+      "tags": [
+        "values",
+        "symbols"
+      ],
+      "examTargets": [
+        "CSP",
+        "CR"
+      ],
+      "stemZh": "法国共和国格言中的价值之一是平等。这个意味着什么？",
+      "analysisZh": "平等意味着在法律面前的权利平等。"
     }
-  ],
-  "analysis": "Marianne est un symbole de la République française. Elle figure notamment sur la carte nationale d'identité ainsi que sur d'autres documents administratifs et supports officiels.",
-  "difficulty": 2,
-  "tags": ["values", "symbols"],
-  "examTargets": ["CSP", "CR"]
-}
-
   ]
 }

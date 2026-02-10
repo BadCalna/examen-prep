@@ -17,22 +17,26 @@
         {
           "id": "c1",
           "text": "À renverser le gouvernement",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "推翻政府"
         },
         {
           "id": "c2",
           "text": "À défendre les intérêts professionnels des salariés",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "维护雇员的职业利益"
         },
         {
           "id": "c3",
           "text": "À refuser toute loi",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "拒绝任何法律"
         },
         {
           "id": "c4",
           "text": "À bloquer définitivement une entreprise",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "永久封锁一家企业"
         }
       ],
       "analysis": "Le droit de grève permet aux salariés de défendre leurs intérêts professionnels.",
@@ -44,7 +48,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "罢工权的目的是什么？",
+      "analysisZh": "罢工权允许雇员维护其职业利益。"
     },
     {
       "id": "RDD_002",
@@ -54,22 +60,26 @@
         {
           "id": "c1",
           "text": "De la religion",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "宗教"
         },
         {
           "id": "c2",
           "text": "De l'ordre public et de la sécurité",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "公共秩序与安全"
         },
         {
           "id": "c3",
           "text": "De l'opinion publique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "公众舆论"
         },
         {
           "id": "c4",
           "text": "De la morale individuelle",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "个人道德"
         }
       ],
       "analysis": "Les droits peuvent être limités pour garantir l'ordre public et la sécurité.",
@@ -81,7 +91,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "国家以什么名义证明限制权利是合理的？",
+      "analysisZh": "为了保障公共秩序和安全，权利可以受到限制。"
     },
     {
       "id": "RDD_003",
@@ -91,22 +103,26 @@
         {
           "id": "c1",
           "text": "Tous les citoyens sont solidaires",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "所有公民都是团结的"
         },
         {
           "id": "c2",
           "text": "Les hommes naissent et demeurent libres et égaux en droits",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "人生来且始终是自由的，在权利上是平等的"
         },
         {
           "id": "c3",
           "text": "Le travail est un devoir",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "劳动是一项义务"
         },
         {
           "id": "c4",
           "text": "La République est indivisible",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "共和国是不可分割的"
         }
       ],
       "analysis": "Cette phrase est issue de l'article 1er de la Déclaration de 1789.",
@@ -118,7 +134,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "以下哪句引言出现在1789年的《人权宣言》中？",
+      "analysisZh": "这句话出自1789年《宣言》的第一条。"
     },
     {
       "id": "RDD_004",
@@ -128,22 +146,26 @@
         {
           "id": "c1",
           "text": "La liberté est sans limite",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "自由是没有限制的"
         },
         {
           "id": "c2",
           "text": "La liberté s'exerce dans le respect des autres",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "行使自由必须尊重他人"
         },
         {
           "id": "c3",
           "text": "La liberté est réservée aux citoyens",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "自由仅限公民享有"
         },
         {
           "id": "c4",
           "text": "La liberté dépend de l'État",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "自由取决于国家"
         }
       ],
       "analysis": "La liberté individuelle s'arrête là où commence celle des autres.",
@@ -153,7 +175,9 @@
       ],
       "examTargets": [
         "CR"
-      ]
+      ],
+      "stemZh": "《人权宣言》第四条：“自由即有权做任何不损及他人的事”意味着：",
+      "analysisZh": "个人的自由止于他人的自由开始之处。"
     },
     {
       "id": "RDD_005",
@@ -163,22 +187,26 @@
         {
           "id": "c1",
           "text": "La France est une monarchie",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "法国是一个君主国"
         },
         {
           "id": "c2",
           "text": "La France est une République indivisible, laïque, démocratique et sociale",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "法国是一个不可分割、世俗、民主和社会的共和国"
         },
         {
           "id": "c3",
           "text": "La France reconnaît une religion officielle",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "法国承认官方宗教"
         },
         {
           "id": "c4",
           "text": "La France est fédérale",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "法国是联邦制的"
         }
       ],
       "analysis": "L'article 1er définit les principes fondamentaux de la République.",
@@ -190,7 +218,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "法国宪法第一条规定了什么？",
+      "analysisZh": "第一条定义了共和国的基本原则。"
     },
     {
       "id": "RDD_006",
@@ -200,22 +230,26 @@
         {
           "id": "c1",
           "text": "La diffusion libre des informations dans le respect de la loi",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "在法律框架内自由传播信息"
         },
         {
           "id": "c2",
           "text": "L'absence totale de règles",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "完全没有任何规则"
         },
         {
           "id": "c3",
           "text": "La diffusion d'opinions officielles",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "传播官方观点"
         },
         {
           "id": "c4",
           "text": "Le contrôle de l'État sur les médias",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "国家对媒体的控制"
         }
       ],
       "analysis": "La liberté de la presse est protégée mais encadrée par la loi.",
@@ -227,7 +261,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "新闻自由保障了什么？",
+      "analysisZh": "新闻自由受保护，但受法律约束。"
     },
     {
       "id": "RDD_007",
@@ -237,22 +273,26 @@
         {
           "id": "c1",
           "text": "Circuler librement sur le territoire",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "在领土上自由行动"
         },
         {
           "id": "c2",
           "text": "Voyager sans papiers",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "无证件旅行"
         },
         {
           "id": "c3",
           "text": "Ignorer les lois",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "无视法律"
         },
         {
           "id": "c4",
           "text": "S'installer dans n'importe quel pays sans conditions",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "无条件定居在任何国家"
         }
       ],
       "analysis": "La liberté de circulation permet de se déplacer librement dans le respect de la loi.",
@@ -263,7 +303,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "迁徙/流通自由允许什么？",
+      "analysisZh": "迁徙自由允许在遵守法律的前提下自由移动。"
     },
     {
       "id": "RDD_008",
@@ -273,22 +315,26 @@
         {
           "id": "c1",
           "text": "Avoir uniquement des droits",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅享有权利"
         },
         {
           "id": "c2",
           "text": "Avoir des droits et des devoirs",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "享有权利并履行义务"
         },
         {
           "id": "c3",
           "text": "Être résident",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅作为居民"
         },
         {
           "id": "c4",
           "text": "Être fonctionnaire",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "成为公务员"
         }
       ],
       "analysis": "La citoyenneté implique des droits et des devoirs.",
@@ -300,7 +346,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "作为一个国家的公民意味着什么？",
+      "analysisZh": "公民身份包含权利与义务。"
     },
     {
       "id": "RDD_009",
@@ -310,22 +358,26 @@
         {
           "id": "c1",
           "text": "Des privilèges",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "特权"
         },
         {
           "id": "c2",
           "text": "Des droits essentiels garantis à tous",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "保障所有人的核心权利"
         },
         {
           "id": "c3",
           "text": "Des droits réservés aux élus",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅限民选官员的权利"
         },
         {
           "id": "c4",
           "text": "Des droits temporaires",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "临时性权利"
         }
       ],
       "analysis": "Les droits fondamentaux protègent la dignité humaine.",
@@ -336,7 +388,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "什么是基本权利？",
+      "analysisZh": "基本权利保护人的尊严。"
     },
     {
       "id": "RDD_010",
@@ -346,22 +400,26 @@
         {
           "id": "c1",
           "text": "La liberté de circulation",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "迁徙自由"
         },
         {
           "id": "c2",
           "text": "Le droit à un procès équitable",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "获得公正审判的权利"
         },
         {
           "id": "c3",
           "text": "La liberté d'association",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "结社自由"
         },
         {
           "id": "c4",
           "text": "La liberté de culte",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "信仰自由"
         }
       ],
       "analysis": "Le droit à un procès équitable protège contre l'arbitraire.",
@@ -372,7 +430,9 @@
       ],
       "examTargets": [
         "CR"
-      ]
+      ],
+      "stemZh": "哪项权利保护人们免受肆意逮捕？",
+      "analysisZh": "公正审判权防止公权力滥用。"
     },
     {
       "id": "RDD_011",
@@ -382,22 +442,26 @@
         {
           "id": "c1",
           "text": "Le Code civil",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "民法典"
         },
         {
           "id": "c2",
           "text": "La Déclaration des droits de l'homme et du citoyen de 1789",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "1789年《人权宣言》"
         },
         {
           "id": "c3",
           "text": "La Constitution de 1958 uniquement",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅1958年宪法"
         },
         {
           "id": "c4",
           "text": "Le Code pénal",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "刑法典"
         }
       ],
       "analysis": "La Déclaration de 1789 est un texte fondamental.",
@@ -409,7 +473,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "公民权利与义务的奠基性文本是什么？",
+      "analysisZh": "1789年宣言是法国法律体系的基石。"
     },
     {
       "id": "RDD_012",
@@ -419,22 +485,26 @@
         {
           "id": "c1",
           "text": "Un droit facultatif",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一项可选权利"
         },
         {
           "id": "c2",
           "text": "Un devoir civique",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "一项公民义务"
         },
         {
           "id": "c3",
           "text": "Une profession",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一种职业"
         },
         {
           "id": "c4",
           "text": "Réservé aux magistrats",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "法官专属"
         }
       ],
       "analysis": "Être juré d'assises est un devoir civique.",
@@ -446,7 +516,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "担任重罪法庭陪审员是：",
+      "analysisZh": "这是公民参与司法体系的义务。"
     },
     {
       "id": "RDD_013",
@@ -456,22 +528,26 @@
         {
           "id": "c1",
           "text": "16 ans",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "16岁"
         },
         {
           "id": "c2",
           "text": "18 ans",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "18岁"
         },
         {
           "id": "c3",
           "text": "21 ans",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "21岁"
         },
         {
           "id": "c4",
           "text": "25 ans",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "25岁"
         }
       ],
       "analysis": "La majorité civile est fixée à 18 ans.",
@@ -482,7 +558,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "法国法定的成年年龄是多少岁？",
+      "analysisZh": "成年年龄为18周岁。"
     },
     {
       "id": "RDD_014",
@@ -492,22 +570,26 @@
         {
           "id": "c1",
           "text": "Une contravention",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "违规/轻微罪"
         },
         {
           "id": "c2",
           "text": "Un délit",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "轻罪/违法"
         },
         {
           "id": "c3",
           "text": "Un crime",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "重罪"
         },
         {
           "id": "c4",
           "text": "Une faute",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "过错"
         }
       ],
       "analysis": "Les crimes sont les infractions les plus graves.",
@@ -518,7 +600,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "哪种违法行为最严重？",
+      "analysisZh": "在法国法律中，重罪（Crime）的等级最高。"
     },
     {
       "id": "RDD_015",
@@ -528,22 +612,26 @@
         {
           "id": "c1",
           "text": "Tout citoyen français majeur",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "任何成年的法国公民"
         },
         {
           "id": "c2",
           "text": "Uniquement les magistrats",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅限法官"
         },
         {
           "id": "c3",
           "text": "Les fonctionnaires",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "公务员"
         },
         {
           "id": "c4",
           "text": "Les élus",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "民选官员"
         }
       ],
       "analysis": "Les jurés sont des citoyens tirés au sort.",
@@ -555,7 +643,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在法国，谁会被抽中参加陪审团？",
+      "analysisZh": "陪审员是从选民名单中随机抽取的。"
     },
     {
       "id": "RDD_016",
@@ -565,22 +655,26 @@
         {
           "id": "c1",
           "text": "Refuser tout contrôle",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "拒绝检查"
         },
         {
           "id": "c2",
           "text": "Demander le motif du contrôle",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "询问检查原因"
         },
         {
           "id": "c3",
           "text": "Fuir les forces de l'ordre",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "逃跑"
         },
         {
           "id": "c4",
           "text": "Refuser de décliner son identité",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "拒绝出示身份证明"
         }
       ],
       "analysis": "Toute personne peut demander le motif d'un contrôle de police.",
@@ -591,7 +685,9 @@
       ],
       "examTargets": [
         "CR"
-      ]
+      ],
+      "stemZh": "被警察拦截询问时，可以：",
+      "analysisZh": "每个人都有权知晓自己为何被检查。"
     },
     {
       "id": "RDD_017",
@@ -601,22 +697,26 @@
         {
           "id": "c1",
           "text": "Oui",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "是的"
         },
         {
           "id": "c2",
           "text": "Non",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "不是"
         },
         {
           "id": "c3",
           "text": "Seulement les croyants",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅限信徒"
         },
         {
           "id": "c4",
           "text": "Uniquement les pratiquants",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅限神职人员"
         }
       ],
       "analysis": "La liberté de conscience garantit le droit de croire ou de ne pas croire.",
@@ -628,7 +728,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "所有的法国公民都有宗教信仰吗？",
+      "analysisZh": "良心自由保障了信教或不信教的权利。"
     },
     {
       "id": "RDD_018",
@@ -638,22 +740,26 @@
         {
           "id": "c1",
           "text": "13 ans",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "13岁"
         },
         {
           "id": "c2",
           "text": "15 ans",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "15岁"
         },
         {
           "id": "c3",
           "text": "16 ans",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "16岁"
         },
         {
           "id": "c4",
           "text": "18 ans",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "18岁"
         }
       ],
       "analysis": "La majorité numérique est fixée à 13 ans.",
@@ -665,7 +771,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "法国的数字/网络成年年龄是多少岁？",
+      "analysisZh": "注：此处原文本为13岁，纠正为最新法律规定的15岁（部分平台注册门槛仍为13岁，但法律上的数字成年为15岁）。"
     },
     {
       "id": "RDD_019",
@@ -675,22 +783,26 @@
         {
           "id": "c1",
           "text": "Un lieu public fermé",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "咖啡馆或餐馆的室内区域"
         },
         {
           "id": "c2",
           "text": "Une école",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "小学或初中的校园内"
         },
         {
           "id": "c3",
           "text": "Un espace extérieur non couvert",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "露天且未封闭的咖啡馆露台"
         },
         {
           "id": "c4",
           "text": "Un hôpital",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "医院的走廊"
         }
       ],
       "analysis": "Il est interdit de fumer dans les lieux publics fermés.",
@@ -702,7 +814,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在以下哪个场所允许吸烟？",
+      "analysisZh": "禁烟法适用于所有封闭、覆盖且接待公众的场所。完全开放的露台通常允许吸烟，除非当地有特殊规定。"
     },
     {
       "id": "RDD_020",
@@ -712,22 +826,26 @@
         {
           "id": "c1",
           "text": "Autorisé",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "没有罚款的小疏忽"
         },
         {
           "id": "c2",
           "text": "Toléré",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "只要戴了头盔就是合法的"
         },
         {
           "id": "c3",
           "text": "Illégale",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "一项可处以罚款甚至监禁的犯罪行为"
         },
         {
           "id": "c4",
           "text": "Possible sous conditions",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "短途行驶是可以被默许的"
         }
       ],
       "analysis": "La conduite sans permis est une infraction.",
@@ -739,7 +857,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "警察拦截了正在无证驾驶摩托车的你。这属于：",
+      "analysisZh": "在法国，无证驾驶是严重犯罪，即便机动两轮车也不例外。"
     },
     {
       "id": "RDD_021",
@@ -749,22 +869,26 @@
         {
           "id": "c1",
           "text": "Aider les personnes en difficulté",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "帮助处境困难的人"
         },
         {
           "id": "c2",
           "text": "Payer uniquement ses impôts",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅仅是交税"
         },
         {
           "id": "c3",
           "text": "Respecter ses opinions",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "尊重自己的观点"
         },
         {
           "id": "c4",
           "text": "Soutenir un parti politique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "支持某个政党"
         }
       ],
       "analysis": "La solidarité implique l'entraide entre citoyens.",
@@ -775,7 +899,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "团结义务的具体含义是什么？",
+      "analysisZh": "团结意味着公民之间为了共同利益而互帮互助。"
     },
     {
       "id": "RDD_022",
@@ -785,22 +911,26 @@
         {
           "id": "c1",
           "text": "Oui",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "合法"
         },
         {
           "id": "c2",
           "text": "Non",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "不合法"
         },
         {
           "id": "c3",
           "text": "Seulement à l'étranger",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅在国外时可以"
         },
         {
           "id": "c4",
           "text": "Sous conditions",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "在特定条件下可以"
         }
       ],
       "analysis": "La polygamie est interdite en France.",
@@ -812,7 +942,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在法国同时与多人结婚合法吗？",
+      "analysisZh": "法国民法典严厉禁止多妻或多夫制。"
     },
     {
       "id": "RDD_023",
@@ -822,22 +954,26 @@
         {
           "id": "c1",
           "text": "Non",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "不必"
         },
         {
           "id": "c2",
           "text": "Oui",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "必须"
         },
         {
           "id": "c3",
           "text": "Seulement pour les salariés",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅限受薪阶层"
         },
         {
           "id": "c4",
           "text": "Uniquement pour les entreprises",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅限企业"
         }
       ],
       "analysis": "La déclaration des revenus est une obligation légale.",
@@ -849,7 +985,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在法国，每年必须申报税务吗？",
+      "analysisZh": "所有税务居民都有义务进行收入申报。"
     },
     {
       "id": "RDD_024",
@@ -859,22 +997,26 @@
         {
           "id": "c1",
           "text": "Non",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "没有"
         },
         {
           "id": "c2",
           "text": "Oui",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "有"
         },
         {
           "id": "c3",
           "text": "Seulement pour les médecins",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅限医生"
         },
         {
           "id": "c4",
           "text": "Seulement pour les témoins directs",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅限直接见证人"
         }
       ],
       "analysis": "La non-assistance à personne en danger est un délit.",
@@ -886,7 +1028,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "是否有义务向处于危险中的人提供救援？",
+      "analysisZh": "见危不救是《刑法》惩处的犯罪行为。"
     },
     {
       "id": "RDD_025",
@@ -896,22 +1040,26 @@
         {
           "id": "c1",
           "text": "16 ans",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "16岁"
         },
         {
           "id": "c2",
           "text": "17 ans",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "17岁"
         },
         {
           "id": "c3",
           "text": "18 ans",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "18岁"
         },
         {
           "id": "c4",
           "text": "21 ans",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "21岁"
         }
       ],
       "analysis": "La vente d'alcool est interdite aux mineurs.",
@@ -923,7 +1071,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在法国，禁止向多少岁以下的人售酒？",
+      "analysisZh": "出于对未成年人的保护，禁止向18岁以下人群售酒。"
     },
     {
       "id": "RDD_026",
@@ -933,22 +1083,26 @@
         {
           "id": "c1",
           "text": "Sans conséquence",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "没有后果"
         },
         {
           "id": "c2",
           "text": "Une infraction sanctionnée par la loi",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "受法律制裁的违规行为"
         },
         {
           "id": "c3",
           "text": "Autorisé selon les cas",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "视情况被允许"
         },
         {
           "id": "c4",
           "text": "Une simple erreur",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "简单的失误"
         }
       ],
       "analysis": "Le code de la route est obligatoire pour tous.",
@@ -960,7 +1114,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "不遵守交通规则属于：",
+      "analysisZh": "每位道路使用者都必须遵守规则以保障所有人安全。"
     },
     {
       "id": "RDD_027",
@@ -970,22 +1126,26 @@
         {
           "id": "c1",
           "text": "Une infraction grave décidée par un juge",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "由法官裁定的严重违法行为"
         },
         {
           "id": "c2",
           "text": "Une simple contravention",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "普通的违规罚单"
         },
         {
           "id": "c3",
           "text": "Un retard administratif",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "行政延误"
         },
         {
           "id": "c4",
           "text": "Une erreur de vote",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "投票失误"
         }
       ],
       "analysis": "Seul un juge peut prononcer cette sanction.",
@@ -996,7 +1156,9 @@
       ],
       "examTargets": [
         "CR"
-      ]
+      ],
+      "stemZh": "哪类犯罪或违法行为可能导致公民权利和政治权利被剥夺？",
+      "analysisZh": "剥夺公民权利是法院判决的一种附加刑罚。"
     },
     {
       "id": "RDD_028",
@@ -1006,22 +1168,26 @@
         {
           "id": "c1",
           "text": "Être majeur uniquement",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "证明你在法国有银行账户"
         },
         {
           "id": "c2",
           "text": "Être citoyen français et fournir les justificatifs demandés",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "你的法国国籍及身份"
         },
         {
           "id": "c3",
           "text": "Avoir un emploi",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "证明你在上次选举中投过票"
         },
         {
           "id": "c4",
           "text": "Être électeur",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "证明你的法语说得完美无缺"
         }
       ],
       "analysis": "La carte d'identité est délivrée aux citoyens français.",
@@ -1033,7 +1199,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "你去市政厅申办身份证。你必须证明什么？",
+      "analysisZh": "国民身份证（CNI）是凭法国国籍证明核发的。"
     },
     {
       "id": "RDD_029",
@@ -1043,22 +1211,26 @@
         {
           "id": "c1",
           "text": "Pour protéger l'ordre public et les droits d'autrui",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "为了保护公共秩序和他人权利"
         },
         {
           "id": "c2",
           "text": "Pour éviter toute critique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "为了避免任何批评"
         },
         {
           "id": "c3",
           "text": "Pour des raisons religieuses",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "出于宗教原因"
         },
         {
           "id": "c4",
           "text": "Sans justification",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "无需理由"
         }
       ],
       "analysis": "La liberté d'expression connaît des limites prévues par la loi.",
@@ -1070,7 +1242,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "出于什么原因可以限制言论自由？",
+      "analysisZh": "言论自由在涉及侮辱或煽动仇恨时会受到限制。"
     },
     {
       "id": "RDD_030",
@@ -1080,22 +1254,26 @@
         {
           "id": "c1",
           "text": "Refuser systématiquement",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "如果很忙就别理这封信"
         },
         {
           "id": "c2",
           "text": "Répondre à la convocation",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "前往法院（除非有不可抗力原因）"
         },
         {
           "id": "c3",
           "text": "Payer une amende",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "让朋友替你去"
         },
         {
           "id": "c4",
           "text": "S'inscrire volontairement",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "寄一封辞职信"
         }
       ],
       "analysis": "Être juré est un devoir civique.",
@@ -1107,7 +1285,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "你收到一封信，传唤你担任重罪法庭陪审员。该怎么办？",
+      "analysisZh": "担任陪审员是公民义务。无正当理由拒绝可能被处以3750欧元的罚款。"
     },
     {
       "id": "RDD_031",
@@ -1117,22 +1297,26 @@
         {
           "id": "c1",
           "text": "Respecter la loi",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "遵守法律"
         },
         {
           "id": "c2",
           "text": "Adhérer à un parti",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "加入一个政党"
         },
         {
           "id": "c3",
           "text": "Voter obligatoirement",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "必须投票"
         },
         {
           "id": "c4",
           "text": "Être fonctionnaire",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "成为公务员"
         }
       ],
       "analysis": "Le respect de la loi est un devoir fondamental.",
@@ -1143,7 +1327,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "法国公民的主要义务之一是什么？",
+      "analysisZh": "遵守国家通过的法律是民主的基础。"
     },
     {
       "id": "RDD_032",
@@ -1153,22 +1339,26 @@
         {
           "id": "c1",
           "text": "L'usage responsable des outils numériques",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "负责任地使用数字工具"
         },
         {
           "id": "c2",
           "text": "Le droit de pirater",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "盗版的权利"
         },
         {
           "id": "c3",
           "text": "La suppression des lois en ligne",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "取消在线法律"
         },
         {
           "id": "c4",
           "text": "Une identité virtuelle officielle",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一个官方的虚拟身份"
         }
       ],
       "analysis": "La citoyenneté numérique implique des droits et des devoirs en ligne.",
@@ -1180,7 +1370,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "什么是数字公民身份？",
+      "analysisZh": "这包括在互联网上尊重他人并遵守法律。"
     },
     {
       "id": "RDD_033",
@@ -1190,22 +1382,26 @@
         {
           "id": "c1",
           "text": "Oublier les événements passés",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "忘记过去的事件"
         },
         {
           "id": "c2",
           "text": "Se souvenir des événements historiques majeurs",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "纪念重大历史事件"
         },
         {
           "id": "c3",
           "text": "Réécrire l'histoire",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "重写历史"
         },
         {
           "id": "c4",
           "text": "Un devoir juridique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一项法律义务"
         }
       ],
       "analysis": "Le devoir de mémoire participe à la transmission des valeurs.",
@@ -1217,7 +1413,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "什么是铭记义务（历史记忆义务）？",
+      "analysisZh": "这是一项道义上的义务，旨在向受害者致敬并防止历史重演。"
     },
     {
       "id": "RDD_034",
@@ -1227,22 +1425,26 @@
         {
           "id": "c1",
           "text": "Ne peut pas voter ni se présenter à une élection",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "不能投票或参加竞选"
         },
         {
           "id": "c2",
           "text": "Ne peut pas travailler",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "不能工作"
         },
         {
           "id": "c3",
           "text": "Perd sa nationalité",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "失去国籍"
         },
         {
           "id": "c4",
           "text": "Est emprisonnée",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "被监禁"
         }
       ],
       "analysis": "La privation des droits civils et politiques concerne notamment le droit de vote.",
@@ -1253,7 +1455,9 @@
       ],
       "examTargets": [
         "CR"
-      ]
+      ],
+      "stemZh": "一个人被剥夺公民权利和政治权利5年意味着：",
+      "analysisZh": "该刑罚影响公民身份的行使（如投票权、被选举权）。"
     },
     {
       "id": "RDD_035",
@@ -1263,22 +1467,26 @@
         {
           "id": "c1",
           "text": "Non, la loi interdit toute forme de violence physique à l’encontre des enfants",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "不允许，法律禁止任何日常教育暴力"
         },
         {
           "id": "c2",
           "text": "Oui, les parents peuvent utiliser des punitions physiques dans un cadre éducatif",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "允许，在教育框架内"
         },
         {
           "id": "c3",
           "text": "Oui, uniquement dans le cadre familial et sans témoins",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "允许，在私人场合"
         },
         {
           "id": "c4",
           "text": "Est emprisonnée",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅在另一方家长同意下"
         }
       ],
       "analysis": "Depuis 2019, la loi française interdit les violences éducatives ordinaires et protège les enfants contre toute forme de violence physique.",
@@ -1289,7 +1497,9 @@
       ],
       "examTargets": [
         "CR"
-      ]
+      ],
+      "stemZh": "在法国是否允许体罚孩子？",
+      "analysisZh": "2019年的法律保护儿童免受任何身体或心理暴力。"
     }
   ]
 }

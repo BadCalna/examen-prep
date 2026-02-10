@@ -1,0 +1,37 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Category {
+  id        String     @id
+  title     String
+  questions Question[]
+}
+
+model Question {
+  id         String   @id
+  type       String   @default("single")
+  stem       String
+  stemZh     String?
+  analysis   String
+  analysisZh String?
+  difficulty Int      @default(2)
+  tags       String?  // JSON array stored as string
+  categoryId String
+  category   Category @relation(fields: [categoryId], references: [id])
+  choices    Choice[]
+}
+
+model Choice {
+  id         String   @id @default(cuid())
+  originalId String   // 原始 ID (c1, c2 等)
+  text       String
+  textZh     String?
+  isCorrect  Boolean  @default(false)
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+}

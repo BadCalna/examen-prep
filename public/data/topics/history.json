@@ -17,22 +17,26 @@
         {
           "id": "c1",
           "text": "La Constitution de 1958",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1958年宪法（现行宪法）"
         },
         {
           "id": "c2",
           "text": "Le Code civil",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "民法典（又称拿破仑法典）"
         },
         {
           "id": "c3",
           "text": "La Déclaration de 1789",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1789年人权宣言"
         },
         {
           "id": "c4",
           "text": "La loi de 1905",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1905年政教分离法"
         }
       ],
       "analysis": "Le Code civil a été adopté sous Napoléon Ier.",
@@ -43,7 +47,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在以下法律文本中，哪一个是拿破仑一世时期通过的？",
+      "analysisZh": "1804年的《民法典》是拿破仑最重要遗产之一，奠定了现代法国法律的基础。"
     },
     {
       "id": "HGC_002",
@@ -53,22 +59,26 @@
         {
           "id": "c1",
           "text": "Charles de Gaulle",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "夏尔·戴高乐"
         },
         {
           "id": "c2",
           "text": "Napoléon Bonaparte",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "拿破仑·波拿巴（他是皇帝）"
         },
         {
           "id": "c3",
           "text": "Louis XIV",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "路易十四（太阳王，封建君主）"
         },
         {
           "id": "c4",
           "text": "Georges Clemenceau",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "乔治·克里蒙梭（一战时期的总理）"
         }
       ],
       "analysis": "Charles de Gaulle fut le premier président de la Ve République.",
@@ -80,7 +90,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "谁是法兰西第五共和国的第一任总统？",
+      "analysisZh": "戴高乐将军在1958年建立了第五共和国并出任首任总统。"
     },
     {
       "id": "HGC_003",
@@ -90,22 +102,26 @@
         {
           "id": "c1",
           "text": "Former une élite religieuse",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "让学校只为富裕家庭服务"
         },
         {
           "id": "c2",
           "text": "Rendre l’école gratuite, laïque et obligatoire",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "使学校教育免费、世俗化且义务制"
         },
         {
           "id": "c3",
           "text": "Former des soldats",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "用军人代替老师进行教学"
         },
         {
           "id": "c4",
           "text": "Supprimer l’enseignement public",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "取消科学课程"
         }
       ],
       "analysis": "Les lois scolaires ont instauré une école gratuite, laïque et obligatoire.",
@@ -117,7 +133,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "第三共和国时期“学校法”的目标是什么？",
+      "analysisZh": "这些法律通常被称为《茹费理法》，是法国现代教育的基石。"
     },
     {
       "id": "HGC_004",
@@ -127,22 +145,26 @@
         {
           "id": "c1",
           "text": "La fin de la Seconde Guerre mondiale",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "德国占领的结束"
         },
         {
           "id": "c2",
           "text": "La prise de la Bastille",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "1789年的攻占巴士底狱及全国联盟节"
         },
         {
           "id": "c3",
           "text": "La proclamation de la Ve République",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "拿破仑的加冕礼"
         },
         {
           "id": "c4",
           "text": "La signature du traité de Rome",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "世界杯夺冠"
         }
       ],
       "analysis": "Le 14 juillet commémore la prise de la Bastille en 1789.",
@@ -153,7 +175,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "法国人在7月14日纪念什么？",
+      "analysisZh": "自1880年起，7月14日被定为法国国庆节。"
     },
     {
       "id": "HGC_005",
@@ -163,22 +187,26 @@
         {
           "id": "c1",
           "text": "Création de l’Union européenne",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "女性获得投票权（那是1944年）"
         },
         {
           "id": "c2",
           "text": "Naissance de la Ve République",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "通过第五共和国宪法"
         },
         {
           "id": "c3",
           "text": "Fin de la Première Guerre mondiale",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "法国大革命的结束"
         },
         {
           "id": "c4",
           "text": "Abolition de l’esclavage",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "卢米埃尔兄弟发明电影"
         }
       ],
       "analysis": "1958 marque la naissance de la Ve République.",
@@ -190,7 +218,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "1958年对法国有什么重要意义？",
+      "analysisZh": "1958年标志着法兰西现行政治体制（第五共和国）的开始。"
     },
     {
       "id": "HGC_006",
@@ -200,22 +230,26 @@
         {
           "id": "c1",
           "text": "La France",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "法国"
         },
         {
           "id": "c2",
           "text": "L’Espagne",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "西班牙（1986年加入）"
         },
         {
           "id": "c3",
           "text": "La Croatie",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "克罗地亚（2013年加入）"
         },
         {
           "id": "c4",
           "text": "La Pologne",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "波兰（2004年加入）"
         }
       ],
       "analysis": "La France est l’un des six pays fondateurs.",
@@ -227,7 +261,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "下列哪一个是欧盟（EU）的创始国之一？",
+      "analysisZh": "欧盟最初由6个国家共同创立，分别是：法国、德国、意大利、比利时、卢森堡和荷兰。"
     },
     {
       "id": "HGC_007",
@@ -237,22 +273,26 @@
         {
           "id": "c1",
           "text": "Aboli la peine de mort",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "她废除了死刑（那是罗贝尔·巴丹泰的任务）"
         },
         {
           "id": "c2",
           "text": "Porté la loi sur l’IVG",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "她推动通过了堕胎合法化法案（IVG）"
         },
         {
           "id": "c3",
           "text": "Créé la Sécurité sociale",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "她是首位女总统（法国目前还没出过女总统）"
         },
         {
           "id": "c4",
           "text": "Fondé l’ONU",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "她发明了狂犬病疫苗（那是巴斯德）"
         }
       ],
       "analysis": "Simone Veil a porté la loi légalisant l’IVG.",
@@ -264,7 +304,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "西蒙娜·韦伊（Simone Veil）是法国历史上的重要人物，因为：",
+      "analysisZh": "1975年通过的《韦伊法》（Loi Veil）让法国女性获得了合法的堕胎权，她是女性权利的重要推手。"
     },
     {
       "id": "HGC_008",
@@ -274,22 +316,26 @@
         {
           "id": "c1",
           "text": "Bretagne",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "布列塔尼大区"
         },
         {
           "id": "c2",
           "text": "Normandie",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "诺曼底大区"
         },
         {
           "id": "c3",
           "text": "Hauts-de-France",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "科西嘉岛"
         },
         {
           "id": "c4",
           "text": "Pays de la Loire",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "大东部大区"
         }
       ],
       "analysis": "Les plages du Débarquement se situent en Normandie.",
@@ -301,7 +347,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "1944年盟军诺曼底登陆的海滩位于哪个大区？",
+      "analysisZh": "诺曼底登陆是二战的重要转折点，发生在1944年6月6日。"
     },
     {
       "id": "HGC_009",
@@ -311,22 +359,26 @@
         {
           "id": "c1",
           "text": "Paris",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "巴黎"
         },
         {
           "id": "c2",
           "text": "Versailles",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "里昂"
         },
         {
           "id": "c3",
           "text": "Reims",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "兰斯"
         },
         {
           "id": "c4",
           "text": "Orléans",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "马赛"
         }
       ],
       "analysis": "Les rois étaient traditionnellement couronnés à Reims.",
@@ -337,7 +389,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "法国国王传统上是在哪座城市加冕的？",
+      "analysisZh": "兰斯大教堂是几乎所有法国国王举行加冕礼的地方，因此被称为“加冕之城”。"
     },
     {
       "id": "HGC_010",
@@ -347,22 +401,26 @@
         {
           "id": "c1",
           "text": "Louis XIV",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "路易十四（太阳王）"
         },
         {
           "id": "c2",
           "text": "Louis XV",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "路易十六"
         },
         {
           "id": "c3",
           "text": "Louis XVI",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "拿破仑三世"
         },
         {
           "id": "c4",
           "text": "Napoléon Ier",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "弗朗索瓦一世"
         }
       ],
       "analysis": "Louis XVI a été guillotiné en 1793.",
@@ -373,7 +431,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "哪位法国国王在法国大革命期间被处决（送上断头台）？",
+      "analysisZh": "路易十六在1793年1月被处死，标志着波旁王朝统治的彻底终结。"
     },
     {
       "id": "HGC_011",
@@ -383,22 +443,26 @@
         {
           "id": "c1",
           "text": "1789",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "1789年"
         },
         {
           "id": "c2",
           "text": "1792",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1492年（哥伦布发现新大陆）"
         },
         {
           "id": "c3",
           "text": "1804",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1914年（一战开始）"
         },
         {
           "id": "c4",
           "text": "1815",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1804年（拿破仑称帝）"
         }
       ],
       "analysis": "La Révolution française débute en 1789.",
@@ -409,7 +473,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "法国大革命是在哪一年开始的？",
+      "analysisZh": "1789年以攻占巴士底狱为标志，开启了法国迈向共和的道路。"
     },
     {
       "id": "HGC_012",
@@ -419,22 +485,26 @@
         {
           "id": "c1",
           "text": "1799",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1789年"
         },
         {
           "id": "c2",
           "text": "1804",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "1804年"
         },
         {
           "id": "c3",
           "text": "1815",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1815年（滑铁卢战败）"
         },
         {
           "id": "c4",
           "text": "1789",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1945年"
         }
       ],
       "analysis": "Napoléon Ier est devenu empereur en 1804.",
@@ -445,7 +515,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "拿破仑一世是在哪一年加冕称帝的？",
+      "analysisZh": "1804年拿破仑在巴黎圣母院加冕，建立法兰西第一帝国。"
     },
     {
       "id": "HGC_013",
@@ -455,22 +527,26 @@
         {
           "id": "c1",
           "text": "14 juillet 1940",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "战争结束"
         },
         {
           "id": "c2",
           "text": "18 juin 1940",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "戴高乐将军发出的抵抗号召（618宣言）"
         },
         {
           "id": "c3",
           "text": "8 mai 1945",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "与德国签署停战协定"
         },
         {
           "id": "c4",
           "text": "11 novembre 1918",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "社保的建立"
         }
       ],
       "analysis": "L’appel du 18 juin 1940 est un texte fondateur de la Résistance.",
@@ -481,7 +557,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "1940年6月18日代表了什么？",
+      "analysisZh": "戴高乐将军在伦敦通过BBC广播发表了著名演讲，标志着“自由法国”反抗力量的诞生。"
     },
     {
       "id": "HGC_014",
@@ -491,22 +569,26 @@
         {
           "id": "c1",
           "text": "Un conflit colonial",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一个宗教节日"
         },
         {
           "id": "c2",
           "text": "L’extermination des Juifs par les nazis",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "二战期间纳粹对犹太人的种族灭绝"
         },
         {
           "id": "c3",
           "text": "Une bataille de la Seconde Guerre mondiale",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "罗马帝国的灭亡"
         },
         {
           "id": "c4",
           "text": "Un traité européen",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一项经济改革"
         }
       ],
       "analysis": "La Shoah désigne le génocide des Juifs pendant la Seconde Guerre mondiale.",
@@ -518,7 +600,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "什么是“大屠杀（Shoah）”？",
+      "analysisZh": "这是人类历史的悲剧，也是法国入籍考试中关于国家记忆的必考点。"
     },
     {
       "id": "HGC_015",
@@ -528,22 +612,26 @@
         {
           "id": "c1",
           "text": "Charles de Gaulle",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "戴高乐"
         },
         {
           "id": "c2",
           "text": "Valéry Giscard d’Estaing",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "弗朗索瓦·密特朗"
         },
         {
           "id": "c3",
           "text": "François Mitterrand",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "尼古拉·萨科齐"
         },
         {
           "id": "c4",
           "text": "Jacques Chirac",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "埃马纽埃尔·马克龙"
         }
       ],
       "analysis": "La peine de mort a été abolie en 1981 sous François Mitterrand.",
@@ -555,7 +643,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在位哪位总统期间，法国废除了死刑？",
+      "analysisZh": "1981年，在密特朗总统支持下，司法部长巴丹泰推动废除了死刑。"
     },
     {
       "id": "HGC_016",
@@ -565,22 +655,26 @@
         {
           "id": "c1",
           "text": "La Loire",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "卢瓦尔河（最长的河）"
         },
         {
           "id": "c2",
           "text": "Le Rhône",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "塞纳河"
         },
         {
           "id": "c3",
           "text": "La Seine",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "罗讷河"
         },
         {
           "id": "c4",
           "text": "La Garonne",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "加龙河（流向波尔多）"
         }
       ],
       "analysis": "La Seine traverse Paris.",
@@ -591,7 +685,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "穿过法国首都（巴黎）的河流是哪条？",
+      "analysisZh": "塞纳河将巴黎分为左岸和右岸。"
     },
     {
       "id": "HGC_017",
@@ -601,22 +697,26 @@
         {
           "id": "c1",
           "text": "Le Maroc",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "阿尔及利亚"
         },
         {
           "id": "c2",
           "text": "La Suède",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "德国"
         },
         {
           "id": "c3",
           "text": "La Norvège",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "西班牙"
         },
         {
           "id": "c4",
           "text": "La Suisse",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "中国"
         }
       ],
       "analysis": "Le Maroc a été un protectorat français.",
@@ -628,7 +728,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "下列哪个国家曾是法国殖民帝国的一部分？",
+      "analysisZh": "法国曾拥有广阔的殖民地，尤其是在北非和西非地区。"
     },
     {
       "id": "HGC_018",
@@ -638,22 +740,26 @@
         {
           "id": "c1",
           "text": "Napoléon Ier",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "对外国人收费"
         },
         {
           "id": "c2",
           "text": "Jules Ferry",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "免费、世俗化且义务制"
         },
         {
           "id": "c3",
           "text": "Charles de Gaulle",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "宗教化且非强制的"
         },
         {
           "id": "c4",
           "text": "Victor Hugo",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "仅限男生"
         }
       ],
       "analysis": "Les lois scolaires de Jules Ferry ont rendu l’école gratuite, laïque et obligatoire.",
@@ -665,7 +771,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "茹费理（Jules Ferry）因使学校教育变成怎样而闻名？",
+      "analysisZh": "他在1881-1882年间通过的法律确立了现代公立学校的准则。"
     },
     {
       "id": "HGC_019",
@@ -675,22 +783,26 @@
         {
           "id": "c1",
           "text": "1945",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1789年（大革命开始）"
         },
         {
           "id": "c2",
           "text": "1958",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1944年（女性获选举权）"
         },
         {
           "id": "c3",
           "text": "1962",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "1962年"
         },
         {
           "id": "c4",
           "text": "1981",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "2002年（任期改5年）"
         }
       ],
       "analysis": "Le suffrage universel direct pour l’élection présidentielle date de 1962.",
@@ -702,7 +814,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "从哪一年开始，总统由全体选民直接投票选举产生？",
+      "analysisZh": "1962年的公投决定了总统不再由选举团产生，而是由全民直选。"
     },
     {
       "id": "HGC_020",
@@ -712,22 +826,26 @@
         {
           "id": "c1",
           "text": "1951",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1945年"
         },
         {
           "id": "c2",
           "text": "1957",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1957年（罗马条约，欧洲经济共同体）"
         },
         {
           "id": "c3",
           "text": "1992",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "1992年"
         },
         {
           "id": "c4",
           "text": "2002",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "2012年"
         }
       ],
       "analysis": "L’Union européenne est fondée par le traité de Maastricht en 1992.",
@@ -739,7 +857,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "马斯特里赫特条约（标志欧盟成立）是在哪一年签署的？",
+      "analysisZh": "1992年的马约将欧洲合作推向了政治和货币统一的新阶段。"
     },
     {
       "id": "HGC_021",
@@ -749,22 +869,26 @@
         {
           "id": "c1",
           "text": "1914–1918",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1914年–1918年（一战）"
         },
         {
           "id": "c2",
           "text": "1939–1945",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "1939年–1945年"
         },
         {
           "id": "c3",
           "text": "1945–1950",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1945年–1950年"
         },
         {
           "id": "c4",
           "text": "1933–1939",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1933年–1939年"
         }
       ],
       "analysis": "La Seconde Guerre mondiale s’est déroulée de 1939 à 1945.",
@@ -775,7 +899,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "第二次世界大战发生在什么时候？",
+      "analysisZh": "第二次世界大战始于1939年德国入侵波兰，终于1945年。"
     },
     {
       "id": "HGC_022",
@@ -785,22 +911,26 @@
         {
           "id": "c1",
           "text": "1905–1910",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1905年–1910年"
         },
         {
           "id": "c2",
           "text": "1914–1918",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "1914年–1918年"
         },
         {
           "id": "c3",
           "text": "1939–1945",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1939年–1945年（二战）"
         },
         {
           "id": "c4",
           "text": "1920–1925",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1920年–1925年"
         }
       ],
       "analysis": "La Première Guerre mondiale a eu lieu de 1914 à 1918.",
@@ -811,7 +941,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "第一次世界大战发生在什么时候？",
+      "analysisZh": "一战以1918年11月11日签署停战协定结束，这一天现在是法国的公共假期。"
     },
     {
       "id": "HGC_023",
@@ -821,22 +953,26 @@
         {
           "id": "c1",
           "text": "La fin de la Première Guerre mondiale",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一战结束（那是11月11日）"
         },
         {
           "id": "c2",
           "text": "La fin de la Seconde Guerre mondiale en Europe",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "二战在欧洲的胜利/结束"
         },
         {
           "id": "c3",
           "text": "La prise de la Bastille",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "攻占巴士底狱（7月14日）"
         },
         {
           "id": "c4",
           "text": "L’abolition de l’esclavage",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "废除奴隶制"
         }
       ],
       "analysis": "Le 8 mai commémore la victoire de 1945.",
@@ -848,7 +984,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "5月8日庆祝什么？",
+      "analysisZh": "5月8日是1945年德国投降、欧洲战事结束的纪念日。"
     },
     {
       "id": "HGC_024",
@@ -858,22 +996,26 @@
         {
           "id": "c1",
           "text": "Le traité de Maastricht",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "马斯特里赫特条约（1992年）"
         },
         {
           "id": "c2",
           "text": "La CECA",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "欧洲煤钢共同体 (CECA)"
         },
         {
           "id": "c3",
           "text": "Le traité de Rome",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "罗马条约（1957年）"
         },
         {
           "id": "c4",
           "text": "L’euro",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "引入欧元"
         }
       ],
       "analysis": "La CECA est la première étape de la construction européenne.",
@@ -885,7 +1027,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "1951年欧洲建设的第一步是什么？",
+      "analysisZh": "1951年建立的煤钢共同体是欧盟的前身，旨在通过资源共享防止战争。"
     },
     {
       "id": "HGC_025",
@@ -895,22 +1039,26 @@
         {
           "id": "c1",
           "text": "Jean Moulin",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "让·穆兰"
         },
         {
           "id": "c2",
           "text": "Louis XIV",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "路易十四"
         },
         {
           "id": "c3",
           "text": "Napoléon III",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "拿破仑三世"
         },
         {
           "id": "c4",
           "text": "Jules Ferry",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "茹费理"
         }
       ],
       "analysis": "Jean Moulin est une figure majeure de la Résistance.",
@@ -922,7 +1070,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "谁是法国抵抗运动的主要人物？",
+      "analysisZh": "让·穆兰受戴高乐委派统一了法国境内的各派抵抗力量，后被纳粹杀害，现葬于先贤祠。"
     },
     {
       "id": "HGC_026",
@@ -932,22 +1082,26 @@
         {
           "id": "c1",
           "text": "La victoire de 1945",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1945年的胜利（那是5月8日）"
         },
         {
           "id": "c2",
           "text": "L’armistice de 1918",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "第一次世界大战的停战协议（1918年）"
         },
         {
           "id": "c3",
           "text": "La proclamation de la République",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "音乐节"
         },
         {
           "id": "c4",
           "text": "La fête nationale",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "总统选举"
         }
       ],
       "analysis": "Le 11 novembre commémore l’armistice de 1918.",
@@ -959,7 +1113,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "11月11日是法定假日。这个日期对应什么事件？",
+      "analysisZh": "1918年11月11日一战停战，现在这一天也用来缅怀所有为法国牺牲的战士。"
     },
     {
       "id": "HGC_027",
@@ -969,22 +1125,26 @@
         {
           "id": "c1",
           "text": "1794",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1789年"
         },
         {
           "id": "c2",
           "text": "1848",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "1848年"
         },
         {
           "id": "c3",
           "text": "1905",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1905年"
         },
         {
           "id": "c4",
           "text": "1945",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1945年"
         }
       ],
       "analysis": "L’esclavage est définitivement aboli en 1848.",
@@ -996,7 +1156,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "法国在哪一年彻底废除了奴隶制？",
+      "analysisZh": "1848年第二共和国时期正式废除了法国殖民地的奴隶制。"
     },
     {
       "id": "HGC_028",
@@ -1006,22 +1168,26 @@
         {
           "id": "c1",
           "text": "Victor Hugo",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "维克多·雨果"
         },
         {
           "id": "c2",
           "text": "Jules Ferry",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "维克多·舍尔谢"
         },
         {
           "id": "c3",
           "text": "Victor Schoelcher",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "罗伯斯庇尔"
         },
         {
           "id": "c4",
           "text": "Napoléon Ier",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "夏尔·戴高乐"
         }
       ],
       "analysis": "Victor Schoelcher est à l’origine de l’abolition de 1848.",
@@ -1032,7 +1198,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "谁是1848年废除奴隶制的主要推动者？",
+      "analysisZh": "维克多·舍尔谢一生致力于反对奴隶制，他的骨灰也安放在先贤祠。"
     },
     {
       "id": "HGC_029",
@@ -1042,22 +1210,26 @@
         {
           "id": "c1",
           "text": "1789",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1789年"
         },
         {
           "id": "c2",
           "text": "1881",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "1881年-1882年"
         },
         {
           "id": "c3",
           "text": "1905",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1945年"
         },
         {
           "id": "c4",
           "text": "1945",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1968年"
         }
       ],
       "analysis": "L’école publique est gratuite depuis 1881.",
@@ -1069,7 +1241,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "从什么时候起，法国公立学校开始实行免费教育？",
+      "analysisZh": "通过茹费理法（Lois Jules Ferry），小学教育变得免费、义务且世俗化。"
     },
     {
       "id": "HGC_030",
@@ -1079,22 +1253,26 @@
         {
           "id": "c1",
           "text": "Le droit au divorce",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "无需丈夫同意即可工作的权利（那是1965年）"
         },
         {
           "id": "c2",
           "text": "Elles obtiennent le droit de vote",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "投票权和被选举权"
         },
         {
           "id": "c3",
           "text": "Elles peuvent travailler librement",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "开设银行账户的权利"
         },
         {
           "id": "c4",
           "text": "Elles accèdent à l’université",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "签署民事同居契约的权利"
         }
       ],
       "analysis": "Les femmes obtiennent le droit de vote en 1944.",
@@ -1106,7 +1284,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "1944年，法国女性获得了哪项基本权利？",
+      "analysisZh": "1944年颁布法令，法国女性正式获得投票权，并在1945年进行了首次投票。"
     },
     {
       "id": "HGC_031",
@@ -1116,22 +1296,26 @@
         {
           "id": "c1",
           "text": "L’Union européenne",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "欧盟"
         },
         {
           "id": "c2",
           "text": "L’ONU",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "联合国 (ONU)"
         },
         {
           "id": "c3",
           "text": "L’OTAN",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "北约"
         },
         {
           "id": "c4",
           "text": "L’UNESCO",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "欧洲理事会"
         }
       ],
       "analysis": "L’Organisation des Nations unies a été créée en 1945.",
@@ -1143,7 +1327,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "1945年创建了哪个国际组织以维护世界和平？",
+      "analysisZh": "联合国的建立旨在吸取二战教训，通过国际合作避免新的世界大战。"
     },
     {
       "id": "HGC_032",
@@ -1153,22 +1339,26 @@
         {
           "id": "c1",
           "text": "1999",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1999年（金融结算开始使用）"
         },
         {
           "id": "c2",
           "text": "2000",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "2000年"
         },
         {
           "id": "c3",
           "text": "2002",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "2002年"
         },
         {
           "id": "c4",
           "text": "2005",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "2002年"
         }
       ],
       "analysis": "Les pièces et billets en euros sont en circulation depuis 2002.",
@@ -1180,7 +1370,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "欧元在哪一年正式成为法国的实物流通货币（硬币和纸币）？",
+      "analysisZh": "虽然1999年已在银行业启动，但普通大众拿到实物欧元是在2002年1月1日。"
     },
     {
       "id": "HGC_033",
@@ -1190,22 +1382,26 @@
         {
           "id": "c1",
           "text": "6 juin 1944",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1944年6月6日（诺曼底登陆）"
         },
         {
           "id": "c2",
           "text": "15 août 1944",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1944年8月15日（普罗旺斯登陆）"
         },
         {
           "id": "c3",
           "text": "25 août 1944",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "1944年8月25日"
         },
         {
           "id": "c4",
           "text": "8 mai 1945",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "1945年5月8日（二战欧洲战场结束）"
         }
       ],
       "analysis": "Paris a été libérée le 25 août 1944.",
@@ -1216,7 +1412,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "第二次世界大战期间，巴黎是在哪一天解放的？",
+      "analysisZh": "1944年8月25日，在勒克莱尔将军率领的第二装甲师和盟军的帮助下，巴黎正式解放。"
     },
     {
       "id": "HGC_034",
@@ -1226,22 +1424,26 @@
         {
           "id": "c1",
           "text": "Marseille",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "马赛"
         },
         {
           "id": "c2",
           "text": "Bordeaux",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "波尔多"
         },
         {
           "id": "c3",
           "text": "Le Havre",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "勒阿弗尔"
         },
         {
           "id": "c4",
           "text": "Nice",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "尼斯"
         }
       ],
       "analysis": "Bordeaux fut un port majeur de la traite négrière.",
@@ -1252,7 +1454,9 @@
       ],
       "examTargets": [
         "CR"
-      ]
+      ],
+      "stemZh": "18世纪法国参与奴隶贸易的主要港口是哪一个？",
+      "analysisZh": "波尔多（以及南特）曾是三角贸易和黑奴贸易的主要港口城市。"
     },
     {
       "id": "HGC_035",
@@ -1262,22 +1466,26 @@
         {
           "id": "c1",
           "text": "Montesquieu",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "孟德斯鸠"
         },
         {
           "id": "c2",
           "text": "Descartes",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "笛卡尔"
         },
         {
           "id": "c3",
           "text": "Rousseau",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "卢梭"
         },
         {
           "id": "c4",
           "text": "Pascal",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "帕斯卡"
         }
       ],
       "analysis": "Montesquieu a critiqué l’esclavage dans ses œuvres.",
@@ -1288,7 +1496,9 @@
       ],
       "examTargets": [
         "CR"
-      ]
+      ],
+      "stemZh": "哪位著名的启蒙思想家在其著作中谴责了奴隶制？",
+      "analysisZh": "孟德斯鸠在《论法的精神》中通过反讽和逻辑分析批判了奴隶制的荒谬与不公。"
     },
     {
       "id": "HGC_036",
@@ -1298,22 +1508,26 @@
         {
           "id": "c1",
           "text": "Le Rouge et le Noir",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "《红与黑》（司汤达）"
         },
         {
           "id": "c2",
           "text": "Les Misérables",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "《悲惨世界》"
         },
         {
           "id": "c3",
           "text": "Madame Bovary",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "《包法利夫人》（福楼拜）"
         },
         {
           "id": "c4",
           "text": "Germinal",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "《萌芽》（左拉）"
         }
       ],
       "analysis": "Les Misérables est un roman de Victor Hugo.",
@@ -1325,7 +1539,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "下列哪部名著是维克多·雨果创作的？",
+      "analysisZh": "维克多·雨果是法国最伟大的作家之一，《悲惨世界》和《巴黎圣母院》是其代表作。"
     },
     {
       "id": "HGC_037",
@@ -1335,22 +1551,26 @@
         {
           "id": "c1",
           "text": "Pablo Picasso",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "毕加索（西班牙人）"
         },
         {
           "id": "c2",
           "text": "Claude Monet",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "克劳德·莫奈"
         },
         {
           "id": "c3",
           "text": "Vincent Van Gogh",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "梵高（荷兰人）"
         },
         {
           "id": "c4",
           "text": "Salvador Dalí",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "达利（西班牙人）"
         }
       ],
       "analysis": "Claude Monet est un peintre français.",
@@ -1362,7 +1582,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "下列哪位著名画家是法国籍？",
+      "analysisZh": "莫奈是法国印象派的创始人之一，以画作《印象·日出》闻名。"
     },
     {
       "id": "HGC_038",
@@ -1372,22 +1594,26 @@
         {
           "id": "c1",
           "text": "Le couscous",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "库斯库斯（北非菜）"
         },
         {
           "id": "c2",
           "text": "La paella",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "海鲜饭（西班牙菜）"
         },
         {
           "id": "c3",
           "text": "Le bœuf bourguignon",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "红酒炖牛肉"
         },
         {
           "id": "c4",
           "text": "Le sushi",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "寿司（日本料理）"
         }
       ],
       "analysis": "Le bœuf bourguignon est un plat traditionnel français.",
@@ -1399,7 +1625,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "下列哪道菜是法国料理的代表性特色菜？",
+      "analysisZh": "红酒炖牛肉是一道起源于勃艮第地区的传统名菜。"
     },
     {
       "id": "HGC_039",
@@ -1409,22 +1637,26 @@
         {
           "id": "c1",
           "text": "Une écrivaine",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "著名作家"
         },
         {
           "id": "c2",
           "text": "Une scientifique",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "两次获得诺贝尔奖的科学家"
         },
         {
           "id": "c3",
           "text": "Une femme politique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "第一位女总统"
         },
         {
           "id": "c4",
           "text": "Une peintre",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "印象派画家"
         }
       ],
       "analysis": "Marie Curie était une scientifique, double prix Nobel.",
@@ -1436,7 +1668,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "玛丽·居里（居里夫人）是谁？",
+      "analysisZh": "玛丽·居里分别于1903年和1911年获得诺贝尔物理学奖和化学奖。她现安葬于先贤祠。"
     },
     {
       "id": "HGC_040",
@@ -1446,22 +1680,26 @@
         {
           "id": "c1",
           "text": "Monet",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "莫奈"
         },
         {
           "id": "c2",
           "text": "Delacroix",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "欧仁·德拉克罗瓦"
         },
         {
           "id": "c3",
           "text": "Cézanne",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "塞尚"
         },
         {
           "id": "c4",
           "text": "Rodin",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "罗丹（雕塑家）"
         }
       ],
       "analysis": "Eugène Delacroix est l’auteur de ce tableau.",
@@ -1473,7 +1711,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "谁画了著名的《自由引导人民》？",
+      "analysisZh": "这幅画是为了纪念1830年的法国七月革命（光荣三日）。"
     },
     {
       "id": "HGC_041",
@@ -1483,22 +1723,26 @@
         {
           "id": "c1",
           "text": "Le musée d’Orsay",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "奥赛博物馆"
         },
         {
           "id": "c2",
           "text": "Le Centre Pompidou",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "蓬皮杜艺术中心"
         },
         {
           "id": "c3",
           "text": "Le Louvre",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "卢浮宫"
         },
         {
           "id": "c4",
           "text": "Le musée Rodin",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "布利码头博物馆"
         }
       ],
       "analysis": "La Joconde est exposée au musée du Louvre.",
@@ -1510,7 +1754,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在巴黎的哪座博物馆可以欣赏到《蒙娜丽莎》？",
+      "analysisZh": "卢浮宫是世界上规模最大的艺术与古董博物馆，《蒙娜丽莎》是其镇馆之宝。"
     },
     {
       "id": "HGC_042",
@@ -1520,22 +1766,26 @@
         {
           "id": "c1",
           "text": "Chambord",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "香波堡"
         },
         {
           "id": "c2",
           "text": "Versailles",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "凡尔赛宫"
         },
         {
           "id": "c3",
           "text": "Fontainebleau",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "枫丹白露宫"
         },
         {
           "id": "c4",
           "text": "Vincennes",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "昂布瓦斯城堡"
         }
       ],
       "analysis": "Le château de Versailles symbolise le pouvoir de Louis XIV.",
@@ -1547,7 +1797,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "哪座城堡象征着路易十四的绝对君主制权力？",
+      "analysisZh": "路易十四将原本的狩猎行宫改造成了宏伟的凡尔赛宫，并将宫廷迁往此处以加强中央集权。"
     },
     {
       "id": "HGC_043",
@@ -1557,22 +1809,26 @@
         {
           "id": "c1",
           "text": "À Lascaux",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "拉斯科洞窟"
         },
         {
           "id": "c2",
           "text": "À Versailles",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "圣米歇尔山"
         },
         {
           "id": "c3",
           "text": "À Lyon",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "加尔桥"
         },
         {
           "id": "c4",
           "text": "À Paris",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "尼姆竞技场"
         }
       ],
       "analysis": "Les grottes de Lascaux sont célèbres pour leurs peintures préhistoriques.",
@@ -1584,7 +1840,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "法国著名的史前岩画位于哪里？",
+      "analysisZh": "拉斯科洞窟位于多尔多涅省，被称为“史前西斯廷小堂”。"
     },
     {
       "id": "HGC_044",
@@ -1594,22 +1852,26 @@
         {
           "id": "c1",
           "text": "Renoir",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "雷诺阿"
         },
         {
           "id": "c2",
           "text": "Cézanne",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "高更"
         },
         {
           "id": "c3",
           "text": "Monet",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "莫奈"
         },
         {
           "id": "c4",
           "text": "Picasso",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "马蒂斯"
         }
       ],
       "analysis": "Claude Monet est l’auteur des Nymphéas.",
@@ -1621,7 +1883,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "下列哪位艺术家创作了《睡莲》系列画作？",
+      "analysisZh": "《睡莲》系列收藏在巴黎的橘园美术馆中。"
     },
     {
       "id": "HGC_045",
@@ -1631,22 +1895,26 @@
         {
           "id": "c1",
           "text": "Les Journées du patrimoine",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "欧洲遗产日"
         },
         {
           "id": "c2",
           "text": "Le 14 juillet",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "音乐节"
         },
         {
           "id": "c3",
           "text": "Le 1er mai",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "白夜"
         },
         {
           "id": "c4",
           "text": "Le 11 novembre",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "农业展"
         }
       ],
       "analysis": "Les Journées du patrimoine permettent des visites gratuites.",
@@ -1657,7 +1925,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在每年的哪个活动中，文化场所会向公众免费开放？",
+      "analysisZh": "欧洲遗产日定在每年九月的第三个周末，许多平时不对外开放的官邸和古迹也会开放。"
     },
     {
       "id": "HGC_046",
@@ -1667,22 +1937,26 @@
         {
           "id": "c1",
           "text": "La fête nationale",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "二战胜利纪念日（5月8日）"
         },
         {
           "id": "c2",
           "text": "La fête du travail",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "劳动节"
         },
         {
           "id": "c3",
           "text": "La victoire de 1945",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "圣母升天日（8月15日）"
         },
         {
           "id": "c4",
           "text": "La République",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "母亲节"
         }
       ],
       "analysis": "Le 1er mai est la fête du travail.",
@@ -1694,7 +1968,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "在法国，5月1日传统上庆祝什么？",
+      "analysisZh": "5月1日是劳动节，按照传统，法国人还会在这一天赠送铃兰花（muguet）。"
     },
     {
       "id": "HGC_047",
@@ -1704,22 +1980,26 @@
         {
           "id": "c1",
           "text": "Un peintre",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位画家"
         },
         {
           "id": "c2",
           "text": "Le compositeur de La Marseillaise",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "《马赛曲》的作曲者"
         },
         {
           "id": "c3",
           "text": "Un homme politique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位政治家"
         },
         {
           "id": "c4",
           "text": "Un écrivain",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位作家"
         }
       ],
       "analysis": "Rouget de Lisle a composé La Marseillaise.",
@@ -1731,7 +2011,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "鲁日·德·利勒（Rouget de Lisle）是谁？",
+      "analysisZh": "1792年，鲁日·德·利勒创作了《莱茵军战歌》，后来这首歌因马赛志愿军而得名《马赛曲》，并成为法国国歌。"
     },
     {
       "id": "HGC_048",
@@ -1741,22 +2023,26 @@
         {
           "id": "c1",
           "text": "La Révolution française",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "法国大革命"
         },
         {
           "id": "c2",
           "text": "L’Exposition universelle de 1889",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "1889年世界博览会"
         },
         {
           "id": "c3",
           "text": "La Libération de Paris",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "巴黎解放纪念"
         },
         {
           "id": "c4",
           "text": "La Coupe du monde",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "世界杯"
         }
       ],
       "analysis": "La Tour Eiffel a été construite pour l’Exposition universelle de 1889.",
@@ -1768,7 +2054,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "埃菲尔铁塔是为什么契机而建造的？",
+      "analysisZh": "埃菲尔铁塔是为1889年巴黎世博会建造的，同时也为了纪念法国大革命100周年。"
     },
     {
       "id": "HGC_049",
@@ -1778,22 +2066,26 @@
         {
           "id": "c1",
           "text": "Les Pyrénées",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "比利牛斯山脉（法西边境）"
         },
         {
           "id": "c2",
           "text": "Le Massif central",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "中央高原"
         },
         {
           "id": "c3",
           "text": "Les Alpes",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "阿尔卑斯山脉"
         },
         {
           "id": "c4",
           "text": "Les Vosges",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "孚日山脉"
         }
       ],
       "analysis": "Les Alpes séparent la France et l’Italie.",
@@ -1804,7 +2096,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "哪座山脉位于法国和意大利之间？",
+      "analysisZh": "阿尔卑斯山脉是法意两国的天然边界，其最高峰是勃朗峰（Mont-Blanc）。"
     },
     {
       "id": "HGC_050",
@@ -1814,22 +2108,26 @@
         {
           "id": "c1",
           "text": "Un peintre",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位画家"
         },
         {
           "id": "c2",
           "text": "Un dramaturge",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "一位剧作家"
         },
         {
           "id": "c3",
           "text": "Un homme politique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位政治家"
         },
         {
           "id": "c4",
           "text": "Un scientifique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位科学家"
         }
       ],
       "analysis": "Molière est un célèbre auteur de théâtre.",
@@ -1841,7 +2139,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "莫里哀（Molière）是谁？",
+      "analysisZh": "莫里哀是17世纪法国最伟大的喜剧大师，法语常被称为“莫里哀的语言”。"
     },
     {
       "id": "HGC_051",
@@ -1851,22 +2151,26 @@
         {
           "id": "c1",
           "text": "Un poète",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "一位诗人"
         },
         {
           "id": "c2",
           "text": "Un peintre",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位画家"
         },
         {
           "id": "c3",
           "text": "Un musicien",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位音乐家"
         },
         {
           "id": "c4",
           "text": "Un philosophe",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位哲学家"
         }
       ],
       "analysis": "Charles Baudelaire est un poète français.",
@@ -1878,7 +2182,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "夏尔·波德莱尔（Charles Baudelaire）是谁？",
+      "analysisZh": "波德莱尔是著名诗人，其代表作《恶之花》对后世诗歌影响深远。"
     },
     {
       "id": "HGC_052",
@@ -1888,22 +2194,26 @@
         {
           "id": "c1",
           "text": "Une écrivaine",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "一位女作家"
         },
         {
           "id": "c2",
           "text": "Une peintre",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位画家"
         },
         {
           "id": "c3",
           "text": "Une scientifique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位科学家"
         },
         {
           "id": "c4",
           "text": "Une reine",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位女王"
         }
       ],
       "analysis": "George Sand est une écrivaine française.",
@@ -1915,7 +2225,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "乔治·桑（George Sand）是谁？",
+      "analysisZh": "乔治·桑是19世纪著名的女作家，她以男性化的笔名发表作品，并积极主张女性自由。"
     },
     {
       "id": "HGC_053",
@@ -1925,22 +2237,26 @@
         {
           "id": "c1",
           "text": "Une femme politique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位政治家"
         },
         {
           "id": "c2",
           "text": "Une philosophe et écrivaine",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "一位哲学家和作家"
         },
         {
           "id": "c3",
           "text": "Une scientifique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位科学家"
         },
         {
           "id": "c4",
           "text": "Une peintre",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位画家"
         }
       ],
       "analysis": "Simone de Beauvoir est une philosophe et écrivaine française.",
@@ -1952,7 +2268,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "西蒙娜·德·波伏娃（Simone de Beauvoir）是谁？",
+      "analysisZh": "波伏娃是存在主义哲学家，也是现代女权主义的奠基人，著有《第二性》。"
     },
     {
       "id": "HGC_054",
@@ -1962,22 +2280,26 @@
         {
           "id": "c1",
           "text": "Un peintre",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位画家"
         },
         {
           "id": "c2",
           "text": "Un écrivain et philosophe",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "一位作家和哲学家"
         },
         {
           "id": "c3",
           "text": "Un homme politique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位政治家"
         },
         {
           "id": "c4",
           "text": "Un compositeur",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位作曲家"
         }
       ],
       "analysis": "Albert Camus est un écrivain et philosophe français.",
@@ -1989,7 +2311,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "阿尔贝·加缪（Albert Camus）是谁？",
+      "analysisZh": "加缪是1957年诺贝尔文学奖得主，代表作包括《局外人》和《鼠疫》。"
     },
     {
       "id": "HGC_055",
@@ -1999,22 +2323,26 @@
         {
           "id": "c1",
           "text": "Une écrivaine",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "一位女作家"
         },
         {
           "id": "c2",
           "text": "Une peintre",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位画家"
         },
         {
           "id": "c3",
           "text": "Une scientifique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位科学家"
         },
         {
           "id": "c4",
           "text": "Une musicienne",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位音乐家"
         }
       ],
       "analysis": "Marguerite Yourcenar est une écrivaine française.",
@@ -2026,7 +2354,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "玛格丽特·尤瑟纳尔（Marguerite Yourcenar）是谁？",
+      "analysisZh": "尤瑟纳尔是著名作家，1980年她成为法兰西学术院历史上第一位女性院士。"
     },
     {
       "id": "HGC_056",
@@ -2036,22 +2366,26 @@
         {
           "id": "c1",
           "text": "Le château de Chambord",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "香波堡"
         },
         {
           "id": "c2",
           "text": "Le Mont-Saint-Michel",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "圣米歇尔山"
         },
         {
           "id": "c3",
           "text": "La citadelle de Carcassonne",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "卡尔卡松城堡"
         },
         {
           "id": "c4",
           "text": "Le palais des Papes",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "教皇宫"
         }
       ],
       "analysis": "Le Mont-Saint-Michel est situé sur un îlot en Normandie.",
@@ -2063,7 +2397,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "哪个历史古迹位于诺曼底的一个小岛上？",
+      "analysisZh": "圣米歇尔山是诺曼底著名的潮汐岛，岛上的修道院是法国最重要的古迹之一。"
     },
     {
       "id": "HGC_057",
@@ -2073,22 +2409,26 @@
         {
           "id": "c1",
           "text": "Paris",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "巴黎"
         },
         {
           "id": "c2",
           "text": "Reims",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "兰斯"
         },
         {
           "id": "c3",
           "text": "Tours",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "图尔"
         },
         {
           "id": "c4",
           "text": "Poitiers",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "普瓦捷"
         }
       ],
       "analysis": "Paris est la plus grande métropole française.",
@@ -2100,7 +2440,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "下列哪座城市属于法国最大的城市之列？",
+      "analysisZh": "巴黎是法国最大的城市和政治文化中心。另外两个大型城市是马赛和里昂。"
     },
     {
       "id": "HGC_058",
@@ -2110,22 +2452,26 @@
         {
           "id": "c1",
           "text": "La Réunion",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "留尼汪（位于印度洋）"
         },
         {
           "id": "c2",
           "text": "La Martinique",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "马提尼克"
         },
         {
           "id": "c3",
           "text": "Mayotte",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "马约特（位于印度洋）"
         },
         {
           "id": "c4",
           "text": "La Corse",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "科西嘉（位于地中海）"
         }
       ],
       "analysis": "La Martinique fait partie des Antilles françaises.",
@@ -2137,7 +2483,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "下列哪座岛屿属于法属安的列斯群岛？",
+      "analysisZh": "马提尼克和瓜德罗普是法属安的列斯群岛（位于加勒比海）的两个主要岛屿。"
     },
     {
       "id": "HGC_059",
@@ -2147,22 +2495,26 @@
         {
           "id": "c1",
           "text": "La Sicile",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "西西里岛（意大利）"
         },
         {
           "id": "c2",
           "text": "La Corse",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "科西嘉岛"
         },
         {
           "id": "c3",
           "text": "Sardaigne",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "撒丁岛（意大利）"
         },
         {
           "id": "c4",
           "text": "Crète",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "克里特岛（希腊）"
         }
       ],
       "analysis": "La Corse est une île française.",
@@ -2173,7 +2525,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "下列哪座岛屿是法国的？",
+      "analysisZh": "科西嘉岛被誉为“美丽岛”，是地中海上的法国领土。"
     },
     {
       "id": "HGC_060",
@@ -2183,22 +2537,26 @@
         {
           "id": "c1",
           "text": "Le Mont Blanc",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "勃朗峰"
         },
         {
           "id": "c2",
           "text": "Le Pic du Midi",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "南比戈尔峰"
         },
         {
           "id": "c3",
           "text": "Le Mont Ventoux",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "旺图山"
         },
         {
           "id": "c4",
           "text": "La Barre des Écrins",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "埃克兰峰"
         }
       ],
       "analysis": "Le Mont Blanc est le point culminant de la France.",
@@ -2210,7 +2568,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "法国最高的山峰是哪座？",
+      "analysisZh": "勃朗峰位于阿尔卑斯山脉，海拔4807米，是法国及西欧的最高峰。"
     },
     {
       "id": "HGC_061",
@@ -2220,22 +2580,26 @@
         {
           "id": "c1",
           "text": "La Guadeloupe",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "瓜德罗普（大西洋）"
         },
         {
           "id": "c2",
           "text": "La Martinique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "马提尼克（大西洋）"
         },
         {
           "id": "c3",
           "text": "La Réunion",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "留尼汪"
         },
         {
           "id": "c4",
           "text": "Saint-Pierre-et-Miquelon",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "圣皮埃尔和密克隆（北大西洋）"
         }
       ],
       "analysis": "La Réunion se situe dans l'océan Indien.",
@@ -2247,7 +2611,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "哪座法国岛屿位于印度洋？",
+      "analysisZh": "留尼汪和马约特是位于印度洋的法国海外领土。"
     },
     {
       "id": "HGC_062",
@@ -2257,22 +2623,26 @@
         {
           "id": "c1",
           "text": "La Guadeloupe",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "瓜德罗普"
         },
         {
           "id": "c2",
           "text": "La Martinique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "马提尼克"
         },
         {
           "id": "c3",
           "text": "La Guyane",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "法属圭亚那"
         },
         {
           "id": "c4",
           "text": "Mayotte",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "马约特"
         }
       ],
       "analysis": "La Guyane partage une frontière avec le Brésil.",
@@ -2284,7 +2654,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "哪个法国省份与巴西接壤？",
+      "analysisZh": "法属圭亚那位于南美洲，与巴西和苏里南接壤。这是法国最长的陆地边界。"
     },
     {
       "id": "HGC_063",
@@ -2294,22 +2666,26 @@
         {
           "id": "c1",
           "text": "Paris",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "巴黎"
         },
         {
           "id": "c2",
           "text": "Toulouse",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "图卢兹"
         },
         {
           "id": "c3",
           "text": "Kourou",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "库鲁"
         },
         {
           "id": "c4",
           "text": "Bordeaux",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "波尔多"
         }
       ],
       "analysis": "Les fusées Ariane décollent depuis Kourou en Guyane.",
@@ -2321,7 +2697,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "阿丽亚娜火箭（Ariane）是从哪座法国城市发射升空的？",
+      "analysisZh": "圭亚那航天中心位于法属圭亚那的库鲁（Kourou）。"
     },
     {
       "id": "HGC_064",
@@ -2331,22 +2709,26 @@
         {
           "id": "c1",
           "text": "La mer Noire",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "黑海"
         },
         {
           "id": "c2",
           "text": "L’océan Pacifique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "太平洋"
         },
         {
           "id": "c3",
           "text": "L’océan Atlantique",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "大西洋"
         },
         {
           "id": "c4",
           "text": "La mer Rouge",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "红海"
         }
       ],
       "analysis": "La France métropolitaine est bordée par l'océan Atlantique.",
@@ -2357,7 +2739,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "哪片海洋位于法国本土的西侧？",
+      "analysisZh": "法国本土西临大西洋，南临地中海，北临英吉利海峡。"
     },
     {
       "id": "HGC_065",
@@ -2367,22 +2751,26 @@
         {
           "id": "c1",
           "text": "La mer Méditerranée",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "地中海"
         },
         {
           "id": "c2",
           "text": "La Manche",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "英吉利海峡 (La Manche)"
         },
         {
           "id": "c3",
           "text": "La mer du Nord",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "北海"
         },
         {
           "id": "c4",
           "text": "La Baltique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "波罗的海"
         }
       ],
       "analysis": "La Manche sépare la France et le Royaume-Uni.",
@@ -2393,7 +2781,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "哪片海域位于法国和英国之间？",
+      "analysisZh": "英吉利海峡（法文称 La Manche，意为“袖子”）将法国与英国隔开。"
     },
     {
       "id": "HGC_066",
@@ -2403,22 +2793,26 @@
         {
           "id": "c1",
           "text": "La Corse",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "科西嘉（本土省份）"
         },
         {
           "id": "c2",
           "text": "La Guadeloupe",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "瓜德罗普"
         },
         {
           "id": "c3",
           "text": "La Nouvelle-Calédonie",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "新喀里多尼亚（特殊地位领土）"
         },
         {
           "id": "c4",
           "text": "Tahiti",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "塔希提（海外自治体）"
         }
       ],
       "analysis": "La Guadeloupe est un département d’outre-mer.",
@@ -2430,7 +2824,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "下列哪座岛屿是一个法国海外省 (DOM)？",
+      "analysisZh": "法国的5个海外省分别是：瓜德罗普、马提尼克、法属圭亚那、留尼汪、马约特。"
     },
     {
       "id": "HGC_067",
@@ -2440,22 +2836,26 @@
         {
           "id": "c1",
           "text": "Les anciennes colonies françaises",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "以前的法国殖民地"
         },
         {
           "id": "c2",
           "text": "Les territoires français situés hors d’Europe",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "位于欧洲以外的法国领土"
         },
         {
           "id": "c3",
           "text": "Les régions frontalières",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "边境地区"
         },
         {
           "id": "c4",
           "text": "Les pays francophones",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "法语国家"
         }
       ],
       "analysis": "La France d’outre-mer regroupe les territoires hors Europe.",
@@ -2467,7 +2867,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "什么是“海外法国” (DROM-COM)？",
+      "analysisZh": "海外法国指分布在大西洋、太平洋、印度洋及南极周边的法国海外省及海外领地。"
     },
     {
       "id": "HGC_068",
@@ -2477,22 +2879,26 @@
         {
           "id": "c1",
           "text": "50 millions",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "5000万"
         },
         {
           "id": "c2",
           "text": "60 millions",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "6000万"
         },
         {
           "id": "c3",
           "text": "68 millions",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "6800万"
         },
         {
           "id": "c4",
           "text": "80 millions",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "8000万"
         }
       ],
       "analysis": "La France compte environ 68 millions d’habitants.",
@@ -2504,7 +2910,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "2025年法国人口大约是多少？",
+      "analysisZh": "根据最新数据，法国总人口约为6800万（含海外领土）。"
     },
     {
       "id": "HGC_069",
@@ -2514,22 +2922,26 @@
         {
           "id": "c1",
           "text": "Bordeaux",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "波尔多"
         },
         {
           "id": "c2",
           "text": "Marseille",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "马赛"
         },
         {
           "id": "c3",
           "text": "Le Havre",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "勒阿弗尔"
         },
         {
           "id": "c4",
           "text": "Nantes",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "南特"
         }
       ],
       "analysis": "Le Havre est le premier port français en trafic.",
@@ -2540,7 +2952,9 @@
       ],
       "examTargets": [
         "CR"
-      ]
+      ],
+      "stemZh": "按货运量计算，法国第一大商港是哪个？",
+      "analysisZh": "勒阿弗尔港（属于HAROPA港口群）是法国最大的外贸集装箱港口。"
     },
     {
       "id": "HGC_070",
@@ -2550,22 +2964,26 @@
         {
           "id": "c1",
           "text": "12",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "12个"
         },
         {
           "id": "c2",
           "text": "13",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "13个"
         },
         {
           "id": "c3",
           "text": "18",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "18个（这是含海外的总数）"
         },
         {
           "id": "c4",
           "text": "22",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "22个（2016年改革前）"
         }
       ],
       "analysis": "La France métropolitaine compte 13 régions.",
@@ -2577,7 +2995,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "法国本土有多少个行政大区？",
+      "analysisZh": "法国本土有13个大区，加上5个海外大区，全国共有18个大区。"
     },
     {
       "id": "HGC_071",
@@ -2587,22 +3007,26 @@
         {
           "id": "c1",
           "text": "Les Alpes",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "阿尔卑斯山脉"
         },
         {
           "id": "c2",
           "text": "Les Vosges",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "孚日山脉"
         },
         {
           "id": "c3",
           "text": "Le Massif central",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "中央高原"
         },
         {
           "id": "c4",
           "text": "Les Pyrénées",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "比利牛斯山脉"
         }
       ],
       "analysis": "Les Pyrénées séparent la France et l’Espagne.",
@@ -2613,7 +3037,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "哪座山脉位于法国和西班牙之间？",
+      "analysisZh": "比利牛斯山脉构成了法国和西班牙之间的天然边界。"
     },
     {
       "id": "HGC_072",
@@ -2623,22 +3049,26 @@
         {
           "id": "c1",
           "text": "La Réunion",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "留尼汪"
         },
         {
           "id": "c2",
           "text": "La Martinique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "马提尼克"
         },
         {
           "id": "c3",
           "text": "La Guadeloupe",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "瓜德罗普"
         },
         {
           "id": "c4",
           "text": "Saint-Martin",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "圣马丁"
         }
       ],
       "analysis": "La Réunion est située dans l’océan Indien, au sud-est de l’Afrique.",
@@ -2650,7 +3080,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "哪座法国岛屿位于非洲大陆的东南部？",
+      "analysisZh": "留尼汪位于印度洋，马达加斯加岛以东，非洲大陆东南方。"
     },
     {
       "id": "HGC_073",
@@ -2660,22 +3092,26 @@
         {
           "id": "c1",
           "text": "Grenoble",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "格勒诺布尔"
         },
         {
           "id": "c2",
           "text": "Clermont-Ferrand",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "克莱蒙费朗"
         },
         {
           "id": "c3",
           "text": "Lyon",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "里昂"
         },
         {
           "id": "c4",
           "text": "Saint-Étienne",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "圣艾蒂安"
         }
       ],
       "analysis": "Lyon est le chef-lieu de la région Auvergne-Rhône-Alpes.",
@@ -2687,7 +3123,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "奥弗涅-罗讷-阿尔卑斯大区的首府是哪里？",
+      "analysisZh": "里昂是法国东部这个大行政区的行政中心。"
     },
     {
       "id": "HGC_074",
@@ -2697,22 +3135,26 @@
         {
           "id": "c1",
           "text": "Brest",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "布雷斯特"
         },
         {
           "id": "c2",
           "text": "Quimper",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "坎佩尔"
         },
         {
           "id": "c3",
           "text": "Rennes",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "雷恩"
         },
         {
           "id": "c4",
           "text": "Saint-Malo",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "圣马洛"
         }
       ],
       "analysis": "Rennes est le chef-lieu de la Bretagne.",
@@ -2724,7 +3166,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "布列塔尼大区的首府是哪里？",
+      "analysisZh": "雷恩是布列塔尼大区的行政首府。"
     },
     {
       "id": "HGC_075",
@@ -2734,22 +3178,26 @@
         {
           "id": "c1",
           "text": "Nice",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "尼斯"
         },
         {
           "id": "c2",
           "text": "Toulon",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "土伦"
         },
         {
           "id": "c3",
           "text": "Marseille",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "马赛"
         },
         {
           "id": "c4",
           "text": "Aix-en-Provence",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "普罗旺斯地区艾克斯"
         }
       ],
       "analysis": "Marseille est le chef-lieu de la région PACA.",
@@ -2761,7 +3209,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "普罗旺斯-阿尔卑斯-蓝色海岸大区 (PACA) 的首府是哪里？",
+      "analysisZh": "马赛是PACA大区最大的城市，也是其行政首府。"
     },
     {
       "id": "HGC_076",
@@ -2771,22 +3221,26 @@
         {
           "id": "c1",
           "text": "La Guyane",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "法属圭亚那"
         },
         {
           "id": "c2",
           "text": "Mayotte",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "马约特"
         },
         {
           "id": "c3",
           "text": "La Réunion",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "留尼汪"
         },
         {
           "id": "c4",
           "text": "La Martinique",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "马提尼克"
         }
       ],
       "analysis": "Mayotte est devenue le 101e département en 2011.",
@@ -2798,7 +3252,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "自2011年以来，哪个领土成为了法国第101个省？",
+      "analysisZh": "马约特于2011年正式成为法国的一个海外省，也是法国最年轻的省份。"
     },
     {
       "id": "HGC_077",
@@ -2808,22 +3264,26 @@
         {
           "id": "c1",
           "text": "Bretagne",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "布列塔尼"
         },
         {
           "id": "c2",
           "text": "Île-de-France",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "法兰西岛"
         },
         {
           "id": "c3",
           "text": "Auvergne-Rhône-Alpes",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "奥弗涅-罗讷-阿尔卑斯"
         },
         {
           "id": "c4",
           "text": "Normandie",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "诺曼底"
         }
       ],
       "analysis": "Les Alpes concentrent de nombreuses stations de ski.",
@@ -2835,7 +3295,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "法国哪个大区以其众多的滑雪场而闻名？",
+      "analysisZh": "奥弗涅-罗讷-阿尔卑斯大区拥有法国阿尔卑斯山脉的大部分地区，是滑雪胜地。"
     },
     {
       "id": "HGC_078",
@@ -2845,22 +3307,26 @@
         {
           "id": "c1",
           "text": "La Loire",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "卢瓦尔河"
         },
         {
           "id": "c2",
           "text": "La Seine",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "塞纳河"
         },
         {
           "id": "c3",
           "text": "Le Rhône",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "罗讷河"
         },
         {
           "id": "c4",
           "text": "La Garonne",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "加龙河"
         }
       ],
       "analysis": "La Seine traverse Paris.",
@@ -2871,7 +3337,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "哪条河流流经巴黎？",
+      "analysisZh": "塞纳河横贯巴黎，将其分为左岸和右岸。"
     },
     {
       "id": "HGC_079",
@@ -2881,22 +3349,26 @@
         {
           "id": "c1",
           "text": "Le musée du Louvre",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "卢浮宫"
         },
         {
           "id": "c2",
           "text": "Le musée Guggenheim",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "古根海姆博物馆（主要在毕尔巴鄂/纽约）"
         },
         {
           "id": "c3",
           "text": "Le Prado",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "普拉多博物馆（在马德里）"
         },
         {
           "id": "c4",
           "text": "Le British Museum",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "大英博物馆（在伦敦）"
         }
       ],
       "analysis": "Le musée du Louvre se situe à Paris.",
@@ -2908,7 +3380,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "哪座著名的博物馆位于巴黎？",
+      "analysisZh": "卢浮宫位于巴黎市中心，是世界上参观人数最多的博物馆之一。"
     },
     {
       "id": "HGC_080",
@@ -2918,22 +3392,26 @@
         {
           "id": "c1",
           "text": "Les Alpes",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "阿尔卑斯山脉"
         },
         {
           "id": "c2",
           "text": "Les Pyrénées",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "比利牛斯山脉"
         },
         {
           "id": "c3",
           "text": "Le Massif central",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "中央高原"
         },
         {
           "id": "c4",
           "text": "Les Vosges",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "孚日山脉"
         }
       ],
       "analysis": "Le Massif central occupe le centre de la France.",
@@ -2944,7 +3422,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "哪座古老山脉占据了法国中部的大部分地区？",
+      "analysisZh": "中央高原是位于法国中部的古老火山地貌山脉。"
     },
     {
       "id": "HGC_081",
@@ -2954,22 +3434,26 @@
         {
           "id": "c1",
           "text": "Marianne",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "玛丽安娜"
         },
         {
           "id": "c2",
           "text": "Napoléon Ier",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "拿破仑一世"
         },
         {
           "id": "c3",
           "text": "Louis XIV",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "路易十四"
         },
         {
           "id": "c4",
           "text": "Charlemagne",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "查理大帝"
         }
       ],
       "analysis": "Marianne est une figure symbolique représentant la République française.",
@@ -2981,7 +3465,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "下列哪个形象是法兰西共和国的象征（寓意人物）？",
+      "analysisZh": "玛丽安娜头戴弗里吉亚无边帽，象征着共和国及其价值观（自由、平等、博爱）。"
     },
     {
       "id": "HGC_082",
@@ -2991,22 +3477,26 @@
         {
           "id": "c1",
           "text": "Un écrivain",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位作家"
         },
         {
           "id": "c2",
           "text": "Un peintre",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "一位画家"
         },
         {
           "id": "c3",
           "text": "Un sculpteur",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位雕塑家"
         },
         {
           "id": "c4",
           "text": "Un musicien",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位音乐家"
         }
       ],
       "analysis": "Paul Cézanne est un peintre français, précurseur de l’art moderne.",
@@ -3018,7 +3508,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "保罗·塞尚（Paul Cézanne）是谁？",
+      "analysisZh": "保罗·塞尚是法国著名画家，被誉为“现代艺术之父”，他的风格为后来的立体主义奠定了基础。"
     },
     {
       "id": "HGC_083",
@@ -3028,22 +3520,26 @@
         {
           "id": "c1",
           "text": "Un peintre",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位画家"
         },
         {
           "id": "c2",
           "text": "Un écrivain",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位作家"
         },
         {
           "id": "c3",
           "text": "Un sculpteur",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "一位雕塑家"
         },
         {
           "id": "c4",
           "text": "Un compositeur",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位作曲家"
         }
       ],
       "analysis": "Auguste Rodin est un célèbre sculpteur français.",
@@ -3055,7 +3551,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "奥古斯特·罗丹（Auguste Rodin）是谁？",
+      "analysisZh": "罗丹是法国著名的雕塑家，其代表作包括《思想者》和《地狱之门》。"
     },
     {
       "id": "HGC_084",
@@ -3065,22 +3563,26 @@
         {
           "id": "c1",
           "text": "Claude Debussy",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "克劳德·德彪西"
         },
         {
           "id": "c2",
           "text": "Ludwig van Beethoven",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "路德维希·凡·贝多芬（德国）"
         },
         {
           "id": "c3",
           "text": "Wolfgang Amadeus Mozart",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "沃尔夫冈·阿马德乌斯·莫扎特（奥地利）"
         },
         {
           "id": "c4",
           "text": "Johann Sebastian Bach",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "约翰·塞巴斯蒂安·巴赫（德国）"
         }
       ],
       "analysis": "Claude Debussy est un compositeur français majeur.",
@@ -3092,7 +3594,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "下列人物中，哪位是著名的法国作曲家？",
+      "analysisZh": "德彪西是法国最具影响力的作曲家之一，也是印象派音乐的代表人物，代表作有《月光》。"
     },
     {
       "id": "HGC_085",
@@ -3102,22 +3606,26 @@
         {
           "id": "c1",
           "text": "Un sculpteur",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位雕塑家"
         },
         {
           "id": "c2",
           "text": "Un écrivain",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位作家"
         },
         {
           "id": "c3",
           "text": "Un peintre",
-          "isCorrect": true
+          "isCorrect": true,
+          "textZh": "一位画家"
         },
         {
           "id": "c4",
           "text": "Un musicien",
-          "isCorrect": false
+          "isCorrect": false,
+          "textZh": "一位音乐家"
         }
       ],
       "analysis": "Auguste Renoir est un peintre impressionniste français.",
@@ -3129,7 +3637,9 @@
       "examTargets": [
         "CSP",
         "CR"
-      ]
+      ],
+      "stemZh": "奥古斯特·雷诺阿（Auguste Renoir）是谁？",
+      "analysisZh": "皮埃尔-奥古斯特·雷诺阿是法国印象派运动的核心人物之一，以描绘女性和生活场景著称。"
     }
   ]
 }

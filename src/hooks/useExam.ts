@@ -50,7 +50,19 @@ interface ExamState {
 
 interface TopicData {
     meta: { sectionId: string; sectionTitle: string };
-    questions: Question[];
+    questions: Array<Question | null>;
+}
+
+function isValidQuestion(raw: Question | null | undefined): raw is Question {
+    if (!raw || typeof raw !== 'object') return false;
+    if (typeof raw.id !== 'string' || raw.id.length === 0) return false;
+    if (!Array.isArray(raw.choices) || raw.choices.length === 0) return false;
+    return raw.choices.every((choice) =>
+        Boolean(choice) &&
+        typeof choice.id === 'string' &&
+        typeof choice.text === 'string' &&
+        typeof choice.isCorrect === 'boolean'
+    );
 }
 
 function shuffleArray<T>(array: T[]): T[] {
@@ -95,7 +107,8 @@ export default function useExam() {
                 if (!response.ok) continue;
                 const data = (await response.json()) as TopicData;
                 if (data.questions) {
-                    const questionsWithTopic = data.questions.map(q => ({
+                    const validQuestions = data.questions.filter(isValidQuestion);
+                    const questionsWithTopic = validQuestions.map(q => ({
                         ...q,
                         topicId: topic
                     }));
@@ -107,7 +120,7 @@ export default function useExam() {
             const situationResponse = await fetch('/data/situation.json');
             if (!situationResponse.ok) throw new Error('Failed to load situation questions');
             const situationData = (await situationResponse.json()) as TopicData;
-            const situationQuestions = situationData.questions.map(q => ({
+            const situationQuestions = (situationData.questions || []).filter(isValidQuestion).map(q => ({
                 ...q,
                 topicId: 'situation'
             }));

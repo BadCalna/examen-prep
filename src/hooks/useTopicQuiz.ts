@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { Question, QuizState } from '@/types/quiz';
 import { useUserProgress } from '@/hooks/useUserProgress';
+import { useTopicProgress } from '@/hooks/useTopicProgress';
 
 interface UseTopicQuizReturn extends QuizState {
   currentQuestion: Question | null;
@@ -30,6 +31,7 @@ export default function useTopicQuiz(slug: string): UseTopicQuizReturn {
   });
 
   const { addMistake } = useUserProgress();
+  const { recordAnswer } = useTopicProgress();
 
   useEffect(() => {
     let mounted = true;
@@ -85,6 +87,9 @@ export default function useTopicQuiz(slug: string): UseTopicQuizReturn {
     if (!isCorrect) {
       addMistake(question, slug);
     }
+
+    // Record topic progress
+    recordAnswer(slug, isCorrect);
 
     setState(prev => ({
       ...prev,

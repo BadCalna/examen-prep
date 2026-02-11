@@ -87,12 +87,12 @@ export default function Home() {
             <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-emerald-50 text-emerald-600 transition-colors group-hover:bg-emerald-100">
               <TrendingUp className="h-6 w-6" />
             </div>
-            <h3 className="mb-2 text-xl font-bold text-slate-900">学习进度</h3>
+            <h3 className="mb-2 text-xl font-bold text-slate-900">学习管理</h3>
             <p className="mb-6 text-sm text-slate-500">
-              追踪你的正确率与掌握程度，发现薄弱环节。
+              追踪练习进度，管理错题与收藏，发现薄弱环节。
             </p>
             <div className="flex items-center text-sm font-semibold text-emerald-600 transition-transform group-hover:translate-x-1">
-              查看统计 <ChevronRight className="ml-1 h-4 w-4" />
+              进入管理 <ChevronRight className="ml-1 h-4 w-4" />
             </div>
           </Link>
 

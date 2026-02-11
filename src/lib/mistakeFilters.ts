@@ -60,13 +60,8 @@ function shuffleArray<T>(items: T[], randomFn: () => number): T[] {
   return copied;
 }
 
-function buildReviewQueue(records: MistakeRecord[]): MistakeRecord[] {
-  return [...records].sort((a, b) => {
-    if (b.count !== a.count) {
-      return b.count - a.count;
-    }
-    return b.lastWrongAt - a.lastWrongAt;
-  });
+function buildReviewQueue(records: MistakeRecord[], randomFn: () => number): MistakeRecord[] {
+  return shuffleArray([...records], randomFn);
 }
 
 function buildSprintQueue(records: MistakeRecord[], randomFn: () => number): MistakeRecord[] {
@@ -91,5 +86,5 @@ export function buildPracticeQueue(
     return buildSprintQueue(records, randomFn);
   }
 
-  return buildReviewQueue(records);
+  return buildReviewQueue(records, randomFn);
 }

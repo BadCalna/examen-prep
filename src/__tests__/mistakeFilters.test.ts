@@ -52,7 +52,7 @@ describe('mistakeFilters', () => {
     expect(getAvailableChoiceTopics(records)).toEqual(['history', 'values']);
   });
 
-  it('builds review queue by count first then time', () => {
+  it('builds review queue containing all records (shuffled)', () => {
     const records = [
       makeRecord({ questionId: 'q1', count: 2, lastWrongAt: 100 }),
       makeRecord({ questionId: 'q2', count: 4, lastWrongAt: 20 }),
@@ -60,7 +60,9 @@ describe('mistakeFilters', () => {
     ];
 
     const queue = buildPracticeQueue(records, 'review');
-    expect(queue.map((item) => item.questionId)).toEqual(['q2', 'q3', 'q1']);
+    const ids = queue.map((item) => item.questionId).sort();
+    expect(ids).toEqual(['q1', 'q2', 'q3']);
+    expect(queue).toHaveLength(3);
   });
 
   it('builds weighted sprint queue', () => {

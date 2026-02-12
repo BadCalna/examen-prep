@@ -20,7 +20,7 @@ function formatDuration(seconds: number): string {
 
 export default function ExamResultView({ result, onViewAnalysis, onReturnHome }: ExamResultProps) {
     const percentage = Math.round((result.score / result.total) * 100);
-    const isPassed = percentage >= 60; // Assuming 60% is passing
+    const isPassed = percentage >= 80;
 
     return (
         <div className="mx-auto max-w-lg text-center">

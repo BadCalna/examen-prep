@@ -1,7 +1,8 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { AnimatePresence } from 'framer-motion';
 import {
   ChevronLeft,
@@ -20,6 +21,8 @@ import ExamAnalysis from '@/components/exam/ExamAnalysis';
 type ViewMode = 'exam' | 'result' | 'analysis';
 
 export default function ExamPage() {
+  const router = useRouter();
+  const [authLoading, setAuthLoading] = useState(true);
   const [viewMode, setViewMode] = useState<ViewMode>('exam');
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);
   const {
@@ -41,6 +44,42 @@ export default function ExamPage() {
     finishExam,
     resetExam,
   } = useExam();
+
+  useEffect(() => {
+    let active = true;
+
+    async function verifyAuth() {
+      try {
+        const response = await fetch('/api/auth/me');
+        if (!response.ok) {
+          router.replace('/login?next=/exam');
+          return;
+        }
+      } catch {
+        router.replace('/login?next=/exam');
+        return;
+      }
+
+      if (active) {
+        setAuthLoading(false);
+      }
+    }
+
+    verifyAuth();
+
+    return () => {
+      active = false;
+    };
+  }, [router]);
+
+  if (authLoading) {
+    return (
+      <div className="flex min-h-screen flex-col items-center justify-center gap-4 bg-slate-50 text-slate-500">
+        <div className="h-8 w-8 animate-spin rounded-full border-4 border-slate-200 border-t-blue-600" />
+        <p>Chargement...</p>
+      </div>
+    );
+  }
 
   // Handle view transitions
   const handleViewAnalysis = () => setViewMode('analysis');

@@ -22,7 +22,9 @@ import {
   PracticeMode,
 } from '@/lib/mistakeFilters';
 
+// 定义错题过滤器
 type WrongCountFilter = 1 | 2 | 3 | 5;
+
 
 const TOPIC_CN: Record<string, string> = {
   values: '原则与价值观',
@@ -206,8 +208,8 @@ export default function MistakesPracticeCard() {
               key={item.value}
               onClick={() => handleChangeMode(item.value)}
               className={`rounded-full px-3 py-1.5 text-xs font-medium transition ${mode === item.value
-                  ? 'bg-purple-100 text-purple-700'
-                  : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                ? 'bg-purple-100 text-purple-700'
+                : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
                 }`}
               title={item.description}
             >
@@ -246,8 +248,8 @@ export default function MistakesPracticeCard() {
                   key={item.value}
                   onClick={() => handleChangeKind(item.value)}
                   className={`rounded-full px-3 py-1.5 text-xs font-medium transition ${kindFilter === item.value
-                      ? 'bg-blue-100 text-blue-700'
-                      : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                    ? 'bg-blue-100 text-blue-700'
+                    : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
                     }`}
                 >
                   {item.label}
@@ -262,8 +264,8 @@ export default function MistakesPracticeCard() {
                     key={topicId}
                     onClick={() => handleChangeTopic(topicId)}
                     className={`rounded-full px-3 py-1.5 text-xs font-medium transition ${topicFilter === topicId
-                        ? 'bg-indigo-100 text-indigo-700'
-                        : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                      ? 'bg-indigo-100 text-indigo-700'
+                      : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
                       }`}
                   >
                     {TOPIC_CN[topicId] || topicId}
@@ -278,8 +280,8 @@ export default function MistakesPracticeCard() {
                   key={item.value}
                   onClick={() => handleChangeMinWrongCount(item.value)}
                   className={`rounded-full px-3 py-1.5 text-xs font-medium transition ${minWrongCount === item.value
-                      ? 'bg-amber-100 text-amber-700'
-                      : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                    ? 'bg-amber-100 text-amber-700'
+                    : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
                     }`}
                 >
                   {item.label}

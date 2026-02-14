@@ -2,6 +2,7 @@
 
 import { useMemo, useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import {
   ChevronLeft,
   ChevronDown,
@@ -431,8 +432,10 @@ function BookmarksOverviewCard({
 // ---- Main Page ----
 
 export default function ProgressPage() {
+  const router = useRouter();
   const [activeSubPage, setActiveSubPage] = useState<SubPage>('overview');
   const [mounted, setMounted] = useState(false);
+  const [authLoading, setAuthLoading] = useState(true);
   const [kindFilter, setKindFilter] = useState<MistakeQuestionKind>('all');
   const [topicFilter, setTopicFilter] = useState<string>('all');
   const [minWrongCount, setMinWrongCount] = useState<WrongCountFilter>(1);
@@ -441,8 +444,32 @@ export default function ProgressPage() {
   const { mistakes, bookmarks, removeMistake, toggleBookmark } = useUserProgress();
 
   useEffect(() => {
-    setMounted(true);
-  }, []);
+    let active = true;
+
+    async function verifyAuth() {
+      try {
+        const response = await fetch('/api/auth/me');
+        if (!response.ok) {
+          router.replace('/login?next=/progress');
+          return;
+        }
+      } catch {
+        router.replace('/login?next=/progress');
+        return;
+      }
+
+      if (active) {
+        setAuthLoading(false);
+        setMounted(true);
+      }
+    }
+
+    verifyAuth();
+
+    return () => {
+      active = false;
+    };
+  }, [router]);
 
   const mistakesList = useMemo(
     () => Object.values(mistakes).sort((a, b) => b.count - a.count || b.lastWrongAt - a.lastWrongAt),
@@ -498,7 +525,7 @@ export default function ProgressPage() {
     setMinWrongCount((prev) => (prev === value ? 1 : value));
   };
 
-  if (!mounted) {
+  if (!mounted || authLoading) {
     return (
       <div className="flex min-h-screen flex-col items-center justify-center bg-slate-50">
         <div className="h-8 w-8 animate-spin rounded-full border-4 border-slate-200 border-t-blue-600" />

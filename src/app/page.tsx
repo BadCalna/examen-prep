@@ -1,16 +1,35 @@
 import Link from "next/link";
+import UserMenu from "@/components/UserMenu";
+import { getCurrentUser } from "@/lib/session";
 import {
   BookOpen,
   Clock,
   TrendingUp,
   Settings,
-  ChevronRight
+  ChevronRight,
+  User,
 } from "lucide-react";
 
-export default function Home() {
+export default async function Home() {
+  const user = await getCurrentUser();
+
   return (
     <div className="min-h-screen bg-slate-50 px-6 py-12 sm:px-8 lg:px-12">
       <main className="mx-auto max-w-5xl">
+        <div className="flex justify-end">
+          {user ? (
+            <UserMenu nickname={user.nickname} role={user.role} />
+          ) : (
+            <Link
+              href="/login"
+              className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm ring-1 ring-slate-200 transition-all hover:bg-slate-50 hover:ring-slate-300"
+            >
+              <User className="h-4 w-4" />
+              登录
+            </Link>
+          )}
+        </div>
+
         {/* Hero Section */}
         <div className="mb-16 flex flex-col items-start gap-6 py-10 sm:py-16">
           <div className="rounded-full bg-blue-100 px-3 py-1 text-xs font-bold uppercase tracking-widest text-blue-700">

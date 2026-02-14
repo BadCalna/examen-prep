@@ -1,9 +1,15 @@
 import { NextRequest, NextResponse } from "next/server";
+import { requireAdminApi } from "@/lib/admin-auth";
 import { prisma } from "@/lib/prisma";
 
 // GET: 获取所有题目或按分类筛选
 export async function GET(request: NextRequest) {
     try {
+        const guard = await requireAdminApi();
+        if (!guard.ok) {
+            return guard.response;
+        }
+
         const { searchParams } = new URL(request.url);
         const categoryId = searchParams.get("category");
         const search = searchParams.get("search");
@@ -77,6 +83,11 @@ export async function GET(request: NextRequest) {
 // POST: 添加新题目
 export async function POST(request: NextRequest) {
     try {
+        const guard = await requireAdminApi();
+        if (!guard.ok) {
+            return guard.response;
+        }
+
         const { question, categoryId } = await request.json();
 
         if (!question || !categoryId) {
@@ -128,6 +139,11 @@ export async function POST(request: NextRequest) {
 // DELETE: 删除题目
 export async function DELETE(request: NextRequest) {
     try {
+        const guard = await requireAdminApi();
+        if (!guard.ok) {
+            return guard.response;
+        }
+
         const { questionId } = await request.json();
 
         if (!questionId) {

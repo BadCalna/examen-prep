@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { FileQuestion, Upload, Download, TrendingUp } from "lucide-react";
+import { FileQuestion, Upload, Download, TrendingUp, Users } from "lucide-react";
 import Link from "next/link";
 
 interface CategoryStats {
@@ -35,6 +35,7 @@ export default function AdminDashboard() {
     const quickActions = [
         { href: "/admin/import", label: "导入题库", icon: <Upload size={24} />, color: "from-green-500 to-emerald-500" },
         { href: "/admin/questions", label: "管理题目", icon: <FileQuestion size={24} />, color: "from-blue-500 to-cyan-500" },
+        { href: "/admin/users", label: "管理用户", icon: <Users size={24} />, color: "from-amber-500 to-orange-500" },
         { href: "/admin/export", label: "导出数据", icon: <Download size={24} />, color: "from-purple-500 to-pink-500" },
     ];
 
@@ -64,7 +65,7 @@ export default function AdminDashboard() {
             {/* Quick Actions */}
             <div>
                 <h2 className="text-xl font-semibold text-white mb-4">快捷操作</h2>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     {quickActions.map((action) => (
                         <Link
                             key={action.href}

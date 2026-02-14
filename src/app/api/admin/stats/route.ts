@@ -1,8 +1,14 @@
 import { NextResponse } from "next/server";
+import { requireAdminApi } from "@/lib/admin-auth";
 import { prisma } from "@/lib/prisma";
 
 export async function GET() {
     try {
+        const guard = await requireAdminApi();
+        if (!guard.ok) {
+            return guard.response;
+        }
+
         // 获取所有分类及其题目数量
         const categoriesData = await prisma.category.findMany({
             include: {

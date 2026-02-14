@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { requireAdminApi } from "@/lib/admin-auth";
 import { prisma } from "@/lib/prisma";
 
 interface ImportQuestion {
@@ -25,6 +26,11 @@ interface ImportData {
 // POST: 导入题目
 export async function POST(request: NextRequest) {
     try {
+        const guard = await requireAdminApi();
+        if (!guard.ok) {
+            return guard.response;
+        }
+
         const {
             data,
             categoryId,
@@ -140,6 +146,11 @@ export async function POST(request: NextRequest) {
 // GET: 获取可用的分类列表
 export async function GET() {
     try {
+        const guard = await requireAdminApi();
+        if (!guard.ok) {
+            return guard.response;
+        }
+
         const categories = await prisma.category.findMany({
             include: {
                 _count: {

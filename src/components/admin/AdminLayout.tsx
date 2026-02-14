@@ -7,7 +7,8 @@ import {
     FileQuestion,
     Upload,
     Download,
-    ArrowLeft
+    ArrowLeft,
+    Users,
 } from "lucide-react";
 
 interface NavItem {
@@ -19,6 +20,7 @@ interface NavItem {
 const navItems: NavItem[] = [
     { href: "/admin", label: "概览", icon: <LayoutDashboard size={20} /> },
     { href: "/admin/questions", label: "题目管理", icon: <FileQuestion size={20} /> },
+    { href: "/admin/users", label: "用户管理", icon: <Users size={20} /> },
     { href: "/admin/import", label: "导入题库", icon: <Upload size={20} /> },
     { href: "/admin/export", label: "导出数据", icon: <Download size={20} /> },
 ];

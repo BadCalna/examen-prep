@@ -35,3 +35,25 @@ model Choice {
   questionId String
   question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
 }
+
+model User {
+  id           String    @id @default(cuid())
+  account      String    @unique
+  passwordHash String
+  nickname     String
+  role         String    @default("USER")
+  plan         String    @default("FREE")
+  status       String    @default("ACTIVE")
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  sessions     Session[]
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  tokenHash    String   @unique
+  userId       String
+  expiresAt    DateTime
+  createdAt    DateTime @default(now())
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}

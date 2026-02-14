@@ -1,8 +1,15 @@
 import Link from 'next/link';
+import { redirect } from 'next/navigation';
 import { ArrowLeft } from 'lucide-react';
 import MistakesPracticeCard from '@/components/exam/MistakesPracticeCard';
+import { getCurrentUser } from '@/lib/session';
 
-export default function ExamMistakesPage() {
+export default async function ExamMistakesPage() {
+  const user = await getCurrentUser();
+  if (!user) {
+    redirect('/login?next=/exam/mistakes');
+  }
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-red-50 via-white to-slate-100 px-6 py-16">
       <main className="mx-auto flex w-full max-w-4xl flex-col gap-10">

@@ -1,7 +1,9 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import { describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import MistakesPracticeCard from '@/components/exam/MistakesPracticeCard';
 import { MistakeRecord } from '@/hooks/useUserProgress';
+
+const mockAddMistake = vi.fn();
 
 const mockMistakes: Record<string, MistakeRecord> = {
   q1: {
@@ -29,7 +31,7 @@ vi.mock('@/hooks/useUserProgress', () => ({
     isBookmarked: vi.fn(() => false),
     toggleBookmark: vi.fn(),
     removeMistake: vi.fn(),
-    addMistake: vi.fn(),
+    addMistake: mockAddMistake,
     removeBookmark: vi.fn(),
     isMistake: vi.fn(() => false),
     clearAllMistakes: vi.fn(),
@@ -38,6 +40,10 @@ vi.mock('@/hooks/useUserProgress', () => ({
 }));
 
 describe('MistakesPracticeCard', () => {
+  beforeEach(() => {
+    mockAddMistake.mockClear();
+  });
+
   it('keeps full filter controls after empty result', () => {
     render(<MistakesPracticeCard />);
 
@@ -46,5 +52,17 @@ describe('MistakesPracticeCard', () => {
     expect(screen.getByText('当前筛选下暂无错题')).toBeDefined();
     expect(screen.getByText('错 >= 2 次')).toBeDefined();
     expect(screen.getByText('复习模式')).toBeDefined();
+  });
+
+  it('records mistake again when answered incorrectly in mistakes practice', () => {
+    render(<MistakesPracticeCard />);
+
+    fireEvent.click(screen.getByText('B'));
+
+    expect(mockAddMistake).toHaveBeenCalledTimes(1);
+    expect(mockAddMistake).toHaveBeenCalledWith(
+      expect.objectContaining({ id: 'q1' }),
+      'history'
+    );
   });
 });

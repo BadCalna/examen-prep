@@ -22,10 +22,10 @@ import {
   PracticeMode,
 } from '@/lib/mistakeFilters';
 
-// 定义错题过滤器
+// 定义错题过滤器，只允许取特定值
 type WrongCountFilter = 1 | 2 | 3 | 5;
 
-
+// 定义常变量 
 const TOPIC_CN: Record<string, string> = {
   values: '原则与价值观',
   institutions: '制度体系',
@@ -83,7 +83,7 @@ export default function MistakesPracticeCard() {
   const [sessionCorrect, setSessionCorrect] = useState(0);
   const [shuffleKey, setShuffleKey] = useState(0);
 
-  const { mistakes, isBookmarked, toggleBookmark, removeMistake } = useUserProgress();
+  const { mistakes, isBookmarked, toggleBookmark, removeMistake, addMistake } = useUserProgress();
 
   const sortedMistakes = useMemo(
     () => Object.values(mistakes).sort((a, b) => b.count - a.count || b.lastWrongAt - a.lastWrongAt),
@@ -173,8 +173,11 @@ export default function MistakesPracticeCard() {
     setSessionAnswered((prev) => prev + 1);
     if (isCorrect) {
       setSessionCorrect((prev) => prev + 1);
-    } else if (mode === 'sprint') {
-      setExtraQueue((prev) => [...prev, currentRecord.questionId]);
+    } else {
+      addMistake(currentQuestion, currentRecord.topicId);
+      if (mode === 'sprint') {
+        setExtraQueue((prev) => [...prev, currentRecord.questionId]);
+      }
     }
   };
 

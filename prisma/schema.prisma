@@ -3,7 +3,7 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
 }
 
 model Category {
@@ -37,16 +37,19 @@ model Choice {
 }
 
 model User {
-  id           String    @id @default(cuid())
-  account      String    @unique
-  passwordHash String
-  nickname     String
-  role         String    @default("USER")
-  plan         String    @default("FREE")
-  status       String    @default("ACTIVE")
-  createdAt    DateTime  @default(now())
-  updatedAt    DateTime  @updatedAt
-  sessions     Session[]
+  id                String             @id @default(cuid())
+  account           String             @unique
+  passwordHash      String
+  nickname          String
+  role              String             @default("USER")
+  plan              String             @default("FREE")
+  status            String             @default("ACTIVE")
+  createdAt         DateTime           @default(now())
+  updatedAt         DateTime           @updatedAt
+  sessions          Session[]
+  mistakes          UserMistake[]
+  topicProgresses   UserTopicProgress[]
+  bookmarks         UserBookmark[]
 }
 
 model Session {
@@ -56,4 +59,50 @@ model Session {
   expiresAt    DateTime
   createdAt    DateTime @default(now())
   user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model UserMistake {
+  id           String   @id @default(cuid())
+  userId       String
+  questionId   String
+  questionJson String
+  topicId      String
+  count        Int      @default(1)
+  lastWrongAt  DateTime
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, questionId])
+  @@index([userId])
+}
+
+model UserTopicProgress {
+  id           String   @id @default(cuid())
+  userId       String
+  topicId      String
+  totalAnswered Int     @default(0)
+  correctCount Int      @default(0)
+  lastPracticeAt DateTime
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, topicId])
+  @@index([userId])
+}
+
+model UserBookmark {
+  id           String   @id @default(cuid())
+  userId       String
+  questionId   String
+  questionJson String
+  topicId      String
+  addedAt      DateTime
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, questionId])
+  @@index([userId])
 }
